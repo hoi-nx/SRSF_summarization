@@ -92,7 +92,7 @@ class RNN_RNN(BasicModule):
 
         return pr
 
-    def forward(self, x, doc_lens):
+    def forward(self, x, sent_features, doc_lens):
         sent_lens = torch.sum(torch.sign(x), dim=1).data
         cosine = nn.CosineSimilarity(dim=0)
         x = self.embed(x)  # (N,L,D)

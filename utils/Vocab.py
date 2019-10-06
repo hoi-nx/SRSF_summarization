@@ -1,4 +1,6 @@
 import torch
+from utils.plaintext import PlaintextParser
+from utils.sentence_feature import SentenceFeature
 
 
 class Vocab():
@@ -13,7 +15,7 @@ class Vocab():
         self.UNK_TOKEN = 'UNK_TOKEN'
 
     def __len__(self):
-        return len(word2id)
+        return len(self.word2id)
 
     def i2w(self, idx):
         return self.id2word[idx]
@@ -24,8 +26,11 @@ class Vocab():
         else:
             return self.UNK_IDX
 
-    def make_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
+    def make_features(self, position, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []
+        if position % 1000:
+            print("% 1000")
+            print(position)
         # trunc document
         for doc, label in zip(batch['doc'], batch['labels']):
             sents = doc.split(split_token)
@@ -40,23 +45,39 @@ class Vocab():
         # trunc or pad sent
         max_sent_len = 0
         batch_sents = []
-        for sent in sents_list:
+        # print("Sents_list====================")
+        # print(sents_list)
+        # print(len(sents_list))
+        sentents_featuress = []
+        parser = PlaintextParser(sents_list)
+        st_feature = SentenceFeature(parser)
+
+        for index, sent in enumerate(sents_list):
+            features = st_feature.get_all_features(index)
             words = sent.split()
             if len(words) > sent_trunc:
                 words = words[:sent_trunc]
             max_sent_len = len(words) if len(words) > max_sent_len else max_sent_len
             batch_sents.append(words)
+            sentents_featuress.append(features)
+        # print("sent_features===============================")
+        # print(sentents_featuress[0])
 
         features = []
+        # print("batch_sents==================")
+        # print(batch_sents)
         for sent in batch_sents:
             feature = [self.w2i(w) for w in sent] + [self.PAD_IDX for _ in range(max_sent_len - len(sent))]
             features.append(feature)
 
         features = torch.LongTensor(features)
+        sent_features = torch.FloatTensor(sentents_featuress)
         targets = torch.LongTensor(targets)
         summaries = batch['summaries']
+        # print("sent_features===============================")
+        # print(sent_features[0])
 
-        return features, targets, summaries, doc_lens
+        return features, sent_features, targets, summaries, doc_lens
 
     def make_summaries(self, batch, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []

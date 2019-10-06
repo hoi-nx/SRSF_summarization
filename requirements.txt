@@ -1,0 +1,10 @@
+torch
+numpy
+pandas
+attrs
+nltk==3.4
+pyvi
+underthesea
+rouge
+sumy
+networkx

@@ -13,7 +13,8 @@ from torch.nn.utils import clip_grad_norm
 from time import time
 from tqdm import tqdm
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s [INFO] %(message)s')
+logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
+                    datefmt='%H:%M:%S')
 parser = argparse.ArgumentParser(description='extractive summary')
 # model
 parser.add_argument('-save_dir', type=str, default='checkpoints/')
@@ -29,11 +30,11 @@ parser.add_argument('-hidden_size', type=int, default=200)
 # train
 
 parser.add_argument('-lr', type=float, default=1e-3)
-parser.add_argument('-batch_size', type=int, default=32)
-parser.add_argument('-epochs', type=int, default=4)
+parser.add_argument('-batch_size', type=int, default=64)
+parser.add_argument('-epochs', type=int, default=10)
 parser.add_argument('-seed', type=int, default=1)
-parser.add_argument('-train_dir', type=str, default='data/train_dailymail.json')
-parser.add_argument('-val_dir', type=str, default='data/val_dailymail.json')
+parser.add_argument('-train_dir', type=str, default='data/training/train_cnn_dailymail.json')
+parser.add_argument('-val_dir', type=str, default='data/val/val_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
 parser.add_argument('-report_every', type=int, default=1500)
@@ -75,13 +76,14 @@ def eval(net, vocab, data_iter, criterion):
     net.eval()
     total_loss = 0
     batch_num = 0
-    for batch in data_iter:
-        features, targets, _, doc_lens = vocab.make_features(batch)
-        features, targets = Variable(features), Variable(targets.float())
+    for i, batch in enumerate(data_iter):
+        features, sent_features, targets, summaries, doc_lens = vocab.make_features(i, batch)
+        features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
         if use_gpu:
             features = features.cuda()
             targets = targets.cuda()
-        probs = net(features, doc_lens)
+            sent_features = sent_features.cuda()
+        probs = net(features, sent_features, doc_lens)
         loss = criterion(probs, targets)
         total_loss += loss.data.item()
         batch_num += 1
@@ -123,6 +125,7 @@ def train():
                           shuffle=False)
     # loss function
     criterion = nn.BCELoss()
+    print("Start training===========================")
     # model info
     params = sum(p.numel() for p in list(net.parameters())) / 1e6
     print('#Params: %.1fM' % (params))
@@ -131,16 +134,17 @@ def train():
     net.train()
     t1 = time()
     print(t1)
-    for epoch in range(1,args.epochs+1):
+    for epoch in range(1, args.epochs+1):
         print("Epoch====================")
         print(str(epoch))
         for i, batch in enumerate(train_iter):
-            features, targets, _, doc_lens = vocab.make_features(batch)
-            features, targets = Variable(features), Variable(targets.float())
+            features, sent_features, targets, summaries, doc_lens = vocab.make_features(i, batch)
+            features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
             if use_gpu:
                 features = features.cuda()
                 targets = targets.cuda()
-            probs = net(features, doc_lens)
+                sent_features = sent_features.cuda()
+            probs = net(features, sent_features, doc_lens)
             loss = criterion(probs, targets)
             optimizer.zero_grad()
             loss.backward()
@@ -149,15 +153,15 @@ def train():
             if args.debug:
                 print('Batch ID:%d Loss:%f' % (i, loss.data[0]))
                 continue
-            if (i % 1000 == 0):
-                print(str(i))
             if i % args.report_every == 0:
+                print("report_every===========================")
                 print(str(i))
                 cur_loss = eval(net, vocab, val_iter, criterion)
                 if cur_loss < min_loss:
                     min_loss = cur_loss
-                    net.save()
+                    net.save(epoch)
                 logging.info('Epoch: %2d Min_Val_Loss: %f Cur_Val_Loss: %f' % (epoch, min_loss, cur_loss))
+                print('Epoch: %2d Min_Val_Loss: %f Cur_Val_Loss: %f' % (epoch, min_loss, cur_loss))
     t2 = time()
     logging.info('Total Cost:%f h' % ((t2 - t1) / 3600))
 
@@ -244,8 +248,8 @@ def initDataset():
             print(doc)
             labels = targets[doc_id]
             print(labels)
-            with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
-                f.write(ref)
+            #with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
+             #   f.write(ref)
             file_id = file_id + 1
 
 
