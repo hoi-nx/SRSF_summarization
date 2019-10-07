@@ -1,8 +1,7 @@
-from .BasicModule import BasicModule
+from models.BasicModule import BasicModule
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import networkx as nx
 from torch.autograd import Variable
 
 

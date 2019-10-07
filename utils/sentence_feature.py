@@ -3,7 +3,8 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sumy.utils import get_stop_words
-
+import warnings
+warnings.simplefilter("ignore", UserWarning)
 
 class SentenceFeature():
     def __init__(self, parser) -> None:

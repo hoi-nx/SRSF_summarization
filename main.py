@@ -12,6 +12,8 @@ from torch.utils.data import DataLoader
 from torch.nn.utils import clip_grad_norm
 from time import time
 from tqdm import tqdm
+import warnings
+warnings.simplefilter("ignore", UserWarning)
 
 logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
                     datefmt='%H:%M:%S')
@@ -37,7 +39,7 @@ parser.add_argument('-train_dir', type=str, default='data/training/train_cnn_dai
 parser.add_argument('-val_dir', type=str, default='data/val/val_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
-parser.add_argument('-report_every', type=int, default=1500)
+parser.add_argument('-report_every', type=int, default=3500)
 parser.add_argument('-seq_trunc', type=int, default=50)
 parser.add_argument('-max_norm', type=float, default=1.0)
 # test
@@ -72,12 +74,12 @@ random.seed(args.seed)
 numpy.random.seed(args.seed)
 
 
-def eval(net, vocab, data_iter, criterion):
+def eval(net, vocab, val_iter, criterion):
     net.eval()
     total_loss = 0
     batch_num = 0
-    for i, batch in enumerate(data_iter):
-        features, sent_features, targets, summaries, doc_lens = vocab.make_features(i, batch)
+    for batch in val_iter:
+        features, sent_features, targets, summaries, doc_lens = vocab.make_features(batch)
         features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
         if use_gpu:
             features = features.cuda()
@@ -134,11 +136,11 @@ def train():
     net.train()
     t1 = time()
     print(t1)
-    for epoch in range(1, args.epochs+1):
+    for epoch in range(1, args.epochs + 1):
         print("Epoch====================")
         print(str(epoch))
         for i, batch in enumerate(train_iter):
-            features, sent_features, targets, summaries, doc_lens = vocab.make_features(i, batch)
+            features, sent_features, targets, summaries, doc_lens = vocab.make_features(batch)
             features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
             if use_gpu:
                 features = features.cuda()
@@ -155,7 +157,6 @@ def train():
                 continue
             if i % args.report_every == 0:
                 print("report_every===========================")
-                print(str(i))
                 cur_loss = eval(net, vocab, val_iter, criterion)
                 if cur_loss < min_loss:
                     min_loss = cur_loss
@@ -248,8 +249,8 @@ def initDataset():
             print(doc)
             labels = targets[doc_id]
             print(labels)
-            #with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
-             #   f.write(ref)
+            # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
+            #   f.write(ref)
             file_id = file_id + 1
 
 

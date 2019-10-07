@@ -1,7 +1,8 @@
 import torch
 from utils.plaintext import PlaintextParser
 from utils.sentence_feature import SentenceFeature
-
+import warnings
+warnings.simplefilter("ignore", UserWarning)
 
 class Vocab():
     def __init__(self, embed, word2id):
@@ -26,12 +27,10 @@ class Vocab():
         else:
             return self.UNK_IDX
 
-    def make_features(self, position, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
+    def make_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []
-        if position % 1000:
-            print("% 1000")
-            print(position)
         # trunc document
+        sentents_featuress = []
         for doc, label in zip(batch['doc'], batch['labels']):
             sents = doc.split(split_token)
             labels = label.split(split_token)
@@ -42,24 +41,28 @@ class Vocab():
             sents_list += sents
             targets += labels
             doc_lens.append(len(sents))
+            parser = PlaintextParser(sents)
+            st_feature = SentenceFeature(parser)
+            for index, sent in enumerate(sents):
+                features = st_feature.get_all_features(index)
+                sentents_featuress.append(features)
         # trunc or pad sent
         max_sent_len = 0
         batch_sents = []
         # print("Sents_list====================")
         # print(sents_list)
         # print(len(sents_list))
-        sentents_featuress = []
-        parser = PlaintextParser(sents_list)
-        st_feature = SentenceFeature(parser)
+       # parser = PlaintextParser(sents_list)
+        #st_feature = SentenceFeature(parser)
 
         for index, sent in enumerate(sents_list):
-            features = st_feature.get_all_features(index)
+
             words = sent.split()
             if len(words) > sent_trunc:
                 words = words[:sent_trunc]
             max_sent_len = len(words) if len(words) > max_sent_len else max_sent_len
             batch_sents.append(words)
-            sentents_featuress.append(features)
+
         # print("sent_features===============================")
         # print(sentents_featuress[0])
 

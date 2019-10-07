@@ -4,7 +4,8 @@ from nltk.stem import WordNetLemmatizer
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
-
+import warnings
+warnings.simplefilter("ignore", UserWarning)
 class BaseParser():
     def __init__(self, sents, word_tokenize, stopwords, pos_tagger, keep_only_n_and_adj, remove_stopwords, stemming_mode):
         self.sents=sents

@@ -37,9 +37,9 @@ parser.add_argument('-hidden_size', type=int, default=200)
 
 parser.add_argument('-lr', type=float, default=1e-3)
 parser.add_argument('-batch_size', type=int, default=64)
-parser.add_argument('-epochs', type=int, default=1)
+parser.add_argument('-epochs', type=int, default=3)
 parser.add_argument('-seed', type=int, default=1)
-parser.add_argument('-train_dir', type=str, default='data/training/train_test.json')
+parser.add_argument('-train_dir', type=str, default='data/val/val_cnn.json')
 parser.add_argument('-val_dir', type=str, default='data/val/val_cnn_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
@@ -66,7 +66,7 @@ parser.add_argument('-predict_all', action='store_true')  # predict all
 args = parser.parse_args()
 use_gpu = args.device is not None
 
-
+from time import gmtime, strftime
 def train():
     logging.info('Loading vocab,train and val dataset.Wait a second,please')
 
@@ -82,24 +82,43 @@ def train():
     with open(args.val_dir) as f:
         examples = [json.loads(line) for line in f]
     val_dataset = utils.Dataset(examples)
+
+    # update args
+    args.embed_num = embed.size(0)
+    args.embed_dim = embed.size(1)
+    args.kernel_sizes = [int(ks) for ks in args.kernel_sizes.split(',')]
+    # build model
+    net = getattr(models, args.model)(args, embed)
+    if use_gpu:
+        net.cuda()
     # load dataset
     train_iter = DataLoader(dataset=train_dataset,
                             batch_size=args.batch_size,
                             shuffle=True)
-    t1 = time()
-    print(t1)
-    for i, batch in enumerate(train_iter):
-       # print("batch=======================")
-        #print(batch)
-        features,sent, targets, summaries, doc_lens = vocab.make_features(batch)
-        #print("features=======================")
-        #print(features)
-        #print("targets=======================")
-        #print(targets)
-        #print("summaries==========================")
-        #print(summaries)
-        #print("doc_lens=======================")
-        #print(doc_lens)
+    val_iter = DataLoader(dataset=val_dataset,
+                          batch_size=args.batch_size,
+                          shuffle=False)
+    for epoch in range(1, args.epochs+1):
+        print("Epoch====================")
+        print(str(epoch))
+        for i, batch in enumerate(train_iter):
+            t1 = time()
+            print(strftime("%Y_%m_%d_%H:%M:%S", gmtime()))
+            print("batch")
+            print(batch)
+            features, sent_features, targets, summaries, doc_lens = vocab.make_features(batch)
+            print("summaries===========")
+            print(summaries)
+            print("sent_features=======")
+            print(sent_features)
+            print(i)
+            print('report_every===========================%f' % i)
+            t2 = time()
+            print(strftime("%Y_%m_%d_%H:%M:%S", gmtime()))
+            print((t2 - t1) / 3600)
+            if i % 1000 == 0:
+                print("Report_eveeve")
+
 
 
 def tokenize():

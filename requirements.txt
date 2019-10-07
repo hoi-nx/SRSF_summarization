@@ -1,10 +1,8 @@
-torch
 numpy
-pandas
 attrs
-nltk==3.4
-pyvi
-underthesea
+nltk
 rouge
 sumy
 networkx
+tqdm
+scikit-learn

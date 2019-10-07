@@ -1,6 +1,7 @@
 import torch
 from torch.autograd import Variable
 from time import gmtime, strftime
+
 class BasicModule(torch.nn.Module):
 
     def __init__(self, args):
