@@ -5,12 +5,16 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 
 
-class RNN_RNN(BasicModule):
+# Run with run.py
+class SRSF_CNN_RNN(BasicModule):
     def __init__(self, args, embed=None):
-        super(RNN_RNN, self).__init__(args)
-        self.model_name = 'RNN_RNN'
+        super(SRSF_CNN_RNN, self).__init__(args)
+        self.model_name = 'SRSF_CNN_RNN'
         self.args = args
 
+        Ks = args.kernel_sizes
+        Ci = args.embed_dim
+        Co = args.kernel_num
         V = args.embed_num
         D = args.embed_dim
         H = args.hidden_size
@@ -23,20 +27,27 @@ class RNN_RNN(BasicModule):
         if embed is not None:
             self.embed.weight.data.copy_(embed)
 
-        self.word_RNN = nn.GRU(
-            input_size=D,
-            hidden_size=H,
-            batch_first=True,
-            bidirectional=True
-        )
-        self.sent_RNN = nn.GRU(
-            input_size=2 * H,
-            hidden_size=H,
-            batch_first=True,
-            bidirectional=True
-        )
-        self.fc = nn.Linear(2 * H, 2 * H)
+        self.convs = nn.ModuleList([nn.Sequential(
+            nn.Conv1d(Ci, Co, K),
+            nn.BatchNorm1d(Co),
+            nn.LeakyReLU(inplace=True),
 
+            nn.Conv1d(Co, Co, K),
+            nn.BatchNorm1d(Co),
+            nn.LeakyReLU(inplace=True)
+        )
+            for K in Ks])
+        self.sent_RNN = nn.GRU(
+            input_size=Co * len(Ks),
+            hidden_size=H,
+            batch_first=True,
+            bidirectional=True
+        )
+        self.fc = nn.Sequential(
+            nn.Linear(2 * H, 2 * H),
+            nn.BatchNorm1d(2 * H),
+            nn.Tanh()
+        )
         # Parameters of Classification Layer
         self.content = nn.Linear(2 * H, 1, bias=False)
         self.salience = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
@@ -69,23 +80,23 @@ class RNN_RNN(BasicModule):
 
     def forward(self, x, doc_lens):
         sent_lens = torch.sum(torch.sign(x), dim=1).data
+        H = self.args.hidden_size
         x = self.embed(x)  # (N,L,D)
         # word level GRU
-        H = self.args.hidden_size
-        x = self.word_RNN(x)[0]  # (N,2*H,L)
-        # word_out = self.avg_pool1d(x,sent_lens)
-        word_out = self.max_pool1d(x, sent_lens)
+        x = [conv(x.permute(0, 2, 1)) for conv in self.convs]
+        x = [F.max_pool1d(i, i.size(2)).squeeze(2) for i in x]
+        x = torch.cat(x, 1)
         # make sent features(pad with zeros)
-        x = self.pad_doc(word_out, doc_lens)
+        x = self.pad_doc(x, doc_lens)
 
         # sent level GRU
         sent_out = self.sent_RNN(x)[0]  # (B,max_doc_len,2*H)
-        # docs = self.avg_pool1d(sent_out,doc_lens)                               # (B,2*H)
         docs = self.max_pool1d(sent_out, doc_lens)  # (B,2*H)
+        docs = self.fc(docs)
         probs = []
         for index, doc_len in enumerate(doc_lens):
             valid_hidden = sent_out[index, :doc_len, :]  # (doc_len,2*H)
-            doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
+            doc = docs[index].unsqueeze(0)
             s = Variable(torch.zeros(1, 2 * H))
             if self.args.device is not None:
                 s = s.cuda()

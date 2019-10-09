@@ -27,7 +27,7 @@ class Vocab():
         else:
             return self.UNK_IDX
 
-    def make_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
+    def make_senten_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []
         # trunc document
         sentents_featuress = []
@@ -82,7 +82,43 @@ class Vocab():
 
         return features, sent_features, targets, summaries, doc_lens
 
-    def make_summaries(self, batch, doc_trunc=100, split_token='\n'):
+    def make_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
+        sents_list, targets, doc_lens = [], [], []
+        # trunc document
+        for doc, label in zip(batch['doc'], batch['labels']):
+            sents = doc.split(split_token)
+            labels = label.split(split_token)
+            labels = [int(l) for l in labels]
+            max_sent_num = min(doc_trunc, len(sents))
+            sents = sents[:max_sent_num]
+            labels = labels[:max_sent_num]
+            sents_list += sents
+            targets += labels
+            doc_lens.append(len(sents))
+        # trunc or pad sent
+        max_sent_len = 0
+        batch_sents = []
+        for sent in sents_list:
+            words = sent.split()
+            if len(words) > sent_trunc:
+                words = words[:sent_trunc]
+            max_sent_len = len(words) if len(words) > max_sent_len else max_sent_len
+            batch_sents.append(words)
+
+        features = []
+        for sent in batch_sents:
+            feature = [self.w2i(w) for w in sent] + [self.PAD_IDX for _ in range(max_sent_len - len(sent))]
+            features.append(feature)
+
+        features = torch.LongTensor(features)
+        targets = torch.LongTensor(targets)
+        summaries = batch['summaries']
+        # targets is lables
+        # sumaries is goal summary
+        return features, targets, summaries, doc_lens
+
+    @staticmethod
+    def make_summaries(batch, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []
         # trunc document
         for doc, label in zip(batch['doc'], batch['labels']):

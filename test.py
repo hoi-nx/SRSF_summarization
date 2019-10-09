@@ -107,6 +107,8 @@ def train():
             print("batch")
             print(batch)
             features, sent_features, targets, summaries, doc_lens = vocab.make_features(batch)
+            print('features============')
+            print(features)
             print("summaries===========")
             print(summaries)
             print("sent_features=======")
