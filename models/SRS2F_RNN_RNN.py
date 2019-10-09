@@ -5,11 +5,11 @@ import torch.nn.functional as F
 import networkx as nx
 from torch.autograd import Variable
 
-
-class RNN_RNN(BasicModule):
+# run with run.py
+class SRS2F_RNN_RNN(BasicModule):
     def __init__(self, args, embed=None):
-        super(RNN_RNN, self).__init__(args)
-        self.model_name = 'RNN_RNN'
+        super(SRS2F_RNN_RNN, self).__init__(args)
+        self.model_name = 'SRS2F_RNN_RNN'
         self.args = args
         V = args.embed_num
         D = args.embed_dim
@@ -46,7 +46,8 @@ class RNN_RNN(BasicModule):
         self.rel_pos = nn.Linear(P_D, 1, bias=False)
         self.bias = nn.Parameter(torch.FloatTensor(1).uniform_(-0.1, 0.1))
 
-    def max_pool1d(self, x, seq_lens):
+    @staticmethod
+    def max_pool1d(x, seq_lens):
         # x:[N,L,O_in]
         out = []
         for index, t in enumerate(x):
@@ -56,7 +57,8 @@ class RNN_RNN(BasicModule):
         out = torch.cat(out).squeeze(2)
         return out
 
-    def avg_pool1d(self, x, seq_lens):
+    @staticmethod
+    def avg_pool1d(x, seq_lens):
         # x:[N,L,O_in]
         out = []
         for index, t in enumerate(x):
@@ -67,7 +69,8 @@ class RNN_RNN(BasicModule):
         out = torch.cat(out).squeeze(2)
         return out
 
-    def page_rank_rel(self, valid_hidden):
+    @staticmethod
+    def page_rank_rel(valid_hidden, thres=0.1):
         """
                PageRank value of the sentence based on the sentence map
 
@@ -85,8 +88,8 @@ class RNN_RNN(BasicModule):
         for i in range(len(valid_hidden[:-2])):
             for j in range(len(valid_hidden[i + 1:])):
                 cosine_similarity_sentence_doc = cosine(valid_hidden[i], valid_hidden[j])
-                # if cosine_similarity_sentence_doc > thres:
-                G.add_edge(i, j)
+                if cosine_similarity_sentence_doc > thres:
+                     G.add_edge(i, j)
 
         pr = nx.pagerank(G)
 
@@ -113,16 +116,13 @@ class RNN_RNN(BasicModule):
         for index, doc_len in enumerate(doc_lens):
             valid_hidden = sent_out[index, :doc_len, :]  # (doc_len,2*H)
             doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
-           #doc_index = docs[index]
             pr = self.page_rank_rel(valid_hidden)
             s = Variable(torch.zeros(1, 2 * H))
             if self.args.device is not None:
                 s = s.cuda()
             first_sentent = valid_hidden[0]
             for position, h in enumerate(valid_hidden):
-
                 cosine_similarity = cosine(h, first_sentent)
-                #cosine_similarity_sentence_doc = cosine(h, doc_index)
                 h = h.view(1, -1)  # (1,2*H)
                 # get position embeddings
                 abs_index = Variable(torch.LongTensor([[position]]))
@@ -142,13 +142,12 @@ class RNN_RNN(BasicModule):
                 content = self.content(h)
                 ranks_sentent = self.ranks(tensor_ranks.view(1, -1))
                 cosine_first = self.cosine_first_sent(cosine_similarity.view(1, -1))
-                #cosine_with_doc = self.cosine_similarity_sentence_doc(cosine_similarity_sentence_doc.view(1, -1))
                 salience = self.salience(h, doc)
                 novelty = -1 * self.novelty(h, F.tanh(s))
                 abs_p = self.abs_pos(abs_features)
                 rel_p = self.rel_pos(rel_features)
                 prob = F.sigmoid(
-                    ranks_sentent  + cosine_first + content + salience + novelty + abs_p + rel_p + self.bias)
+                    ranks_sentent + cosine_first + content + salience + novelty + abs_p + rel_p + self.bias)
                 s = s + torch.mm(prob, h)
                 probs.append(prob)
         return torch.cat(probs).squeeze()

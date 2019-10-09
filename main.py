@@ -13,6 +13,7 @@ from torch.nn.utils import clip_grad_norm
 from time import time
 from tqdm import tqdm
 import warnings
+
 warnings.simplefilter("ignore", UserWarning)
 
 logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
@@ -27,7 +28,7 @@ parser.add_argument('-pos_num', type=int, default=100)
 parser.add_argument('-seg_num', type=int, default=10)
 parser.add_argument('-kernel_num', type=int, default=100)
 parser.add_argument('-kernel_sizes', type=str, default='3,4,5')
-parser.add_argument('-model', type=str, default='RNN_RNN')
+parser.add_argument('-model', type=str, default='SRSF_RNN_RNN')
 parser.add_argument('-hidden_size', type=int, default=200)
 # train
 
@@ -140,7 +141,7 @@ def train():
         print("Epoch====================")
         print(str(epoch))
         for i, batch in enumerate(train_iter):
-            features, sent_features, targets, summaries, doc_lens = vocab.make_features(batch)
+            features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
             features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
             if use_gpu:
                 features = features.cuda()
@@ -165,6 +166,66 @@ def train():
                 print('Epoch: %2d Min_Val_Loss: %f Cur_Val_Loss: %f' % (epoch, min_loss, cur_loss))
     t2 = time()
     logging.info('Total Cost:%f h' % ((t2 - t1) / 3600))
+
+
+def m_test():
+    embed = torch.Tensor(np.load(args.embedding)['embedding'])
+    with open(args.word2id) as f:
+        word2id = json.load(f)
+    vocab = utils.Vocab(embed, word2id)
+
+    with open(args.test_dir) as f:
+        examples = [json.loads(line) for line in f]
+    test_dataset = utils.Dataset(examples)
+
+    test_iter = DataLoader(dataset=test_dataset,
+                           batch_size=args.batch_size,
+                           shuffle=False)
+
+    if use_gpu:
+        checkpoint = torch.load(args.load_dir, map_location='cuda:0')
+    else:
+        checkpoint = torch.load(args.load_dir, map_location='cpu')
+
+    # checkpoint['args']['device'] saves the device used as train time
+    # if at test time, we are using a CPU, we must override device to None
+    if not use_gpu:
+        checkpoint['args'].device = None
+    net = getattr(models, checkpoint['args'].model)(checkpoint['args'])
+    net.load_state_dict(checkpoint['model'])
+    if use_gpu:
+        net.cuda()
+    net.eval()
+
+    doc_num = len(test_dataset)
+    time_cost = 0
+    file_id = 1
+    for batch in tqdm(test_iter):
+        features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
+        t1 = time()
+        if use_gpu:
+            probs = net(Variable(features).cuda(), Variable(sent_features).cuda(), doc_lens)
+        else:
+            probs = net(Variable(features), Variable(sent_features), doc_lens)
+        t2 = time()
+        time_cost += t2 - t1
+        start = 0
+        for doc_id, doc_len in enumerate(doc_lens):
+            stop = start + doc_len
+            prob = probs[start:stop]
+            topk = min(args.topk, doc_len)
+            topk_indices = prob.topk(topk)[1].cpu().data.numpy()
+            topk_indices.sort()
+            doc = batch['doc'][doc_id].split('\n')[:doc_len]
+            hyp = [doc[index] for index in topk_indices]
+            ref = summaries[doc_id]
+            with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
+                f.write(ref)
+            with open(os.path.join(args.hyp, str(file_id) + '.txt'), 'w') as f:
+                f.write('\n'.join(hyp))
+            start = stop
+            file_id = file_id + 1
+    print('Speed: %.2f docs / s' % (doc_num / time_cost))
 
 
 def test():
@@ -364,18 +425,8 @@ def predict(examples):
 
 
 if __name__ == '__main__':
-    # if args.test:
-    #     test()
-    # elif args.predict:
-    #     with open(args.filename) as file:
-    #         bod = [file.read()]
-    #     predict(bod)
-    # elif args.pre:
-    #     predict2()
-    # else:
-    #     train()
     if args.test:
-        test()
+        m_test()
     elif args.predict:
         with open(args.filename) as file:
             bod = [file.read()]

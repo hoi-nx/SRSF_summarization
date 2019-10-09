@@ -5,6 +5,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 
 
+# Run with run.py
 class CNN_RNN(BasicModule):
     def __init__(self, args, embed=None):
         super(CNN_RNN, self).__init__(args)
