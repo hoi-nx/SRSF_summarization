@@ -157,7 +157,7 @@ def train():
                 print('Batch ID:%d Loss:%f' % (i, loss.data[0]))
                 continue
             if i % args.report_every == 0:
-                print("report_every===========================")
+                print("report_every ===========================: %f" % i)
                 cur_loss = eval(net, vocab, val_iter, criterion)
                 if cur_loss < min_loss:
                     min_loss = cur_loss

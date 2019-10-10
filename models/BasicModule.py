@@ -32,7 +32,7 @@ class BasicModule(torch.nn.Module):
     def save(self, epoch):
         checkpoint = {'model': self.state_dict(), 'args': self.args}
         best_path = '%s%s_%s_%s_seed_%d.pt' % (
-        self.args.save_dir, self.model_name, strftime("%Y_%m_%d_%H:%M:%S", gmtime()), epoch, self.args.seed)
+            self.args.save_dir, self.model_name, strftime("%Y_%m_%d_%H:%M:%S", gmtime()), epoch, self.args.seed)
         torch.save(checkpoint, best_path)
         return best_path
 
