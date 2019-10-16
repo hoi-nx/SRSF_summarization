@@ -18,6 +18,7 @@ class SentenceFeature():
 
     def _get_position(self, sent_i):
         count = self.sents_i[-1]
+        #print(count)
         position = 1
         if count != 0:
             position = sent_i / count

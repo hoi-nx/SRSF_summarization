@@ -1,9 +1,7 @@
 import string
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
-import nltk
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
+
 import warnings
 warnings.simplefilter("ignore", UserWarning)
 class BaseParser():

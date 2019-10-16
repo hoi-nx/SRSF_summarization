@@ -18,6 +18,8 @@ from utils.plaintext import PlaintextParser
 import string
 from utils.sentence_feature import SentenceFeature
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from time import localtime, strftime
+from tqdm import tqdm
 
 logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
                     datefmt='%H:%M:%S')
@@ -36,10 +38,10 @@ parser.add_argument('-hidden_size', type=int, default=200)
 # train
 
 parser.add_argument('-lr', type=float, default=1e-3)
-parser.add_argument('-batch_size', type=int, default=64)
+parser.add_argument('-batch_size', type=int, default=32)
 parser.add_argument('-epochs', type=int, default=3)
 parser.add_argument('-seed', type=int, default=1)
-parser.add_argument('-train_dir', type=str, default='data/val/val_cnn.json')
+parser.add_argument('-train_dir', type=str, default='data/training/train_cnn.json')
 parser.add_argument('-val_dir', type=str, default='data/val/val_cnn_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
@@ -67,6 +69,8 @@ args = parser.parse_args()
 use_gpu = args.device is not None
 
 from time import gmtime, strftime
+
+
 def train():
     logging.info('Loading vocab,train and val dataset.Wait a second,please')
 
@@ -98,44 +102,66 @@ def train():
     val_iter = DataLoader(dataset=val_dataset,
                           batch_size=args.batch_size,
                           shuffle=False)
-    for epoch in range(1, args.epochs+1):
+    for epoch in range(1, args.epochs + 1):
         print("Epoch====================")
         print(str(epoch))
-        for i, batch in enumerate(train_iter):
-            t1 = time()
-            print(strftime("%Y_%m_%d_%H:%M:%S", gmtime()))
-            print("batch")
-            print(batch)
-            features, sent_features, targets, summaries, doc_lens = vocab.make_features(batch)
-            print('features============')
-            print(features)
-            print("summaries===========")
-            print(summaries)
-            print("sent_features=======")
-            print(sent_features)
-            print(i)
-            print('report_every===========================%f' % i)
-            t2 = time()
-            print(strftime("%Y_%m_%d_%H:%M:%S", gmtime()))
-            print((t2 - t1) / 3600)
-            if i % 1000 == 0:
-                print("Report_eveeve")
-
+        for i, batch in enumerate(tqdm(train_iter)):
+            #print("batch=========")
+            #print(batch)
+            print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
+            docss,features, targets, summaries, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
+            print('docss============')
+            print(docss[0])
+            print('sents_lenss============')
+            print(sents_lenss[0])
+            #print("summaries===========")
+            #print(summaries)
+            #print("sents_lenss=======")
+            #print(sents_lenss)
+            #print("content_featuress=======")
+            #print(content_featuress)
+            print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
+            #print(i)
+            # if(i % 100 == 0):
+            #   print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
+            #  print(i)
+            # print('report_every===========================%f' % i)
+            # t2 = time()
+    # print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
+    # print((t2 - t1) / 3600)
 
 
 def tokenize():
-    sentens = sent_tokenize(
-        "Houses at Auvers is an oil-on-canvas painting by Vincent van Gogh, painted towards the end of May or beginning of June 1890, shortly after he had moved to Auvers-sur-Oise, a small town northwest of Paris, France. His move was prompted by his dissatisfaction with the boredom and monotony of asylum life at Saint-Rémy, as well as by his emergence as an artist of some renown following Albert Aurier's celebrated January 1890 Mercure de France review of his work. In his final two months at Saint-Rémy, van Gogh painted from memory a number of canvases he called reminisces of the North, harking back to his Dutch roots. The influence of this return to the North continued at Auvers, notably in The Church at Auvers. He did not, however, repeat his studies of peasant life of the sort he had made in his Nuenen period. His paintings of dwellings at Auvers encompassed a range of social domains. Houses at Auvers is now in the collection of the Toledo Museum of Art in Ohio, United States.")
+    sentens = sent_tokenize("he pledged that those injured and the families of those killed would receive compensation. cnn 's aliza kassim in atlanta , georgia , contributed to this report .")
+    test10 = tokenize_words(sentens, word_tokenize)
+
+
+    print(len(test10[1]))
+   # test11 = sentens[0].split()
+    #print(len(test10[0]))
+    #print(len(test11))
     parser = PlaintextParser(sentens)
     feature = SentenceFeature(parser)
-    test= feature.get_surface_features(sents_i=1)
-    tes2= feature._get_doc_first(1)
-    test3 =feature.get_content_features(0)
-    test4= feature.get_relevance_features(1)
-    test5 = feature.get_all_features(1)
+    test = feature._get_doc_first(0)
+    #print(test)
+    #tes2 = feature._get_length(1)
+    #test3 = feature.get_content_features(0)
+    #test4 = feature.get_relevance_features(1)
+    #test5 = feature.get_all_features(1)
+    #test6 = feature._get_position(2)
+
+    #test7 = feature._get_stopwords_ratio(0)
+
+    #print(feature.page_rank_rel())
+
+    #print(tes2)
+    print(strftime("%Y_%m_%d_%H:%M:%S", localtime()))
 
 
-    print(len(test5))
+def tokenize_words(sents, tokenizer):
+    sents = list(map(lambda x: x.translate(str.maketrans('', '', string.punctuation)), sents))  # remove punctuation
+    return [[t.lower() for t in tokenizer(sent)] for sent in sents]
+
 
 if __name__ == '__main__':
-    train()
+    tokenize()

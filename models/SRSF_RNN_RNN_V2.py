@@ -1,4 +1,4 @@
-from .BasicModule import BasicModule
+from models.BasicModule import BasicModule
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -6,11 +6,11 @@ import networkx as nx
 from torch.autograd import Variable
 
 
-# run with run.py
-class SRS2F_RNN_RNN(BasicModule):
+# run with main.py
+class SRSF_RNN_RNN_V2(BasicModule):
     def __init__(self, args, embed=None):
-        super(SRS2F_RNN_RNN, self).__init__(args)
-        self.model_name = 'SRS2F_RNN_RNN'
+        super(SRSF_RNN_RNN_V2, self).__init__(args)
+        self.model_name = 'SRSF_RNN_RNN_V2'
         self.args = args
         V = args.embed_num
         D = args.embed_dim
@@ -38,37 +38,15 @@ class SRS2F_RNN_RNN(BasicModule):
         self.fc = nn.Linear(2 * H, 2 * H)
 
         # Parameters of Classification Layer
+        self.surface_features = nn.Linear(2, 1, bias=False)
+        self.content_features = nn.Linear(3, 1, bias=False)
+        self.relevance_features = nn.Linear(2, 1, bias=False)
         self.content = nn.Linear(2 * H, 1, bias=False)
-        self.ranks = nn.Linear(1, 1, bias=False)
-        self.cosine_first_sent = nn.Linear(1, 1, bias=False)
         self.salience = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
         self.novelty = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
         self.abs_pos = nn.Linear(P_D, 1, bias=False)
         self.rel_pos = nn.Linear(P_D, 1, bias=False)
         self.bias = nn.Parameter(torch.FloatTensor(1).uniform_(-0.1, 0.1))
-
-    @staticmethod
-    def max_pool1d(x, seq_lens):
-        # x:[N,L,O_in]
-        out = []
-        for index, t in enumerate(x):
-            t = t[:seq_lens[index], :]
-            t = torch.t(t).unsqueeze(0)
-            out.append(F.max_pool1d(t, t.size(2)))
-        out = torch.cat(out).squeeze(2)
-        return out
-
-    @staticmethod
-    def avg_pool1d(x, seq_lens):
-        # x:[N,L,O_in]
-        out = []
-        for index, t in enumerate(x):
-            t = t[:seq_lens[index], :]
-            t = torch.t(t).unsqueeze(0)
-            out.append(F.avg_pool1d(t, t.size(2)))
-
-        out = torch.cat(out).squeeze(2)
-        return out
 
     @staticmethod
     def page_rank_rel(valid_hidden, thres=0.1):
@@ -96,7 +74,28 @@ class SRS2F_RNN_RNN(BasicModule):
 
         return pr
 
-    def forward(self, x, doc_lens):
+    def max_pool1d(self, x, seq_lens):
+        # x:[N,L,O_in]
+        out = []
+        for index, t in enumerate(x):
+            t = t[:seq_lens[index], :]
+            t = torch.t(t).unsqueeze(0)
+            out.append(F.max_pool1d(t, t.size(2)))
+        out = torch.cat(out).squeeze(2)
+        return out
+
+    def avg_pool1d(self, x, seq_lens):
+        # x:[N,L,O_in]
+        out = []
+        for index, t in enumerate(x):
+            t = t[:seq_lens[index], :]
+            t = torch.t(t).unsqueeze(0)
+            out.append(F.avg_pool1d(t, t.size(2)))
+
+        out = torch.cat(out).squeeze(2)
+        return out
+
+    def forward(self, x, doc_lens, senten_lenss, content_featuress):
         sent_lens = torch.sum(torch.sign(x), dim=1).data
         cosine = nn.CosineSimilarity(dim=0)
         x = self.embed(x)  # (N,L,D)
@@ -116,8 +115,11 @@ class SRS2F_RNN_RNN(BasicModule):
         probs = []
         for index, doc_len in enumerate(doc_lens):
             valid_hidden = sent_out[index, :doc_len, :]  # (doc_len,2*H)
-            doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
             pr = self.page_rank_rel(valid_hidden)
+            doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
+            senten_lens_doc = senten_lenss[index]
+            content_features_doc = content_featuress[index]
+
             s = Variable(torch.zeros(1, 2 * H))
             if self.args.device is not None:
                 s = s.cuda()
@@ -138,17 +140,36 @@ class SRS2F_RNN_RNN(BasicModule):
                 rel_features = self.rel_pos_embed(rel_index).squeeze(0)
                 # h la bieu dien cua cau
                 # doc là biểu diễn của document
-                ranks = [pr.get(position, 0)]
-                tensor_ranks = torch.FloatTensor(ranks).cuda()
+                # surface_features
+                # Get length of sentence
+                sent_len = senten_lens_doc[position]
+                # Get doc_first
+                doc_first = int(position == 0)
+                if doc_first == 0:
+                    doc_first = 0
+                surface_feature = [sent_len, doc_first]
+                surface_f = torch.FloatTensor(surface_feature).cuda()
+                # ====================================================
+
+                # content_features
+                content_feature = content_features_doc[position]
+                content_f = torch.FloatTensor(content_feature).cuda()
+
+                # relevance_features
+                relevance_features = [cosine_similarity, pr.get(position, 0)]
+                relevance_f = torch.FloatTensor(relevance_features).cuda()
+                # ====================================================
+
+                surface = self.surface_features(surface_f.view(1, -1))
+                content_features = self.content_features(content_f.view(1, -1))
+                relevance_feature = self.relevance_features(relevance_f.view(1, -1))
                 content = self.content(h)
-                ranks_sentent = self.ranks(tensor_ranks.view(1, -1))
-                cosine_first = self.cosine_first_sent(cosine_similarity.view(1, -1))
                 salience = self.salience(h, doc)
                 novelty = -1 * self.novelty(h, F.tanh(s))
                 abs_p = self.abs_pos(abs_features)
                 rel_p = self.rel_pos(rel_features)
                 prob = F.sigmoid(
-                    ranks_sentent + cosine_first + content + salience + novelty + abs_p + rel_p + self.bias)
+                    surface + content_features + content + relevance_feature + salience + novelty + abs_p + rel_p + self.bias)
                 s = s + torch.mm(prob, h)
                 probs.append(prob)
         return torch.cat(probs).squeeze()

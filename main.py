@@ -80,7 +80,7 @@ def eval(net, vocab, val_iter, criterion):
     total_loss = 0
     batch_num = 0
     for batch in val_iter:
-        features, sent_features, targets, summaries, doc_lens = vocab.make_features(batch)
+        features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
         features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
         if use_gpu:
             features = features.cuda()
@@ -130,6 +130,7 @@ def train():
     criterion = nn.BCELoss()
     print("Start training===========================")
     # model info
+    print(net)
     params = sum(p.numel() for p in list(net.parameters())) / 1e6
     print('#Params: %.1fM' % (params))
     min_loss = float('inf')
@@ -140,7 +141,7 @@ def train():
     for epoch in range(1, args.epochs + 1):
         print("Epoch====================")
         print(str(epoch))
-        for i, batch in enumerate(train_iter):
+        for i, batch in enumerate(tqdm(train_iter)):
             features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
             features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
             if use_gpu:
