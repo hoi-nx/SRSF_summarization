@@ -7,10 +7,10 @@ from torch.autograd import Variable
 
 
 # run with main.py
-class SRSF_RNN_RNN_V2(BasicModule):
+class SRSF_RNN_RNN_V3(BasicModule):
     def __init__(self, args, embed=None):
-        super(SRSF_RNN_RNN_V2, self).__init__(args)
-        self.model_name = 'SRSF_RNN_RNN_V2'
+        super(SRSF_RNN_RNN_V3, self).__init__(args)
+        self.model_name = 'SRSF_RNN_RNN_V3'
         self.args = args
         V = args.embed_num
         D = args.embed_dim
@@ -38,9 +38,16 @@ class SRSF_RNN_RNN_V2(BasicModule):
         self.fc = nn.Linear(2 * H, 2 * H)
 
         # Parameters of Classification Layer
-        self.surface_features = nn.Linear(2, 1, bias=False)
-        self.content_features = nn.Linear(3, 1, bias=False)
-        self.relevance_features = nn.Linear(2, 1, bias=False)
+        self.stop_word = nn.Linear(1, 1, bias=False)
+        self.term_freq = nn.Linear(1, 1, bias=False)
+        self.doc_freq = nn.Linear(1, 1, bias=False)
+
+        self.doc_first = nn.Linear(1, 1, bias=False)
+        self.sent_len = nn.Linear(1, 1, bias=False)
+
+        self.cosine_similarity = nn.Linear(1, 1, bias=False)
+        self.score_page_rank = nn.Linear(1, 1, bias=False)
+
         self.content = nn.Linear(2 * H, 1, bias=False)
         self.salience = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
         self.novelty = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
@@ -147,29 +154,37 @@ class SRSF_RNN_RNN_V2(BasicModule):
                 doc_first = int(position == 0)
                 if doc_first == 0:
                     doc_first = 0
-                surface_feature = [sent_len, doc_first]
-                surface_f = torch.FloatTensor(surface_feature).cuda()
+                doc_first = torch.FloatTensor([doc_first]).cuda()
+                sent_len = torch.FloatTensor([sent_len]).cuda()
                 # ====================================================
 
                 # content_features
-                content_feature = content_features_doc[position]
-                content_f = torch.FloatTensor(content_feature).cuda()
+                stop_word = torch.FloatTensor([content_features_doc[position][0]]).cuda()
+                term_freq = torch.FloatTensor([content_features_doc[position][1]]).cuda()
+                doc_freq = torch.FloatTensor([content_features_doc[position][2]]).cuda()
 
                 # relevance_features
-                relevance_features = [cosine_similarity, pr.get(position, 0)]
-                relevance_f = torch.FloatTensor(relevance_features).cuda()
+                cosine_sentent = torch.FloatTensor([cosine_similarity]).cuda()
+                score_pager = torch.FloatTensor([pr.get(position, 0)]).cuda()
                 # ====================================================
 
-                surface = self.surface_features(surface_f.view(1, -1))
-                content_feature_sentent = self.content_features(content_f.view(1, -1))
-                relevance_feature = self.relevance_features(relevance_f.view(1, -1))
+                stop_words = self.stop_word(stop_word.view(1, -1))
+                term_freqs = self.term_freq(term_freq.view(1, -1))
+                doc_freqs = self.doc_freq(doc_freq.view(1, -1))
+
+                doc_firsts = self.doc_first(doc_first.view(1, -1))
+                sent_len = self.sent_len(sent_len.view(1, -1))
+
+                cosine_sentents = self.cosine_similarity(cosine_sentent.view(1, -1))
+                score_pages = self.score_page_rank(score_pager.view(1, -1))
                 content = self.content(h)
                 salience = self.salience(h, doc)
                 novelty = -1 * self.novelty(h, F.tanh(s))
                 abs_p = self.abs_pos(abs_features)
                 rel_p = self.rel_pos(rel_features)
                 prob = F.sigmoid(
-                    surface + content_feature_sentent + content + relevance_feature + salience + novelty + abs_p + rel_p + self.bias)
+                    score_pages + cosine_sentents + sent_len + doc_firsts + stop_words + term_freqs + content +
+                    doc_freqs + salience + novelty + abs_p + rel_p + self.bias)
                 s = s + torch.mm(prob, h)
                 probs.append(prob)
         return torch.cat(probs).squeeze()

@@ -13,6 +13,9 @@ from torch.utils.data import DataLoader
 from torch.nn.utils import clip_grad_norm
 from time import time
 from tqdm import tqdm
+import os
+import errno
+
 
 logging.basicConfig(filename='logging/Log_s2f', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
                     datefmt='%H:%M:%S')
@@ -26,7 +29,7 @@ parser.add_argument('-pos_num', type=int, default=100)
 parser.add_argument('-seg_num', type=int, default=10)
 parser.add_argument('-kernel_num', type=int, default=100)
 parser.add_argument('-kernel_sizes', type=str, default='3,4,5')
-parser.add_argument('-model', type=str, default='SRS2F_RNN_RNN')
+parser.add_argument('-model', type=str, default='RNN_RNN')
 parser.add_argument('-hidden_size', type=int, default=200)
 # train
 parser.add_argument('-lr', type=float, default=1e-3)
@@ -44,7 +47,7 @@ parser.add_argument('-max_norm', type=float, default=1.0)
 parser.add_argument('-load_dir', type=str, default='checkpoints/RNN_RNN_seed_1.pt')
 parser.add_argument('-test_dir', type=str, default='data/test.json')
 parser.add_argument('-ref', type=str, default='outputs/ref')
-parser.add_argument('-hyp', type=str, default='outputs/hyp')
+parser.add_argument('-hyp', type=str, default='outputs/hyp/cnn/RNN_RNN/RNN_RNN_2019_10_12_13:35:12_1_seed_1')
 parser.add_argument('-filename', type=str, default='x.txt')  # TextFile to be summarized
 parser.add_argument('-topk', type=int, default=4)
 # device
@@ -184,6 +187,7 @@ def test():
         checkpoint['args'].device = None
     net = getattr(models, checkpoint['args'].model)(checkpoint['args'])
     net.load_state_dict(checkpoint['model'])
+    print(net)
     if use_gpu:
         net.cuda()
     net.eval()
@@ -209,9 +213,14 @@ def test():
             topk_indices.sort()
             doc = batch['doc'][doc_id].split('\n')[:doc_len]
             hyp = [doc[index] for index in topk_indices]
-            ref = summaries[doc_id]
-            with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
-                f.write(ref)
+            #ref = summaries[doc_id]
+            #with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
+                #f.write(ref)
+            try:
+                os.makedirs(args.hyp)
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
             with open(os.path.join(args.hyp, str(file_id) + '.txt'), 'w') as f:
                 f.write('\n'.join(hyp))
             start = stop

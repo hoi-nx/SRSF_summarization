@@ -35,7 +35,7 @@ parser.add_argument('-hidden_size', type=int, default=200)
 
 parser.add_argument('-lr', type=float, default=1e-3)
 parser.add_argument('-batch_size', type=int, default=32)
-parser.add_argument('-epochs', type=int, default=10)
+parser.add_argument('-epochs', type=int, default=5)
 parser.add_argument('-seed', type=int, default=1)
 parser.add_argument('-train_dir', type=str, default='data/training/train_cnn_dailymail.json')
 parser.add_argument('-val_dir', type=str, default='data/val/val_dailymail.json')
@@ -82,8 +82,7 @@ def eval(net, vocab, val_iter, criterion):
     batch_num = 0
     for batch in val_iter:
         features, targets, _, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
-        features, targets, sents_lenss, content_featuress = Variable(features), Variable(targets.float()), Variable(
-            sents_lenss), Variable(content_featuress)
+        features, targets = Variable(features), Variable(targets.float())
         if use_gpu:
             features = features.cuda()
             targets = targets.cuda()
@@ -144,8 +143,7 @@ def train():
         print(str(epoch))
         for i, batch in enumerate(tqdm(train_iter)):
             features, targets, _, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
-            features, targets, sents_lenss, content_featuress = Variable(features), Variable(targets.float()), Variable(
-                sents_lenss), Variable(content_featuress)
+            features, targets = Variable(features), Variable(targets.float())
             if use_gpu:
                 features = features.cuda()
                 targets = targets.cuda()
@@ -195,6 +193,7 @@ def m_test():
         checkpoint['args'].device = None
     net = getattr(models, checkpoint['args'].model)(checkpoint['args'])
     net.load_state_dict(checkpoint['model'])
+    print(net)
     if use_gpu:
         net.cuda()
     net.eval()
@@ -203,12 +202,12 @@ def m_test():
     time_cost = 0
     file_id = 1
     for batch in tqdm(test_iter):
-        features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
+        features, targets, summaries, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
         t1 = time()
         if use_gpu:
-            probs = net(Variable(features).cuda(), Variable(sent_features).cuda(), doc_lens)
+            probs = net(Variable(features).cuda(), doc_lens, sents_lenss, content_featuress)
         else:
-            probs = net(Variable(features), Variable(sent_features), doc_lens)
+            probs = net(Variable(features), doc_lens, sents_lenss, content_featuress)
         t2 = time()
         time_cost += t2 - t1
         start = 0

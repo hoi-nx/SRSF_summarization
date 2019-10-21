@@ -10,7 +10,6 @@ import warnings
 
 warnings.simplefilter("ignore", UserWarning)
 import nltk
-
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
@@ -42,7 +41,7 @@ class Vocab():
     def make_senten_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []
         # trunc document
-        sentents_featuress = []
+        sentents_features=[]
         for doc, label in zip(batch['doc'], batch['labels']):
             sents = doc.split(split_token)
             labels = label.split(split_token)
@@ -54,44 +53,32 @@ class Vocab():
             targets += labels
             doc_lens.append(len(sents))
             parser = PlaintextParser(sents)
+            sentents_featuress = []
             st_feature = SentenceFeature(parser)
             for index, sent in enumerate(sents):
                 features = st_feature.get_all_features(index)
                 sentents_featuress.append(features)
+            sentents_features.append(sentents_features)
         # trunc or pad sent
         max_sent_len = 0
         batch_sents = []
-        # print("Sents_list====================")
-        # print(sents_list)
-        # print(len(sents_list))
-        # parser = PlaintextParser(sents_list)
-        # st_feature = SentenceFeature(parser)
-
         for index, sent in enumerate(sents_list):
             words = sent.split()
             if len(words) > sent_trunc:
                 words = words[:sent_trunc]
             max_sent_len = len(words) if len(words) > max_sent_len else max_sent_len
             batch_sents.append(words)
-
-        # print("sent_features===============================")
-        # print(sentents_featuress[0])
-
         features = []
-        # print("batch_sents==================")
-        # print(batch_sents)
+
         for sent in batch_sents:
             feature = [self.w2i(w) for w in sent] + [self.PAD_IDX for _ in range(max_sent_len - len(sent))]
             features.append(feature)
 
         features = torch.LongTensor(features)
-        sent_features = torch.FloatTensor(sentents_featuress)
         targets = torch.LongTensor(targets)
         summaries = batch['summaries']
-        # print("sent_features===============================")
-        # print(sent_features[0])
 
-        return features, sent_features, targets, summaries, doc_lens
+        return features, sentents_features, targets, summaries, doc_lens
 
     def make_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []
@@ -129,13 +116,9 @@ class Vocab():
         return features, targets, summaries, doc_lens
 
     def make_features_v2(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
-        sents_list, targets, doc_lens, sents_lenssssss,content_featuressss = [], [], [], [], []
-        docss=[]
+        sents_list, targets, doc_lens, sents_lenssssss, content_featuressss = [], [], [], [], []
         # trunc document
         for doc, label in zip(batch['doc'], batch['labels']):
-            #print(doc)
-            #print(label)
-            docss.append(doc)
             sents = doc.split(split_token)
             labels = label.split(split_token)
             labels = [int(l) for l in labels]
@@ -179,17 +162,13 @@ class Vocab():
         for sent in batch_sents:
             feature = [self.w2i(w) for w in sent] + [self.PAD_IDX for _ in range(max_sent_len - len(sent))]
             features.append(feature)
-        print("===========doc_lens")
-        print(len(doc_lens))
-        print("sen_len")
-        print(len(sents_lenssssss))
         features = torch.LongTensor(features)
         targets = torch.LongTensor(targets)
         summaries = batch['summaries']
         # targets is lables
         # sumaries is goal summary
 
-        return docss,features, targets, summaries, doc_lens, sents_lenssssss, content_featuressss
+        return features, targets, summaries, doc_lens, sents_lenssssss, content_featuressss
 
     def _get_avg_doc_freq(self, X, unprocessed_words):
         """

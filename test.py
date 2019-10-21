@@ -1,25 +1,21 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
+import logging
+import numpy as np
+import string
+from nltk.tokenize import sent_tokenize, word_tokenize
+from time import localtime
+
+import torch
+from torch.utils.data import DataLoader
+from tqdm import tqdm
+
 import models
 import utils
-import argparse, random, logging, numpy, os
-import torch
-import torch.nn as nn
-import numpy as np
-from torch.autograd import Variable
-from torch.utils.data import DataLoader
-from torch.nn.utils import clip_grad_norm
-from time import time
-from nltk.tokenize import sent_tokenize, word_tokenize
-from nltk import pos_tag
-from sumy.utils import get_stop_words
 from utils.plaintext import PlaintextParser
-import string
 from utils.sentence_feature import SentenceFeature
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
-from time import localtime, strftime
-from tqdm import tqdm
 
 logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
                     datefmt='%H:%M:%S')
@@ -38,7 +34,7 @@ parser.add_argument('-hidden_size', type=int, default=200)
 # train
 
 parser.add_argument('-lr', type=float, default=1e-3)
-parser.add_argument('-batch_size', type=int, default=32)
+parser.add_argument('-batch_size', type=int, default=1)
 parser.add_argument('-epochs', type=int, default=3)
 parser.add_argument('-seed', type=int, default=1)
 parser.add_argument('-train_dir', type=str, default='data/training/train_cnn.json')
@@ -68,7 +64,7 @@ parser.add_argument('-predict_all', action='store_true')  # predict all
 args = parser.parse_args()
 use_gpu = args.device is not None
 
-from time import gmtime, strftime
+from time import strftime
 
 
 def train():
@@ -109,11 +105,11 @@ def train():
             #print("batch=========")
             #print(batch)
             print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
-            docss,features, targets, summaries, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
-            print('docss============')
-            print(docss[0])
+            features, targets, summaries, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
             print('sents_lenss============')
             print(sents_lenss[0])
+            print('content_featuress============')
+            print(content_featuress[0][0])
             #print("summaries===========")
             #print(summaries)
             #print("sents_lenss=======")
@@ -136,13 +132,13 @@ def tokenize():
     test10 = tokenize_words(sentens, word_tokenize)
 
 
-    print(len(test10[1]))
+    print(test10)
    # test11 = sentens[0].split()
     #print(len(test10[0]))
     #print(len(test11))
-    parser = PlaintextParser(sentens)
-    feature = SentenceFeature(parser)
-    test = feature._get_doc_first(0)
+    #parser = PlaintextParser(sentens)
+    #feature = SentenceFeature(parser)
+    #test = feature._get_doc_first(0)
     #print(test)
     #tes2 = feature._get_length(1)
     #test3 = feature.get_content_features(0)
@@ -158,6 +154,7 @@ def tokenize():
     print(strftime("%Y_%m_%d_%H:%M:%S", localtime()))
 
 
+
 def tokenize_words(sents, tokenizer):
     sents = list(map(lambda x: x.translate(str.maketrans('', '', string.punctuation)), sents))  # remove punctuation
     return [[t.lower() for t in tokenizer(sent)] for sent in sents]
@@ -165,3 +162,4 @@ def tokenize_words(sents, tokenizer):
 
 if __name__ == '__main__':
     tokenize()
+

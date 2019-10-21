@@ -87,6 +87,7 @@ class SRSF_RNN_RNN(BasicModule):
             valid_hidden = sent_out[index, :doc_len, :]  # (doc_len,2*H)
             doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
             s = Variable(torch.zeros(1, 2 * H))
+            feature = sent_features[index]
             if self.args.device is not None:
                 s = s.cuda()
             for position, h in enumerate(valid_hidden):
@@ -104,7 +105,7 @@ class SRSF_RNN_RNN(BasicModule):
                 rel_features = self.rel_pos_embed(rel_index).squeeze(0)
                 # h la bieu dien cua cau
                 # doc là biểu diễn của document
-                m_sent_features = sent_features[position]
+                m_sent_features = feature[position]
                 content = self.content(h)
                 salience = self.salience(h, doc)
                 novelty = -1 * self.novelty(h, F.tanh(s))

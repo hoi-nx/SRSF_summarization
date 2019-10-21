@@ -81,11 +81,10 @@ def eval(net, vocab, val_iter, criterion):
     batch_num = 0
     for batch in val_iter:
         features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
-        features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
+        features, targets = Variable(features), Variable(targets.float())
         if use_gpu:
             features = features.cuda()
             targets = targets.cuda()
-            sent_features = sent_features.cuda()
         probs = net(features, sent_features, doc_lens)
         loss = criterion(probs, targets)
         total_loss += loss.data.item()
@@ -143,11 +142,10 @@ def train():
         print(str(epoch))
         for i, batch in enumerate(tqdm(train_iter)):
             features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
-            features, sent_features, targets = Variable(features), Variable(sent_features), Variable(targets.float())
+            features, targets = Variable(features), Variable(targets.float())
             if use_gpu:
                 features = features.cuda()
                 targets = targets.cuda()
-                sent_features = sent_features.cuda()
             probs = net(features, sent_features, doc_lens)
             loss = criterion(probs, targets)
             optimizer.zero_grad()
@@ -205,9 +203,9 @@ def m_test():
         features, sent_features, targets, summaries, doc_lens = vocab.make_senten_features(batch)
         t1 = time()
         if use_gpu:
-            probs = net(Variable(features).cuda(), Variable(sent_features).cuda(), doc_lens)
+            probs = net(Variable(features).cuda(), sent_features, doc_lens)
         else:
-            probs = net(Variable(features), Variable(sent_features), doc_lens)
+            probs = net(Variable(features), sent_features, doc_lens)
         t2 = time()
         time_cost += t2 - t1
         start = 0

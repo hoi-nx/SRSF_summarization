@@ -31,7 +31,6 @@ class CNN_RNN(BasicModule):
             nn.Conv1d(Ci, Co, K),
             nn.BatchNorm1d(Co),
             nn.LeakyReLU(inplace=True),
-
             nn.Conv1d(Co, Co, K),
             nn.BatchNorm1d(Co),
             nn.LeakyReLU(inplace=True)
