@@ -1,0 +1,5 @@
+a memphis - based company has released a system to observe veins
+called veinviewer it uses infrared light to look under skin
+it can then project an hd image of the veins onto the surface of the skin
+device enables doctors and nurses to find a vein immediately
+it also highlights features such as bifurcations and valves

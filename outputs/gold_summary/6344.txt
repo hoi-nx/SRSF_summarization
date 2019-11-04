@@ -1,0 +1,4 @@
+dr markus kuhn said the sim could have been replaced a long time ago
+he believes one alternative could be typing in a user identifier and password directly into a phone - like we do with wi-fi networks
+or details could be encoded in qr codes photographed by a phone camera
+the university of cambridge lecturer also believes the time is right to switch because of recent advances in cryptographic techniques

@@ -1,0 +1,7 @@
+woolet 's mini-sensor syncs to a phone to offer support in five ways
+if woolet is left behind the phone will vibrate to warn you - and vice versa
+a built - in distance tracker will then help you pinpoint its location
+clicking ' ring to find ' causes the wallet to emit a sound
+and the app will show you the wallet 's last recorded location
+plus , in a crowd the woolet sends signals to other woolet owners so they can relay its location to the owner
+woolets can be pre-ordered for $ 99 ( Â£ 67 ) from its kickstarter page and the wallets are expected to ship in may this year

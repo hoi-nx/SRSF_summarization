@@ -1,0 +1,25 @@
+google play apps will now be scrutinised by google reviewers and come with age - based content ratings , the company has revealed
+the announcement is a move away from the firm 's strategy to differentiate itself from apple by allowing developers to immediately publish their mobile apps
+but google added that it will not be adopting apple 's practice of only approving apps that meet its stringent quality standards
+google is tightening supervision of its freewheeling play store , forming a special team to screen new apps for malware and sexually explicit material , and strengthening its age - based rating system the change underscores the growing importance of apps in the success of the companies ' rival mobile gadgets
+google and apple each manage online hubs with more than one million apps ranging from calendars to video games
+google said in its official blog today that its expert team will screen each app submitted by developers to spot earlier anything that runs afoul of its rules
+the developer policies exclude sexually explicit material , ' gratuitous violence , ' hate speech , gambling , ' dangerous products , ' spam and infringement of intellectual property
+the new age - rating system will see android developers filling in a questionnaire about their app or game instead of simply choosing a rating google had only used automated technology for screening at the time of submission
+the new process will not create bottlenecks , google said , promising that approved apps will become available on google play within ' a matter of hours ' after submission
+apple does not disclose its app review period , but the website appreviewtimes.com puts the average wait time at seven days for apple 's app store
+developers must answer special questionnaires about their apps to help independent ratings organisations assign age - based ratings , google said
+millions of android handsets have been exposed to malware through malicious apps being offered on google play
+the apps include the durak card game , along with a history game and iq test , which combined have been installed more than 15 million times
+the apps cause unwanted adverts to display on users ' phones and their abnormal behaviour sometimes does n't appear until a month after installation
+the apps were discovered after prague - based antivirus provider , avast , received a user complaint
+' this impression remains until you reboot your device and wait for a couple of days , ' wrote filip chytry , an avast mobile malware analyst
+' after a week , you might start to feel there is something wrong with your device
+some of the apps wait up to 30 days until they show their true colours
+' as well as durak , the other other games included a russian iq test with up to five million installs , and a russian history app game , which has been installed up to 50,000 times by android users
+these apps have now been removed from google play
+' we know that people in different countries have different ideas about what content is appropriate for kids , teens and adults , ' google said in the blog post
+' today 's announcement will help developers better label their apps for the right audience
+' as of may , apps submitted without the questionnaire will not be published in google play , and existing apps that do not seek a rating could be blocked in certain markets or for certain users , google said
+google has also partnered with the international age rating coalition , the pan-european game information and the australian classification board , to provide relevant ratings in various countries
+until now , google has let developers rate their own apps using a system created by google .

@@ -1,0 +1,36 @@
+a nasa mission designed to study the interaction of earth 's magnetic field and the sun launched this morning at 2:44am gmt ( last night at 10:44pm edt )
+the magnetospheric multiscale ( mms ) mission will use four identical spacecraft to measure a mysterious process known as magnetic reconnection
+by orbiting earth , the spacecraft will seek to understand how energy from the sun is funnelled in to the environment of not only our own but other planets , causing space weather such as aurorae
+the spacecraft were launched on a united launch alliance atlas v 421 rocket from cape canaveral air force station in florida
+after reaching orbit , each spacecraft deployed from the upper stage of the rocket in five - minute increments
+' i am speaking for the entire mms team when i say we 're thrilled to see all four of our spacecraft have deployed and data indicates we have a healthy fleet , ' said craig tooley , project manager at nasa 's goddard space flight center in greenbelt , maryland
+magnetic reconnection occurs wherever charged gases , called plasma , are present
+it 's rare on earth , but plasma makes up 99 per cent of the visible universe , fueling stars and filling the near - vacuum of space
+this plasma contains magnetic fields that affects the way charged particles it encounters move
+under normal conditions , the magnetic field lines inside plasmas do n't break or merge with other field lines
+but sometimes , as field lines get close to each other , the entire pattern changes and everything realign into a new configuration
+the amount of energy released can be formidable
+magnetic reconnection taps into the stored energy of the magnetic field , converting it into heat and kinetic energy that sends particles streaming out along the field lines
+the mms mission will help scientsits understand how this process is taking place in the environment around earth
+this could teach us more about geomagnetic storms and aurorae on our planet , and also help us understand similar processes taking place in the rest of the solar system and beyond
+over the following weeks , nasa scientists and engineers will deploy several complex booms and antennae on the spacecraft , and test all their instruments
+the core of each spacecraft is about four feet ( 1.2 metres ) tall and 11 feet ( 3.4 metres ) wide , although with all of their booms and antennae deployed , they grow to 369 by 94ft ( 29 by 112 metres )
+the four will then be placed in a pyramid formation , separated by distances of 6.2 to 62 miles ( 10 to 100km ) , in preparation for science observations that are scheduled to begin in early september
+they will fly around earth in an elliptical orbit , travelling through two regions where magnetic reconnection is thought to be occurring
+one of these is the side of earth nearest the sun , where plasma from the sun interacts with earth 's magnetosphere
+this interaction transfers energy from the sun to earth 's environment , creating ' magnetic explosions ' when the magnetic field lines connect
+the process of magnetic reconnection can release bursts of energy that are as powerful as billions of megatons of tnt , which send particles surging through space at the speed of light
+on earth , we can see the effects of this in the aurora at the poles , but it can also be dangerous to satellites and cause problems for communications
+at the other side of earth , away from the sun , the spacecraft will pass through a region where earth 's magnetic field lines combine , and produce a similar effect
+after reaching orbit , each spacecraft deployed from the upper stage of the rocket in five - minute increments
+they were stacked together for the launch ( illustrated ) the spacecraft will fly around earth in an elliptical orbit , travelling through two regions where magnetic reconnection is thought to be occurring
+one of these is the side of earth nearest the sun , where plasma from the sun interacts with earth 's magnetosphere the process of magnetic reconnection can release bursts of energy ( illustrated ) that are as powerful as billions of megatons of tnt , which send particles surging through space at the speed of light
+on earth , we can see the effects of this in the aurora at the poles magnetic reconnection can harm satellites ( illustrated ) and affect communications , so scientists are keen to understand more about the phenomenon the spacecraft will sturdy the former phenomenon for one and a half years , while the following science phase will focus on the latter phenomenon
+' after a decade of planning and engineering , the science team is ready to go to work , ' said jim burch , principal investigator for the mms instrument suite science team at the swri in san antonio ( swri )
+' we 've never had this type of opportunity to study this fundamental process in such detail
+' the mission will provide the first three - dimensional views of reconnection occurring in earth 's magnetic space environment
+but aside from providing more information about our own planet , scientists will use the data to work out how the sun affects other planets , and also how the process takes place in other stars
+the four spacecraft will be placed in a pyramid formation ( illustrated ) , separated by distances of 6.2 to 62 miles ( 10 to 100km ) , in preparation for science observations that are scheduled to begin in early september the core of each spacecraft is about four feet ( 1.2 metres ) tall and 11 feet ( 3.4 metres ) wide , although with all of their booms and antennae deployed ( illustrated ) , they grow to 369 by 94ft ( 29 by 112 metres ) the mission will provide the first three - dimensional views of reconnection occurring in earth 's magnetic space environment ( illustrated )
+scientists will use the data to also work out how the sun affects other planets , and also how the process takes place in other stars the data could also provide information on how magnetic reconnection occurs near black holes and neutron stars , and also at the edge of the solar system at the boundary of our sun 's influence and interstellar space
+' mms is a crucial next step in advancing the science of magnetic reconnection â and no mission has ever observed this fundamental process with such detail , ' said jeff newmark , interim director for nasa 's heliophysics division at the agency 's headquarters in washington
+' the depth and detail of our knowledge is going to grow by leaps and bounds , in ways that no one can yet predict

@@ -1,0 +1,16 @@
+its firechat app paved the way for chatting to friends without the need for the web or even a mobile signal
+and now developers at open garden have built a small device designed to make these off - the - grid networks stronger
+called greenstone , the egg - shaped gadget acts like a beacon , or booster , to help messages move around these so - called wireless mesh networks more easily
+its firechat app paved the way for chatting to friends without the need for the web or even a mobile signal
+and now developers at open garden have built greenstone - a small egg - shaped gadget that acts like a beacon , or a booster , to help messages move around so - called wireless mesh networks more easily firechat launched last year and has been downloaded more than five million times
+it takes advantage of a feature that launched in apple âs ios 7 called multipeer connectivity framework ( mcf )
+multipeer connectivity framework lets you send messages and photos even when a person has no signal by creating what is called a wireless mesh network
+it creates what âs called a wireless mesh network that connects phones to each other
+instead of sending messages using mobile or data signal , the features lets users send messages to people in close proximity that are in bluetooth or wi-fi range - up to around 30 feet ( 9 metres )
+it does this by creating a localised network in which each phone becomes a node and the data is passed between nodes
+when a user opens the firechat app , they pick a screen name to start sending messages
+the app creates a localised network in which each phone becomes a node , and the data is passed between nodes
+christophe daligault , chief marketing officer at open garden told daily dot : ' the combination between [ greenstone ] and the smartphones will enable a community , or a neighbourhood , or a hospital , or any other situation where they want resilient communication , even in the case of not having any connectivity
+greenstone is still under development and only currently works with firechat at a range of around 20ft ( 6 metres )
+messages sit on greenstone until another firechat comes within range , and the device has a one - year battery life
+open garden is now working with manufacturers to design and sell greenstone and the timeframe will depend on these partnerships .

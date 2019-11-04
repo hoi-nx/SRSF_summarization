@@ -1,0 +1,10 @@
+so adidas has partnered with spotify to create an app that tracks your speed and matches music to suit
+called adidas go , the songs are additionally selected based on the runner 's musical interests and listening history and these selections become more relevant the more the app is used
+adidas has partnered with spotify to create an app that tracks your speed and matches music to suit
+called adidas go , the songs are additionally selected based on the runner 's musical interests and listening history and these selections become more relevant the more the app is used once installed the app uses the phone 's accelerometer to track the user 's stride , it then searches for songs in the spotify library with matching beats per minute
+the app will continue to track and adjust the playlist accordingly , for example if the runner slows down or speeds up
+songs are played in full but users can skip tracks if they want to
+' adidas go lets your energy level control the music that plays during your run , so you 're always in control
+' the free app also intuitively streams spotify tracks that match the runner 's interests based on their preferred playlists , artists and genres and listening history
+adidas go is available for ios only via the apple app store , with support for devices from iphone 4s models or later
+once installed the free app uses the phone 's accelerometer to track the user 's stride , it then searches for songs in the spotify library with matching beats per minute

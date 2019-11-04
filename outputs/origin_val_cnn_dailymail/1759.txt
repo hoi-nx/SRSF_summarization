@@ -1,0 +1,27 @@
+it âs easy to let your speed creep upwards when driving on a quiet motorway , but being caught on speed camera can be expensive
+to solve the problem ford has introduced a setting in its latest car model to stop drivers accidentally exceeding speed limits
+the built - in device , called the intelligent speed limiter , automatically detects road signs and cameras and slows the car down where necessary
+this image shows the system display on the dashboard , where the maximum speed is set at 50mph ( 80km/h ) it does this by using a windscreen - mounted camera to monitor road signs and when the speed limit is lower than that maximum set speed
+drivers have to manually set a maximum speed using controls on the steering wheel , so they might choose 70mph ( 113km/h ) for a motorway , for example
+as speed limit rises , from small roads to highways , the system allows the driver to accelerate up to the set speed , providing it does not exceed the new speed limit , or the maximum limit set by the driver
+the speed limiter is essentially a variation of a cruise control setting and allows the driver to set a maximum speed for the car
+the system , in the s-max car ( pictured ) is essentially a variation of a cruise control setting and allows the driver to set a maximum speed for the car if the on board technology detects a lower speed limit is in place , on a motorway for example , then it slows the car down to that speed ( illustrated ) and then increases it if and when the limit goes up again the intelligent speed limiter can be controlled via controls on the steering wheel
+drivers manually set a maximum speed
+the maximum speed is automatically adjusted from the traffic sign recognition system
+this uses cameras to read road signs and restrictions that are taken on - board by the instrument
+cars with a built - in gps can also use map data to support the system , particularly on roads where there are few speed signs
+the system controls speed using engine torque , electronically adjusting the amount of fuel delivered , rather than applying the brakes
+if the vehicle accelerates past its maximum speed limit on a hill , an alarm sounds so the driver can take action
+if the on board technology detects a lower speed limit is in place - on a motorway for example - then it slows the car down to that speed and then increases it if and when the limit goes up again
+the intelligent speed limiter communicates with an on - board navigation system to glean extra data in order to help it accurately maintain the appropriate maximum speed when distances between speed limit signs are greater , for example on long country roads
+ford claims the system could save drivers from picking up speeding tickets or getting pulled over by the police for going too fast
+â drivers are not always conscious of speeding and sometimes only becoming aware they were going too fast when they receive a fine in the mail or are pulled over by law enforcement , â said ford europe safety supervisor , stefan kappes
+â intelligent speed limiter can remove one of the stresses of driving , helping ensure customers remain within the legal speed limit
+â the limiter works between speeds of 20mph and 120mph and the speed is reduced by restricting the amount of fuel supplied to the engine , making deceleration smoother
+the intelligent speed limiter communicates with an on - board navigation system to glean extra data in order to help it accurately maintain the appropriate maximum speed when distances between speed limit signs are greater
+the system is designed to stop people being caught by speed cameras ( stock image ) if the car goes downhill and picks up speed that can not be restricted this way , then an alarm will sound so that the driver can apply more braking
+drivers can override the system by firmly putting their foot down on the accelerator
+the intelligent speed limiter combines two current ford technologies â the adjustable speed limiter and traffic sign recognition , which are available on focus , mondeo and kuga models
+the s-max model can also detect a person or object in the road ahead and slam the brakes on if the driver does not do so themselves
+ford executive technical leader pim van dr jagt said : â we âre not just developing cars at ford , we âre also developing technologies to make driving more convenient , safer , and ultimately help improve mobility around the world
+â the s-max with the new technology can now be ordered from Â£ 24,545 .

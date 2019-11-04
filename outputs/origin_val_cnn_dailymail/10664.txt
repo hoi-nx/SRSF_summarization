@@ -1,0 +1,54 @@
+facebook is ' illegally ' tracking people âs internet searches across the web , even if they do not have an account with the social network
+the technology company is using so - called internet â cookies â â little pieces of tracking data - to collect information about people âs activity online , each time they visit a website which features a facebook button
+academics in belgium claim that mark zuckerberg 's social network is breaching eu privacy laws by placing the tracking cookies on computers without the user 's consent to log their browsing data
+privacy : academics in belgium claim that facebook , founded by mark zuckerberg ( pictured last week ) and with 1.3bn users , is placing tracking cookies on computers without the user 's consent facebook buttons are on more than 13 million ordinary websites , including those run by the government and the national health service , and allow users to do things such as â like â a website , or â share â the link on their own facebook page
+a new report from the university of leuven and a brussels university claims that facebook is tracking internet users in european for two years even if they have expressly opted out
+facebook has more than 1.3 billion users but there are millions more visits from people who are not signed up
+the researchers say facebook is putting tracking cookies on internet users ' laptops , pcs and phones when the visit facebook.com - so they can target them with online advertising
+this includes anyone clicking on a fan page or other pages still available without a login , or even when they visit some of the 13million pages with a facebook module on it and do not click on it
+the company first plants a tracking cookie on a user âs computer whenever they visit a website hosted on facebook , such as a page for a friend âs birthday party , a fan page for a celebrity , or for a brand or shop
+after that , any web page they visit which features a facebook button will relay information back to the social network
+and the problem only becomes worse if they try to protect their privacy online , by â opting out â of allowing web companies to track them
+under eu privacy law websites must gain consent before using a cookie , with few exceptions , and websites must ask users to accept cookies when they visit for the first time
+privacy campaigners have today accused facebook of taking â staggering â liberties by behaving in this way , and suggested that people can only really protecting themselves if they stop using the internet
+many online companies use cookies , sent over the internet and â planted â on people âs computers , to gather as much information as they can about their users
+these little pieces of data send information back to the companies â servers , allowing them to â remember â the user
+often this can help them do simple things like â remembering â the user , so that they do nât have to log in afresh every time they visit a particular website
+but cookies are also used to gather information about what websites people have visited , at which times of day , so that companies can target them with carefully tailored adverts
+this practice , known as â behavioural advertising â , means that users who research a particular car online , for example , would then see an advert for the same car when they visit an unrelated website
+users can theoretically stop companies from tracking their information in this way by clicking an â ad choices â button , featured on many websites
+once they click that button , people are invited to pick and choose which internet companies are allowed to track them , or just ban them altogether
+however , researchers said today that facebook takes the request to â opt out â of online tracking as a cue to plant an extra cookie on people âs computers instead
+claims : people who visit facebook without signing in or one of 13million external pages with a ' like ' module are allegedly automatically tracked - even if they expressly opt - out the special cookie , called â datr â , gives that person âs computer or smartphone a unique tracking number , and allows facebook to follow its activity for the next two years
+report author brendan van alsenoy told the guardian : ' european legislation is really quite clear on this point
+to be legally valid , an individual 's consent towards online behavioural advertising must be opt - in
+' facebook can not rely on users ' inaction - not opting out - to infer consent
+as far as non-users are concerned , facebook really has no legal basis whatsoever to justify its current tracking practices
+' the report 's authors said that those who make the effort to opt out of getting facebook cookies are given one as a result
+co-author gã¼nes acar said : ' if people who are not being tracked by facebook use the ' opt out ' mechanism proposed for the eu , facebook places a long - term , uniquely identifying cookie , which can be used to track them for the next two years
+' â if you take measures to protect your privacy from facebook , you are actually going to be followed more on the internet , â said rob heyman , another of the authors of the report
+privacy campaigners said today that facebook seemed to have forgotten that people are private citizens , rather than money - making machines
+â it is both staggering and disappointing that facebook feels the need to track non-facebook users , people who do nât want to interact with the social platform , â said renate samson , chief executive of the lobby group big brother watch
+â just because internet companies can do something does nât mean that they should do it
+this takes it a big step further than what [ european commission attorney bernhard ] shima was saying , which is that if you do nât want to be spied on , you should opt out of facebook
+actually , you need to opt out of the internet
+â mr shima said last week that people should close their facebook accounts if they want to ensure that u.s. security services are not spying on their information
+facebook today said that the report was inaccurate and the researchers had persistently ignored their request to meet
+a facebook spokesman said : ' this report contains factual inaccuracies
+the authors have never contacted us , nor sought to clarify any assumptions upon which their report is based
+neither did they invite our comment on the report before making it public
+' however , we remain willing to engage with them and hope they will be prepared to update their work in due course
+' ' earlier this year we updated our terms and policies to make them more clear and concise , to reflect new product features and to highlight how we 're expanding people 's control over advertising
+we 're confident the updates comply with applicable laws including eu law
+' facebook was last month accused of acting in violation of eu privacy laws by the same academics who claimed they had just expanded its old policy , not changed it , which facebook denied
+the group claimed the social media site ' placed too much burden ' on users , rather than protecting themselves
+the site uses cookies â small files which it places on your web browser or device â to collect information which can then be transmitted back to facebook
+the move has been condemned by privacy campaigners â if a facebook user opts out , facebook promises to stop collecting or using browsing information for the purpose of showing ads. running a number of tests , we confirmed that facebook still tracks its users when they visit a webpage containing facebook social plugins , even after the user â opts out â , â the researchers concluded
+â facebook tracks its users across websites even if they do not make use of social plug - ins , and even if they are not logged in
+â in january an austrian court said it will consider a class action against facebook by 25,000 people who are claiming their privacy has been breached
+the david v goliath case is being spearheaded by law student schrems , who wants mark zuckerberg 's social media site to compensate him and his supporters with a symbolic Â£ 400 each
+a hearing in vienna on april 9 will consider whether the lawsuit is admissible
+mr schrems began his legal challenge last june , claiming that facebook supplied personal information to the us prism spy programme
+over the next few months 25,000 people added their names to the lawsuit
+the programme is the u.s. secret service 's worldwide monitoring and data mining system and was exposed by whistleblower edward snowden last year
+mr schrems is claiming damages of Â£ 397 ( â¬ 500 ) per supporter , meaning that if the case was expanded and the activists won , facebook would have to pay out a total of Â£ 23.8million .

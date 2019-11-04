@@ -1,17 +1,28 @@
-import torch
 from utils.plaintext import PlaintextParser
-from utils.sentence_feature import SentenceFeature
-from nltk.tokenize import word_tokenize
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
-from sumy.utils import get_stop_words
-import numpy as np
 import string
 import warnings
+from nltk.tokenize import word_tokenize
+from sklearn.feature_extraction.text import CountVectorizer
+
+from sumy.utils import get_stop_words
+
+from utils.plaintext import PlaintextParser
+from utils.sentence_feature import SentenceFeature
 
 warnings.simplefilter("ignore", UserWarning)
 import nltk
+import ssl
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
+import os
+import torch
+import numpy as np
 
 
 class Vocab():
@@ -169,6 +180,26 @@ class Vocab():
         # sumaries is goal summary
 
         return features, targets, summaries, doc_lens, sents_lenssssss, content_featuressss
+
+    def make_origin(self, batch, id, split_token='\n'):
+        # trunc document
+        for doc, label,gold_summary in zip(batch['doc'], batch['labels'],batch['summaries']):
+            sents = doc.split(split_token)
+            labels = label.split(split_token)
+            labels = [int(l) for l in labels]
+            gold_sum=gold_summary.split(split_token)
+            sents_lables=[]
+            for index, values in enumerate(labels):
+                if(values == 1):
+                    sents_lables.append(sents[index])
+
+            with open(os.path.join("outputs/ref_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
+                f.write('\n'.join(sents_lables))
+            with open(os.path.join("outputs/gold_summary", str(id) + '.txt'), 'w') as f:
+                f.write('\n'.join(gold_sum))
+            with open(os.path.join("outputs/origin_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
+                f.write('\n'.join(sents))
+
 
     def _get_avg_doc_freq(self, X, unprocessed_words):
         """

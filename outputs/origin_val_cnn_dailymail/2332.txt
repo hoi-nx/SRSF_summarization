@@ -1,0 +1,22 @@
+a new robot that moves just like a salamander has been created by engineers
+the robot , called pleurobot , walks and swims in a life - like way that mimics the shy amphibious creatures
+it was developed by recording 3d x-ray videos of short - ribbed salamanders - europe 's largest salamander - allowing researchers to track 64 points on the animal skeleton
+it was developed by recording 3d x-ray videos of short - ribbed salamanders - europe 's largest salamander - allowing researchers to track 64 points on the animal skeleton scientists behind the robot , which has 27 movable joints , believe it could be used to help palaeontolgists understand how extinct animals like the dinosaurs moved
+a video released by google 's boston dynamics sparked complaints after an engineer kicked one of its dog - like robots to show off its ability to remain upright
+viewers said the robot had been mistreated and claimed the employees were being cruel
+it sparked a debate about whether it was possible to be cruel to a robot
+ethicists and robotics experts waded into the argument to explain the only way it could be unethical would be if the robot could feel pain
+others pointed out it is impossible for robots to have feelings
+they say as it is able to cope with a range of different terrain and squeeze through relatively small spaces , the robot could also be used to help search for people trapped in disaster zones
+and they added that the robots highly flexible spine also allows it to swim in water , but only if it is given a waterproof skin
+professor auke jan ijspeert , a researcher at the biorobotics laboratory at the swiss federal institute of technology in lausanne ( efpl ) , has been leading the development of the robot
+according to the group 's website : ' because of its low centre of mass and segmented legs it can navigate over rough terrain without losing balance
+' with a waterproof skin it can also swim
+' those features may one day enable pleurobot to help in search and rescue operations
+' on the other hand , salamanders are a good living analog for the first tetrapods that made the transition from water to land
+' in the future , we plan to use pleurobot 's design methodology to bring early tetrapods to " life "
+' its engineers say that because it is able to cope with a range of different terrain and squeeze through relatively small spaces , the robot ( pictured ) could be used to help search for people trapped in disaster zones salamanders are remarkable creatures capable of regenerating limbs and researchers at ucl ( ucl ) recently identified the biological pathway involved
+called erk ( extracellular signal - regulated kinases ) , the pathway must be constantly active for salamander cells to regenerate - a process not seen in the same way in other mammals
+although a long way from achieving the same feat in humans , the discovery could help researchers unlock the â regenerative potential â of cells across other animals
+scientists behind the robot , which has 27 movable joints , believe it could be used to help palaeontolgists understand how extinct animals like the dinosaurs moved
+a short - ribbed salamander is pictured

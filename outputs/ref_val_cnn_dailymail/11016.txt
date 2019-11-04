@@ -1,0 +1,19 @@
+now an archaeologist is hoping to merge the present with the past using augmented reality to make people feel as if they have travelled back in time
+the dead men âs eyes app puts virtual buildings on top of real world images , and his dead men âs eyes âs nose bag emits odours to make the environment smell like it would have done in the past
+the dead men âs eyes prototype was developed by dr stuart eve from ucl
+it uses augmented reality to lay virtual images onto the real world ( virtual huts are shown on the site of a prehistoric settlement on leskernick hill , cornwall )
+the setup uses the camera on an ipad and an augmented reality app the prototype applications and hardware were developed by dr stuart eve , an honorary research associate at the institute of archaeology university college london ( ucl ) and a member of l - p : archaeology
+when they hold the ipad âs camera up to the landscape , virtual reconstructions are placed on top of the real world images
+it uses a mixture of the unity3d gaming engine and vuforia âs augmented reality technology to place the virtual layers in their correct location and perspective - taken from archaeological data - based on where the user is stood
+' augmented reality enables us to give glimpses into the past - that are not possible if you are just walking around a site or indeed part of a city of a rural field in the middle of nowhere , ' dr eve told mailonline
+' these ' experiences ' could be easily recreated within a virtual reality environment , by donning an oculus rift and some vr gloves we can see and touch the past
+when dr eve held the camera up to the hill ( left ) a series of huts appeared to make it look like he was exploring the ancient village ( right )
+these reconstructions move and change in real - time as the user moves around the terrain to make this experience more immersive , the archaeologist also developed the dead men âs nose ( shown being worn by dr eve )
+it can emit specific smells and these could include the smell of barbecues wafting through a virtual scene , or the bag could feature smells of woodsmoke and manure ' however , by creating the whole experience within a computer and then donning a pair of closed goggles - we run the risk of cutting ourselves off from the real world - and creating bands of zombies plugged into computers who never have any experience of the real world and instead choose to live within a virtual world - with all interactions mediated through a computer
+when they hold the ipad âs camera up to the landscape virtual reconstructions are placed on top of the real world images
+it uses a mixture of the unity3d gaming engine and vuforia âs augmented reality technology to place the virtual layers in their correct location and perspective â taken from archaeological data â based on where the user is stood
+the dead man âs nose is a prototype of a smell delivery device that wafts smells to the user 's nose based on their location
+â seeing a reconstruction of the village that can be physically explored when you are standing in the real location is a visceral experience and , for me , comes pretty close to a time machine , â added dr eve
+to make this experience more immersive , dr eve has also developed the dead men âs eyes âs nose bag
+â the dead man âs nose is a very early prototype of a smell delivery device that wafts certain smells gently into your nose based on your location , â said dr eve
+â technological development is moving at an incredible rate , and already it is possible to wear transparent glasses with forward - facing cameras to overlay the ar information directly onto your field of vision , rather than having to use a portable handheld device such as a mobile telephone â continued dr eve

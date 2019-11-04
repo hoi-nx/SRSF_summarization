@@ -1,0 +1,8 @@
+a team of experts has found a way to bypass the iphone lock screen using a diy hacking kit apple phones are designed to ward off hackers by locking the phone after too many incorrect attempts at entering a passcode
+but a team of experts has found a way to bypass this security feature using a diy hacking kit made from parts bought online
+the gadget plugs into a phone and simulates the pin entry over usb meaning it can bruteforce every possible combination until it finds the correct one
+importantly , by connecting directly to the phone 's power source , it can override the ' erase data after 10 attempts ' setting
+the hack and device was devised by experts from london - based mdsec , authors of the mobile application hacker 's handbook
+' although we âre still analysing the device it appears to be relatively simple in that it simulates the pin entry over the usb connection and sequentially bruteforces every possible pin combination
+the hack and device was devised by experts from london - based mdsec
+' mdsec 's total setup cost around Â£ 200 ( $ 297 ) , and the researchers explained that because each pin entry takes approximately 40 seconds - including the phone shutting down - it can take more than four days to bruteforce a four - digit code

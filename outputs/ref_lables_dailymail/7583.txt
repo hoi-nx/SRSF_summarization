@@ -1,0 +1,7 @@
+from medical problems to travel plans , your google searches can reveal a intimate snapshot of your life
+while it can be easy to forget these searches , if you were logged into a google account , all these queries have been saved
+now google is offering users the option of downloading their entire search archive , as well as deleting part , or all , of the record
+are you curious about what you were searching for on google this time last year ? now you can find out with a new tool that downloads a history of every google search you ever made while logged into a google account visit history.google.com and log in with your google account
+the feature exports your searches to google drive in a zip archive , with files divided by year and quarter
+the feature exports all of your searches to google drive in a zip archive , with files divided by year and quarter google stresses that only account holders can see their data
+the company has also warned user not download the search archive on a public computer to maintain privacy

@@ -1,0 +1,33 @@
+uber has opened up its online booking to allow any app to call a car
+previously , only a handful of uber 's corporate partners had permission to hail uber cars directly
+now , the ride - hailing service hopes app developer will boost its usage by including car - hailing capabilities
+the firm said it hoped developers would use the system to make their apps ' smarter '
+in blog post uber recently said it would be partnering with roboticists at carnegie mellon university
+it is said to have opened a research facility in pittsburgh with the intention of creating a self - driving car , going head - to - head with google 's efforts
+google was an early backer of the san francisco - based firm , investing $ 258 million ( Â£ 170 million ) in the controversial ride - sharing service through its venture capital arm in august 2013
+david drummond , google 's chief legal officer and senior vice president of corporate development , then joined the uber board of directors
+uber is already working with companies such as starbucks , united , opentable , timeout and tripadvisor - but now anyone can write an app that uses uber
+' this makes great business sense for us and our driver partners , ' said rahul bijor , api product manager at uber
+' every new ride request that comes through the api means even more business for our driver partners , ' he said
+the firm said it hoped developers would use the system to make their apps ' smarter '
+' we are eager to make this endpoint available because we know how satisfying it is to create technology that impacts the physical world , ' the firm said
+' putting this power in the hands of developers has our imaginations running wild
+' should an uber be waiting immediately after your last meeting of the day ? will someone create a way to request a car with just a simple sms ? we have no idea what you might build , but we can not wait to find out
+' the ride - hailing company , which links drivers to riders through an app , announced plans this month to create 1 million jobs for women as drivers by 2020 â suggesting aggressive growth plans for the coming five years
+in the u.s. , where uber got its start six years ago , the company boasts 160,000 active drivers - just 14 % of them are women
+' uber does not require ( minimum ) hours , and it does not require a schedule , ' yoo , uber 's general counsel , said in an interview on monday , referring to why women might find working for uber attractive
+' it offers the chance to be entrepreneurial , the chance to balance work and family
+' female passengers will not yet have the ability to request female drivers , yoo said
+she emphasized the app 's safety features , including the notification of the driver 's identity received by customers on their phones beforehand , and the ability to share via text message an estimated arrival time with others
+the pledge comes as the rapidly expanding company deals with fallout over incidents of assaults by drivers from boston and chicago to delhi
+in the highest - profile case , an indian woman said in december her driver raped her in delhi , leading to outcries and a temporary ban of uber in that city
+uber screens drivers , including the use of background checks that vary from country to country
+it does not hire drivers as full employees
+instead , it lets them use the smartphone - based app to connect them to passengers looking for a paid ride , and takes a cut of the fare
+the ride - hailing company , which links drivers to riders through an app , announced plans this month to create 1 million jobs for women as drivers by 2020 â suggesting aggressive growth plans for the coming five years
+uber lets consumers use an app to locate a driver and instantly book a ride
+google maps software is already integrated into uber to let users check progress of drivers on their way to pick them up
+san francisco - based uber has grown into one of the world 's largest start - ups , and now operates in more than 200 cities in 54 countries around the world
+but the app 's growth has also cause friction with existing taxi operations , and posed challenges for regulators
+uber does not employ drivers or own its vehicles , but instead uses independent contractors with their own cars
+since launching in 2010 , uber has also been dubbed a prime example of a ' disruptive ' economic force , and taxi drivers in dozens of cities have staged protests against the firm .

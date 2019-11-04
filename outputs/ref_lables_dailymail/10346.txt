@@ -1,0 +1,16 @@
+neuroscientists have succeeded in creating ' ghosts ' in the laboratory by tricking the brains of test subjects into feeling an unexpected ' presence ' in the room
+the spooky experiment which conjured up a ghostly illusion in the laboratory has proved once and for all that it 's only our mind playing tricks
+the invisible , creepy presence reported by so many people over the centuries is just a set of mixed - up signals in the brain , the researchers say
+' this confirms that it is caused by an altered perception of their own bodies in the brain , ' said professor blanke of the epfl ( epfl ) in swiss blindfolded and wearing ear - plugs , test subjects performed movements with their hand attached to a robotic device
+the sensation was re-created by researchers using a robot to interfere with the sensory signals in the brains of blindfolded volunteers
+however , if this is not fully integrated because i 'm doing it or if i can not correctly predict because somebody else were to touch me ; in those cases of uncertainty , very often in those cases of double touch , the response is that you feel ticklish or tickled by somebody else , ' said blanke who is leading the research at the epfl in lausanne , swiss ( epfl )
+blanke 's team began by analyzing the brains of 12 patients with neurological disorders who have reported having such a secondary representation of their body , in other words a ghost sensation
+these brain regions together contribute to multi sensory signal processing , important for the perception of one 's own body
+the scientists then conducted an experiment to ' trigger ' a similar neurological sensation in healthy subjects
+blindfolded and wearing ear - plugs , test subjects performed movements with their hand attached to a robotic device
+' we built a robot which allows us to distort this signal , which makes it hard - or impossible actually - our robot makes it impossible for our healthy subjects now to predict those signals
+artificial ' ghosts ' have been conjured up by scientists in an experiment so spooky that two participants asked for it to stop
+by having signals mixed up in their brains ( shown ) , volunteers were made to feel that a creepy ' presence ' was behind them
+' so strong , that some of them decided not to finish the experiment , ' said blanke
+the robot creates a disconnect between the movements subjects make and the sensations they were expecting , mixing up ' sensorimotor ' brain signals of individuals so that their brains no longer recognized input signals as belonging to their own body
+' we are very interested in pursuing this line of work to build similar robotic devices based on our prototype that do not induce psychotic symptoms in healthy subjects but a similar robot that could be used to down regulate psychotic symptoms in actual patients

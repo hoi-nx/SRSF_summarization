@@ -1,0 +1,15 @@
+it could mean the end of scrabbling for your credit card - and your hpone
+china 's internet tycoon ma , founder of giant online merchant alibaba , gave a glimpse of the future when he demonstrated a new e-payment system using facial recognition at the cebit it fair in german
+criss - crossing the stage in the style of a silicon valley pioneer late sunday , ma showed off the technology that uses facial recognition from a smartphone camera selfie as a digital signature
+the founder and executive chairman of alibaba , ma , speaks during the official opening of the cebit technology fair in hannover , german on march 15 , 2015 Â© tobias schwarz ( afp ) cards are linked to google wallet , and payments can be made for online purchases and in shops using a phone 's contactless nfc chip google wallet is a free mobile payment and digital wallet that securely stores a user 's credit cards , debit cards , gift cards , loyalty cards and offers
+cards are linked to the wallet , and payments can be made for online purchases and in shops using contactless nfc chips
+developers can currently use this api to add ' buy with google ' buttons to apps , which android pay would effectively supersede if it works as expected
+' i want to take this opportunity to demonstrate a small innovative product that we designed , ' ma said
+he used the technology to buy a gift for the mayor of hannover â a souvenir stamp dating back to one of the city 's trade fairs in 1948 â found on alibaba , of course
+' using online payments to buy things is always a big headache , ' he said
+' you forget your password , you worry about security
+' today we 'll show you a new technology , how in the future people will buy things online
+' on a smartphone he pressed a ' buy ' button , which triggered a face - recognition routine
+ma , a former teacher , is known for thinking big , and at this week 's cebit he was the keynote speaker , addressing an audience that included german chancellor angela merkel
+alibaba operates its own online payment system alibaba , and has received approval from beijing to open a private bank
+it also offers a navigation system , an online tour operator , and a music streaming service , among other things

@@ -1,4 +1,4 @@
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 
 import glob
 import sys
@@ -7,8 +7,9 @@ from tqdm import tqdm
 import json
 from collections import namedtuple
 import numpy as np
+import os
 
-sys.setrecursionlimit(1500)
+sys.setrecursionlimit(30000)
 
 
 def readFile(filePath):
@@ -24,6 +25,8 @@ def evalution(summary, references):
     rouge = Rouge()
     scoress = []
     for index in tqdm(range(len(references))):
+        # if index == 2218 or index ==2220 or index ==2219 or index == 8975 or index == 8976 or index == 8973 or index == 8974 or index==10328 or index ==10329 or index == 10330:
+        #  continue
         scores = rouge.get_scores(summary[index], references[index])
         scoress.append(scores)
     return scoress
@@ -50,11 +53,11 @@ def rouge(summary, references):
 
 
 def sentence_of_system(summary):
-    sentence_of_system = []
+    sentence_of_systems = []
     for index in range(len(summary)):
         sentences = summary[index].split("\n")
-        sentence_of_system.append(sentences)
-    return sentence_of_system
+        sentence_of_systems.append(sentences)
+    return sentence_of_systems
 
 
 def sentence_of_ref(references):
@@ -93,21 +96,31 @@ def evalution_by_lable(list_all_true_candidates, sentence_of_system, sentence_of
     print(np.mean(f1))
     print(np.mean(r))
     print(np.mean(p))
+    return f1, r, p
 
 
 if __name__ == '__main__':
-    listFileSummary = glob.glob("hyp_your_cnn_dailymail/*")
+    listFileSummary = glob.glob("outputs_all/hyp/dailymail/RNN_RNN_2F/hyp_dailymail_394/*")
     listFileSummary.sort()
     print(len(listFileSummary))
-    listFilereferences = glob.glob("ref_cnn_dailymail/*")
+    listFilereferences = glob.glob("ref_dailymail/*")
     listFilereferences.sort()
     print(len(listFilereferences))
     summary = readFile(listFileSummary)
+    # print(summary[2220])
     references = readFile(listFilereferences)
-    rouge(summary, references)
-    # sen_sys = sentence_of_system(summary)
-    # print(sen_sys[0])
-    # sen_lable = sentence_of_ref(references)
-    # print(sen_lable[0])
-    # candidate = candidate_of_true(sen_sys,sen_lable)
-    # evalution_by_lable(candidate,sen_sys,sen_lable)
+    print('========')
+    # print(references[2220])
+    # print(summary[2218])
+    # print("======")
+    # print(references[2218])
+    # rouge(summary,references)
+    print(len(summary))
+    sen_sys = sentence_of_system(summary)
+    print(sen_sys[0])
+    sen_lable = sentence_of_ref(references)
+    print(sen_lable[0])
+    list_all_true_candidates = candidate_of_true(sen_sys, sen_lable)
+    print(list_all_true_candidates[0])
+    evalution_by_lable(list_all_true_candidates, sen_sys, sen_lable)
+

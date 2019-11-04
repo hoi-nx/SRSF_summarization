@@ -1,0 +1,21 @@
+facebook is ' illegally ' tracking people âs internet searches across the web , even if they do not have an account with the social network
+the technology company is using so - called internet â cookies â â little pieces of tracking data - to collect information about people âs activity online , each time they visit a website which features a facebook button
+academics in belgium claim that mark zuckerberg 's social network is breaching eu privacy laws by placing the tracking cookies on computers without the user 's consent to log their browsing data
+privacy : academics in belgium claim that facebook , founded by mark zuckerberg ( pictured last week ) and with 1.3bn users , is placing tracking cookies on computers without the user 's consent facebook buttons are on more than 13 million ordinary websites , including those run by the government and the national health service , and allow users to do things such as â like â a website , or â share â the link on their own facebook page
+a new report from the university of leuven and a brussels university claims that facebook is tracking internet users in european for two years even if they have expressly opted out
+facebook has more than 1.3 billion users but there are millions more visits from people who are not signed up
+the researchers say facebook is putting tracking cookies on internet users ' laptops , pcs and phones when the visit facebook.com - so they can target them with online advertising
+after that , any web page they visit which features a facebook button will relay information back to the social network
+under eu privacy law websites must gain consent before using a cookie , with few exceptions , and websites must ask users to accept cookies when they visit for the first time
+claims : people who visit facebook without signing in or one of 13million external pages with a ' like ' module are allegedly automatically tracked - even if they expressly opt - out the special cookie , called â datr â , gives that person âs computer or smartphone a unique tracking number , and allows facebook to follow its activity for the next two years
+to be legally valid , an individual 's consent towards online behavioural advertising must be opt - in
+' facebook can not rely on users ' inaction - not opting out - to infer consent
+' the report 's authors said that those who make the effort to opt out of getting facebook cookies are given one as a result
+co-author gã¼nes acar said : ' if people who are not being tracked by facebook use the ' opt out ' mechanism proposed for the eu , facebook places a long - term , uniquely identifying cookie , which can be used to track them for the next two years
+' â if you take measures to protect your privacy from facebook , you are actually going to be followed more on the internet , â said rob heyman , another of the authors of the report
+privacy campaigners said today that facebook seemed to have forgotten that people are private citizens , rather than money - making machines
+â it is both staggering and disappointing that facebook feels the need to track non-facebook users , people who do nât want to interact with the social platform , â said renate samson , chief executive of the lobby group big brother watch
+a facebook spokesman said : ' this report contains factual inaccuracies
+' facebook was last month accused of acting in violation of eu privacy laws by the same academics who claimed they had just expanded its old policy , not changed it , which facebook denied
+the move has been condemned by privacy campaigners â if a facebook user opts out , facebook promises to stop collecting or using browsing information for the purpose of showing ads. running a number of tests , we confirmed that facebook still tracks its users when they visit a webpage containing facebook social plugins , even after the user â opts out â , â the researchers concluded
+â facebook tracks its users across websites even if they do not make use of social plug - ins , and even if they are not logged in

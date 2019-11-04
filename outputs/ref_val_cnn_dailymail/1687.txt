@@ -1,0 +1,13 @@
+called advicydrive , the wearable monitors your heart rate while driving to determine how awake you are
+if it detects a drop in heart rate , which suggests you 're dozing off , it sounds an alarm on a connected smartphone
+if it detects a drop in heart rate , which suggests you 're dozing off , it sounds an alarm on a smartphone ( illustrated ) when a person falls to sleep their heart rate drops by up around 10 to 30 beats per minute on average
+to detect the most subtle of these changes , advicydrive uses digital photoplethysmography ( ppg ) - an imaging test used to detect changes in blood flow at the microvascular level on the skin
+it measures the driver âs heart rate and breathing via a sensor system knitted into the seatbelt and seat cover
+it 's typically used to monitor blood flow in people with raynaud 's disease , for example , from their fingers and toes
+the clip can be fitted to a wristband but will also attach to a person 's underwear
+the sensor is currently under development , so these claims have not been put to the test , and the firm has launched a campaign on kickstarter to fund the project
+to detect the most subtle of changes , advicydrive uses digital photoplethysmography ( ppg ) - an imaging test used to detect changes in blood flow at the microvascular level on the skin
+it shines a green led onto the skin , and based on the variations in colour that are reflected back , the sensor can detect the heartbeat the clip ( pictured ) can be fitted to a wristband but will also clip to a person 's underwear or clothes
+the sensor is currently under development , so these claims have not been put to the test , and the firm has launched a campaign on kickstarter to fund the project last year , researchers from the biomechanics institute in valencia , spain unveiled the harken system
+it measures the driver âs heart rate and breathing via a sensor system knitted into the seatbelt and seat cover
+advicydrive uses a traffic - light system to monitor the wearer 's heart rate

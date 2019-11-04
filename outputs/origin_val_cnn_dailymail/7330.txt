@@ -1,0 +1,34 @@
+there âs been a lot of focus lately on the rise of virtual reality
+but one firm has developed what it considers to be the next level in gaming - a headset that lets you control on - screen and physical objects using just your mind
+in a demonstration at mobile world congress in barcelona , mailonline put the technology to the test to see if it lives up to the hype
+brain power : the ieee ( ieee ) and australian - based emotiv have developed what it considers to be the next level in gaming - a headset ( pictured ) that lets you control on - screen and physical objects using just your mind the game was developed in partnership with the ieee ( ieee ) and australian - based emotiv
+a â driver â is wired up to emotiv âs electroencephalography ( eeg ) headset and the device is trained to read their unique brain patterns
+the first step involves training the headset to learn the wearer âs â neutral â state
+this involves â clearing their brain â
+they are then asked to think of a repetitive task that will associated with driving the car
+this does n't need to be a driving - related thought ; it can be any thought that the wearer can continuously think and repeat
+victoria woollaston tried out the ieee and emotiv technology at mobile world congress in barcelona
+intense : mailonline 's victoria woollaston tries out the cutting - edge technology for herself â this is the first time i âve worn an eeg headset and expected it to be uncomfortable and intrusive , but it âs the opposite
+you hardly notice you âre wearing it , although its not the most discreet wearable
+â training the headset took less than a minute , for both the neural and push states , but trying to clear your brain is tricky at the best of times , let alone at a noisy and busy trade show
+the â push â state activity can be any thought that the wearer can think about over and over again
+the more precise the thought , the more accurate the pattern and command
+i chose to think about the chords of greensleeves on a piano , but this could be anything from writing your name to thinking of person âs face
+as long as the thought is the same each time , the technology will work at its most efficient
+during the race i did nât realise i was moving the car because i was too busy thinking about the piano chords
+my race time was nine seconds , which put me in 63rd place on the leaderboard or more than 100
+it âs a very strange experience
+it does nât feel like you âre doing anything and you ca nât become immersed in the game or pay attention to the position of the cars because you âre concentrating on your thought pattern
+the technology feels extremely futuristic and i can see its potential but i felt it took away from the enjoyment of playing the game
+â this is known as the â push â state and for mailonline âs test this involved thinking about playing greensleeves on a piano and imaging the finger positions as they move through the chords
+once the headset is trained the game begins
+the wheels of an on - screen car begin to spin to signal that the brain patterns are being recognised
+the wearer is then asked to think about their repetitive task , at which point the car begins to move
+once the headset is trained the game begins
+the wheels of an on - screen car begin to spin to signal that the brain patterns are being recognised.the wearer is then asked to think about their repetitive task , at which point the car begins to move
+during the demonstration , these brain waves moved a car the size of a shoebox around a track and each race involves two players wired up to the headset
+the emotive headsets are embedded with sensors that record electrical activity along the wearer âs scalp , forehead and above the right ear
+these sensors measure and monitor brain waves and these patterns are converted to commands using a brain - computer interface
+the technology is currently a proof - of - concept and there are no immediate plans to release the game and headset
+however , the emotiv headset is available from $ 499 ( Â£ 324 ) and it will work with existing brain - computer interface games and software that work with eeg readings
+the emotiv headset used for the demonstration is called insight and is available to pre-order ahead of the general release in april .

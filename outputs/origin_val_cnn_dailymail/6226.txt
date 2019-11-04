@@ -1,0 +1,19 @@
+if you 've ever gone out , got drunk and made ill - advised calls to exes , friends or family you 'll know the dread and embarrassment that sets in the morning after
+but now an app has been developed to save you from such shame
+drunk mode lets you block certain contacts for a period of up to 12 hours while on a night out and only unlocks these numbers if you can solve maths puzzles
+before a night out , users of the drunk mode app select which contacts they want to block
+they then choose the timeframe ( left ) , which ranges from three to 12 hours
+if an attempt is made to contact the blocked number a ' drunk quiz ' appears that asks them to solve an equation ( right ) drunk mode was built by indiana - based developers from launch llc. before a night out users select which contacts they want to block and for how long
+this ranges from three hours up to 12
+if an attempt is made to call or message a blocked contact a ' drunk quiz ' pop - up appears
+this reveals how long is left on the drunk mode clock and says : ' if you 're ready to disable drunk mode please solve the following equation
+' one example is shown as ' 571 + 332 + 57 '
+users can additionally enter a list of ' drinking buddies ' and track their movements on the app ( left )
+a breadcrumbs feature tracks the user 's own movements to show them where they went on a night out - and these ' breadcrumbs ' ( right ) can be shared online last year , developer bruce yang unveiled the sobrr app. it lets users post as many drunken updates and photos as they like , before they 're automatically deleted after 24 hours
+it even deletes friendships that the user made overnight , too
+the self - destruct feature is similar to snapchat and facebook âs slingshot , but the developers claim sobrr is different because photos are only shared within the user âs geographic area
+after an answer is entered , the user clicks ' submit disable attempt ' to unblock the contact
+if the answer is entered incorrectly and they try to call the contact again , a new equation appears
+users can additionally enter a list of friends , or ' drinking buddies ' , they are out with and track their movements on the app. these friends need to be fellow drunk mode users but can be selected from the phone 's contacts list or facebook
+once connected , if a person wanders off or leaves the group to go home , their friends can check where they are and make sure they 're safe
+a breadcrumbs feature tracks the user 's own movements to show them where they went on a night out - and these ' breadcrumbs ' can be shared online .

@@ -1,0 +1,6 @@
+drunk mode was built by indiana - based developers from launch llc
+before a night out , users select which contacts they want to block
+they then choose the timeframe from between three and 12 hours
+if an attempt is made to contact the blocked number a ' drunk quiz ' appears
+this reveals time left on the clock and asks the user to solve an equation
+users can additionally track their ' drinking buddies ' on a map

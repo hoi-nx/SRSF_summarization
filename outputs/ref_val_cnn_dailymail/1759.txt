@@ -1,0 +1,10 @@
+the built - in device , called the intelligent speed limiter , automatically detects road signs and cameras and slows the car down where necessary
+this image shows the system display on the dashboard , where the maximum speed is set at 50mph ( 80km/h ) it does this by using a windscreen - mounted camera to monitor road signs and when the speed limit is lower than that maximum set speed
+drivers have to manually set a maximum speed using controls on the steering wheel , so they might choose 70mph ( 113km/h ) for a motorway , for example
+the speed limiter is essentially a variation of a cruise control setting and allows the driver to set a maximum speed for the car
+the system , in the s-max car ( pictured ) is essentially a variation of a cruise control setting and allows the driver to set a maximum speed for the car if the on board technology detects a lower speed limit is in place , on a motorway for example , then it slows the car down to that speed ( illustrated ) and then increases it if and when the limit goes up again the intelligent speed limiter can be controlled via controls on the steering wheel
+the intelligent speed limiter communicates with an on - board navigation system to glean extra data in order to help it accurately maintain the appropriate maximum speed when distances between speed limit signs are greater , for example on long country roads
+â the limiter works between speeds of 20mph and 120mph and the speed is reduced by restricting the amount of fuel supplied to the engine , making deceleration smoother
+the intelligent speed limiter communicates with an on - board navigation system to glean extra data in order to help it accurately maintain the appropriate maximum speed when distances between speed limit signs are greater
+the system is designed to stop people being caught by speed cameras ( stock image ) if the car goes downhill and picks up speed that can not be restricted this way , then an alarm will sound so that the driver can apply more braking
+the s-max model can also detect a person or object in the road ahead and slam the brakes on if the driver does not do so themselves

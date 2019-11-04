@@ -1,0 +1,7 @@
+the myford mobile app is free for ford drivers on ios and android
+it lets drivers remotely access their vehicles from their smartphone
+they can set the cabin temperature before they leave their house
+and they remotely locate their vehicle in a car park , for example
+it additionally shows how far a driver can travel on the fuel they have
+this is based on driving style and over time the app learns a driver âs habits
+it currently works with a selection of ford âs electric and hybrid cars but a petrol and diesel version is being developed

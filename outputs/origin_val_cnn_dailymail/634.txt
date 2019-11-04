@@ -1,0 +1,72 @@
+microsoft has confirmed that it is dropping the windows internet explorer brand
+the move was rumoured in december but now the redmond - based tech giant has said it will use a new name for its forthcoming browser , which is currently code named spartan
+it is believed the new browser will look more like google 's chrome browser and be faster than windows internet explorer
+â we âll continue to have windows internet explorer , but we âll also have a new browser which is code named spartan
+we have to name the thing , â he said at microsoft convergence
+the new browser will be the main way for microsoft 10 users to access the internet , although windows internet explorer will continue to exist , the verge reported
+the re-branding move is unsurprising as microsoft has tried and largely failed to shake off the bad reputation of internet explorer 6 , which was notoriously insecure and has regularly made â worst tech products of all time â lists
+the browser , which does not yet have a name , is likely to be rolled out with windows 10
+the new operating system marks the return of the start , which has the traditional list layout of previous versions of the interface , combined with the tile set - up that microsoft introduced in windows 8 ( pictured ) the company is thought to be testing names using market research , but so far no final name has been announced
+internet explorer , which was first called windows internet explorer , was first released as part of the add - on package plus ! for windows 95 in 1995
+internet explorer was one of the most widely used web browsers , attaining a peak of about 95 per cent during 2002 and 2003
+however , it struggled in the face of competition , and in may 2012 it was announced that google 's chrome overtook windows internet explorer as the most used browser worldwide
+the brand has struggled to shake off the bad reputation of internet explorer 6 , which was notoriously insecure
+capossela mentioned that putting â microsoft â in front of the secret name boosted the browser âs appeal to some chrome users in the uk , suggesting the company âs name could appear in the final brand
+mary jo foley of zdnet first shared the rumour of a new browser in december
+' microsoft is building a new browser , codenamed spartan , which is not ie 12 - at least according to a couple of sources of mine , ' she wrote
+thomas nigro , a microsoft student partner lead and developer of the modern version of vlc - a media playing app - claimed on twitter in december that he heard microsoft was building a brand - new browser
+' however , if my sources are right , spartan is not ie 12
+' instead , spartan is a new , light - weight browser microsoft is building
+' it is believed windows 10 will ship with both spartan and ie to ensure compatibility with all web sites
+microsoft has not publicly set a firm timetable for the release of windows
+internet explorer , which was first called windows internet explorer , was first released as part of the add - on package plus ! for windows 95 in 1995 , but since then it has gained a lacklustre reputation
+a stock image showing the software package in 1998 is pictured new operating system will run on the ' broadest types of devices ever '
+various app stores merged into one platform , called the one store
+return of the start , which had been removed from windows 8
+users can create multiple desktops to keep things organised
+last year , it was derided for ' missing one ' when it announced it has decided to jump straight to version 10 of its windows software in a bid to convince consumers the software is different from current versions
+the firm announced the latest version of its windows operating system , called windows 10 , at an event in san francisco
+it admitted the software was ' at a threshold ' after the poorly received windows 8
+myerson , microsoft 's windows chief said : ' there 's about one and a half billion people using windows today
+' windows is at a threshold and now it 's time for a new windows
+' our new windows must be built from the ground up for a mobile first , cloud first world
+' it would n't be right to call it windows 9
+' microsoft said its new operating system will run on the ' broadest types of devices ever ' and will see various app stores merged into one platform , called the one store
+last year , myerson , microsoft 's windows chief , explained how windows 10 will work on everything from a desktop computer to a smartphone - and even the firm 's xbox one games console the new software will also allow users on hybrid devices like the surface pro tablet to jump between and keyboard and touchscreen modes ( pictured ) the new start has the traditional list layout of previous versions of the interface , combined with the tile set - up that microsoft introduced in windows 8
+mr belfiore demonstrated how the new tiles in the new menu can be personalised and re-sized
+this will cover all of the company 's smartphones , tablets and desktop computers
+myerson said windows 10 will be ' a whole new generation ' and , as expected , works across a variety of devices - from phones to gaming consoles
+it also sees the return of the start , which had been removed from windows 8 to many users ' annoyance
+in addition to offering a list of a user 's favourite applications , the menu brings up re-sizable tiles - similar to those featured in windows 8 's touch - centric interface - on pcs and tablets
+the current version , windows 8 , has been widely derided for forcing radical behavioral changes
+microsoft is restoring some of the more traditional ways of doing things and promises that windows will be familiar for users regardless of which version of windows they are now using
+' windows will deliver the right experience , at the right time
+' windows will be our most comprehensive platform , ever , ' said mr myerson
+' we 're delivering one application platform
+one store , one way for applications to be discovered , purchased , and updated across all of these devices
+' the firm announced the latest version of its windows operating system , called windows 10 , at an event in san francisco in december
+it will run on tablets , phones , desktop computers and even the firm 's xbox games console - and come with a yet - to - be - named browser industry experts have been having their say on microsoft 's latest operating system , windows 10 , which was announced at an event in california in december 2014
+many see the upgrade as being the first steps towards righting the unpopular changes made in the company 's previous desktop software , windows 8 , and that is reflected in industry reaction
+stuart miles , founder of technology website pocket lint said : ' the initial reaction is that microsoft had introduced some really good features that will appeal to many and fix many of the annoyances of windows 8
+' it looks like they are doing everything they can to make amends for the mistakes of windows 8 , but with a long lead time and many unanswered questions like release and price , there is still much left to learn
+' that said it looks to be a good move from the redmond based company and one that will benefit many
+' geoff blaber of technology analysts ccs insights also noted the need for microsoft to regain support after windows 8
+' windows is the product of a difficult windows 8 launch and a process of refinement based on vocal user feedback
+microsoft will hope that this marks a fresh start that will convince developers , enterprise and consumers of its one windows strategy ' , he said
+' with windows 10 microsoft has re-evaluated its approach to software releases by adopting a web mentality that dovetails with the cloud first , mobile first vision under satya nadella
+this open , collaborative approach is critical if microsoft is to overcome the wave of negative sentiment that has plagued windows 8 since launch
+' the unveiling of windows is notable for its emphasis on enterprise
+this dialling up of corporate versus consumer functionality is much needed not least because enterprise replacements are driving pc market growth
+' developers are the lifeblood of any platform so it is critical that microsoft 's ' one windows ' mantra delvers on the promise and re-energises developer engagement
+' windows 10 is designed to bring together all of microsoft 's different hardware , such as a the surface tablet ( left ) and the xbox one ( right ) under the same software across desktop pcs as a whole , only 13.4 per cent currently run windows 8 or windows 8.1 , according to research firm netmarketshare
+by contrast , it says 51.2 per cent are powered by windows 7 and 23.9 per cent by windows xp , a version that is no longer supported by microsoft
+the start menu in windows will appear similar to what 's found in windows 7 , but tiles opening to the side will resemble what 's found in windows 8
+belfiore , a microsoft executive who oversees windows design and evolution , said windows 10 will offer ' the familiarity of windows 7 with some of the benefits that exist in windows 8 ' to help business users make the transition
+belfiore said that the company was going ' back to basics ' with windows 10 , and confirmed that the famous start menu , which was removed from windows 8 , would be returning
+' we 're looking to find the balance , so that all the windows 7 users get a familiar experience on the devices they already have , ' he said
+' it gives the familiarity of windows 7 with some of the elements of windows 8
+' he said that going from windows 8 to windows is like going from a prius to a tesla
+' they do n't have to learn any new way to drive
+' mr belfiore also confirmed that windows 10 would be compatible with both traditional and touch - based device users like tablets through a new task view with buttons scaled up so that they 're more friendly to those on touchscreen devices
+users on hybrid devices like the surface pro tablet will be able to jump between and keyboard and touchscreen modes , with microsoft demonstrating how the interface will change as you do
+although the new software wo n't be formally released until later this year , analysts have already said that its success is crucial for microsoft and new ceo satya nadella .

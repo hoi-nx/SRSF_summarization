@@ -1,0 +1,4 @@
+patients at broomfield hospital are given a card with summary of ailment
+the card is red if their illness is serious or green for less urgent issues
+hospital bosses said it was designed to speed up staff assessments
+but trial scheme was described as â insensitive â and like â a police line - up '

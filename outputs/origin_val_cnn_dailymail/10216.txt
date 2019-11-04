@@ -1,0 +1,36 @@
+security experts have warned of the dangers associated with usb drives for some time , but until now , the biggest danger has been viruses and malware
+now there is a new potential threat that turns the lowly thumb drive into a â laptop killer â by using a high voltage to destroy the computer âs components
+dubbed â usb killer â , the crude device was created by a russian electronics expert known as dark purple
+the malicious drive has been dubbed â usb killer â and it uses a high voltage and current to â fry â the laptop âs components
+the prototype ( pictured ) was created by a russian electronics expert known as dark purple the user posted photos and specifications about the project on russian blog habrahabr , and this was later syndicated and posted in english on kukuruku
+the english post said : â i work in [ a ] company engaged in the development and manufacture of electronics
+â in modern computers , the usb â physics â is built in the processor [ and ] the task of the designed usb flash drive is to burn all of this stuff , or at least kill the usb port
+â dark purple posted photos and specifications about his project on russian blog habrahabr
+the user said : ' in modern computers , the usb â physics â is built in the processor [ and ] the task of the designed usb flash drive is to burn all of this stuff , or at least kill the usb port â ( the custom circuit board is pictured ) the drive uses high voltage and high current to â fry â the electronics inside the port
+and because this port is often connected to the cpu , the whole laptop can be affected
+a colleague of dark purple is reported as saying the device is â like an atomic bomb : cool to have , but can not be applied â dark purple ordered the parts , including a custom circuit board , from china before making a â full - fledged prototype â
+and in tests , the user said they had â burnt down â everything they could
+in november a team of berlin - based researchers reverse - engineered the files that control how a usb drive 's software works
+this so - called firmware was then reprogrammed to give complete control of a pc to the hacker
+firmware is a software program , or set of instructions , programmed onto a hardware device
+it tells the device how to communicate with other devices , including computers
+drive manufacturers will often update firmware to improve the performance of their devices
+these changes are made at a central level before being pushed out to individual devices
+the flaw was discovered by karsten nohl and jakob lell at security research labs has been dubbed badusb
+it affects thumb drives and external hard drives , but also any device that connects to a pc using usb
+this includes keyboards and the mouse , as well as the usb drives used to charge phones and tablets
+â the basic idea of the usb drive is quite simple , â explained dark purple
+â when connected to the usb port , an inverting dc / dc converter runs and charges capacitors to -110v [ and ] when the voltage is reached , the dc / dc is switched off
+â the loop runs till everything possible is broken down
+â put more simply , it uses high voltage and high current to â fry â the electronics inside the port
+and because this port is often connected to the cpu , the whole laptop can be affected
+a colleague of dark purple is reported as saying the device is â like an atomic bomb : cool to have , but can not be applied
+â in november a team of berlin - based researchers reverse - engineered the files that control how a usb drive 's software works
+this so - called firmware was then reprogrammed to give complete control of a pc to the hacker
+firmware is a software program , or set of instructions , programmed onto a hardware device
+it tells the device how to communicate with other devices , including computers
+drive manufacturers will often update firmware to improve the performance of their devices
+these changes are made at a central level before being pushed out to individual devices
+the flaw was discovered by karsten nohl and jakob lell at security research labs has been dubbed badusb
+it affects thumb drives and external hard drives , but also any device that connects to a pc using usb
+this includes keyboards and the mouse , as well as the usb drives used to charge phones and tablets .

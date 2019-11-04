@@ -1,0 +1,12 @@
+one of the most pernicious phrases in the debate over how to counter extremist use of social media is " whack - a - mole
+" in national security circles , many believe that suspending social media accounts used by violent extremists is a pointless endeavor
+they argue that , as in the children 's arcade game " whac-a-mole , " suspending accounts is a fruitless endeavor because , they claim , new accounts are created for every account that is suspended
+to examine this assumption , technologist jonathon morgan and i collected data on millions of twitter accounts , including tens of thousands used by isis supporters , and found substantial evidence to the contrary
+in september 2014 , twitter began to crack down on isis supporters who used its platform , suspending tens of thousands of accounts over the course of several months
+the size of isis 's support network on twitter is shrinking as a result
+additionally , we found that the suspensions targeted some of the most active and effective users in the network , the professional activists who empowered isis to broadcast its propaganda to unsuspecting audiences by spamming hashtags such as # worldcup and # cakeboss
+not only has isis suffered a blow to its ability to spam others , its supporters on twitter are so weakened that they are now hoist by their own petard
+but their audience is shrinking and their ability to game twitter with manipulative tactics such as auto - tweeting " bots " has been significantly diminished
+an estimated 10 % of tweets sent by isis supporters are directed at rebuilding their social networks rather than disseminating propaganda , and that does n't account for the additional impact of time lost to the process of creating new accounts and waiting for followers to find them
+these are worthy goals , and they detract from isis 's ability to accomplish its online strategy of intimidation , provocation and recruitment , which is discussed at more length in my new book with jessica stern , isis : the state of terror
+our analysis suggested that the social network of isis supporters on twitter is becoming more insular , with users following each other more and becoming less and less exposed to outside influences

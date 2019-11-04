@@ -1,0 +1,12 @@
+now , an interactive tool can analyse your most recent tweets and its creator claims it can reveal your personality , by looking at how you use words
+called analyse words , it generates a user âs emotional style and says whether they are upbeat , worried , angry or depressed , as well as revealing someone âs social and thinking styles
+try the interactive tool below use the interactive tool above to analyse your most recent tweets and reveal your personality the tool is created by james pennebaker , a psychologist at the university of texas , who studies the link between language and personality
+a results page is then generated that counts the number of recent words studied and lists the latest tweets
+these are the results for barack obama , which show he is very upbeat and quite analytical by inputting a twitter handle , such as a celebrity 's a result page is generated that counts the number of recent words studied and lists the latest tweets
+it can be used to show the difference between people 's emotional , social and thinking styles
+for example , president barack obama ( left ) is upbeat , while katy perry ( right ) is depressed users who are most upbeat use lots of positive words and ' we ' when they tweet
+the tool also analyses a user 's social style and says whether they are plugged in , personable , arrogant or spacy
+it also analyses user 's thinking styles and tells them to what extent their tweets show they are analytical , sensory or how they seem to live in the moment
+users who are most upbeat use lots of positive words and ' we ' when they tweet , whereas angry twitter users say ' you ' a lot and write in capitals , while depressed people make lots of self - references and tend to be inward - looking , the tool says
+singer katy perry 's results are shown , which says she is depressed dr pennebacker has previously developed a computer program called linguistic inquiry and word count ( liwc ) which looks at the choice , frequency and context of words to gauge a person âs psychological state , maria konnikova writes for the new yorker
+the tool also analyses a user 's social style and says whether they are plugged in , personable , arrogant , meaning distant , and or spacy

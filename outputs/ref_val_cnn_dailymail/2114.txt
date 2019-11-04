@@ -1,0 +1,14 @@
+a team of researchers has been customising a defence system used by bacteria and training this scissor - like machinery to recognise the hiv virus
+in their tests , they found that the technique could completely remove up to 72 per cent of cells that had been infected with hiv
+a team of researchers has been customising a defence system used by bacteria and training this scissor - like machinery to recognise the hiv virus ( pictured ) crispr technology precisely changes target parts of genetic code unlike other gene - silencing tools , the crispr system targets the genome 's source material and permanently turns off genes at the dna level
+existing hiv drugs target individual steps of this lifecycle ; some stop the virus from integrating into cells ' dna , for instance , while others try to stop the affected cells from producing more virus
+' to combat this problem , the team turned to a molecular defence system called crispr that bacteria use to cut up foreign dna at specified spots
+the new salk study showed that the method is effective against active , full - length hiv rather than a shortened , inactive version of the virus
+pictured are the study team , from left : john martlett , juan carlos izpisua belmonte , hsin - liao , yuta takahashi , concepcion rodriguez esteban , tomoaki hishida and mo li crispr uses bits of genetic material called guide rnas to dictate its cuts , so the scientists developed guide rnas that bound to unique spots on the hiv virus
+they added crispr , the guide rnas and other molecules needed for the system to work to immune cells that had been infected with hiv
+they found that crispr successfully cut the right spots in hiv 's genes , inactivating the virus
+this resulted in the virus being completely removed from up to 72 per cent of cells
+not only did crispr chop up loose copies of the virus as they initially infected the cell , but it also cut up hiv that was hidden and dormant within the cells ' dna
+while other research groups have taken similar approaches in targeting crispr to hiv , the new salk study showed that the method is effective against active , full - length hiv rather than a shortened , inactive version of the virus
+the salk team also illustrated in a more complete way how crispr targets hiv in living human cells , verifying that it works both before and after the virus is embedded in the genome
+not only did crispr chop up loose copies of the virus as they initially infected the cell , but it also cut up hiv that was hidden and dormant within the cells ' dna ' crispr can actually excise the virus out of the human genome , ' liao says

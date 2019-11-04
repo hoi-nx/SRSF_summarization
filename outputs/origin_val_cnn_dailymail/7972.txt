@@ -1,0 +1,34 @@
+microsoft is working on an advanced version of its competitor to apple 's siri , using research from an artificial intelligence project called ' einstein
+' microsoft has been running its ' personal assistant ' cortana on its windows phones for a year , and will put the new version on the desktop with the arrival of windows 10 this autumn
+it has now been revealed cortana will be available as a standalone app , usable on phones and tablets powered by apple 's ios and google 's android , people familiar with the project said
+cortana could tell a mobile phone user when to leave for the airport , days after it read an email and realized the user was planning a flight
+it would automatically check flight status , determine where the phone is located using gps , and checking traffic conditions
+microsoft has been running its ' personal assistant ' cortana on its windows phones for a year , and will put the new version on the desktop with the arrival of windows 10 this autumn
+' this kind of technology , which can read and understand email , will play a central role in the next roll out of cortana , which we are working on now for the fall time frame , ' said horvitz , managing director of microsoft research and a part of the einstein project , in an interview at the company 's redmond , washington , headquarters
+the plan to put cortana on machines running software from rivals such as apple and google , as well as the einstein project , have not been reported
+cortana is the name of an artificial intelligence character in the video game series ' halo
+' they represent a new front in ceo satya nadella 's battle to sell microsoft software on any device or platform , rather than trying to force customers to use windows
+success on rivals ' platforms could create new markets and greater relevance for the company best known for its decades - old operating system
+the concept of ' artificial intelligence ' is broad , and mobile phones and computers already show dexterity with spoken language and sifting through emails for data , for instance
+still , microsoft believes its work on speech recognition , search and machine learning will let it transform its digital assistant into the first intelligent ' agent ' which anticipates users needs
+by comparison , siri is advertised mostly as responding to requests
+google 's mobile app , which does n't have a name like siri or cortana , already offers some limited predictive information ' cards ' based on what it thinks the user wants to know
+microsoft has tried to create digital assistants before , without success
+microsoft bob , released in 1995 , was supposed to make using a computer easy , but ended up being the butt of jokes
+the clippy nicknamed ' clippy ' suffered a similar fate a few years later
+' we 're defining the competitive landscape ... of who can provide the most supportive services that make life easier , keep track of things , that complement human memory in a way that helps us get things done , ' said horvitz
+outside his door stands ' the assistant ' , a monitor showing a woman 's face that can converse with visitors , has access to horvitz 's calendar and can book meetings
+on his desktop , horvitz runs ' lifebrowser ' , a program that stores everything from appointments to photos and uses machine learning to identify the important moments
+a keyword search for his university professor instantly brings up photos and video from the last time they met
+cortana could tell a mobile phone user when to leave for the airport , days after it read an email and realized the user was planning a flight
+it would automatically check flight status , determine where the phone is located using gps , and checking traffic conditions
+none of the individual steps are a breakthrough , but creating an artificial intelligence that can stitch together the processes marks a breakthrough in usefulness , microsoft says
+apple is also pushing siri , which uses microsoft 's bingsearch engine in the background , into new areas with its homekit platforms , as well as the recently unveiled applewatch
+rivals are on the same track
+google 's latest mobile app uses the predictive power generated from billions of searches to work out what a user is doing , what they are interested in , and sending relevant information , such as when a favorite sports team is playing next
+apple is also pushing siri , which uses microsoft 's bing search engine in the background , into new areas with its carplay and homekit platforms , as well as the recently unveiled apple watch
+the key to cortana 's success will be knowing where a user is , what time it is , and what they are trying to do
+einstein 's work on the relationship between space and time gave rise to microsoft 's secret project name , said horvitz
+' einstein was brilliant about space and time , ' he said
+' it 's using brilliance about space and time generally in our agents
+' ( reporting by bill rigby , editing by peter henderson and john pickering )

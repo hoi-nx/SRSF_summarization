@@ -1,0 +1,18 @@
+the filing details a system of scanning a user 's face with the front - facing camera when the handset is moved into a certain position , and automatically unlocking the device if the image matches one on file
+the patent ( illustrated ) was filed by the californian - based firm in march 2011 and awarded earlier this week
+it details a method of scanning a user 's face using the front - facing camera each time the phone is moved into a certain position
+if the scanned face matches a previously taken photo , the phone unlocks automatically the patent was filed by the californian tech giant in march 2011 and awarded earlier this week
+apple 's patent details a method for automatically unlocking a mobile device using a system comprising of ' capturing an initial image while the device is locked , monitoring a motion state of the mobile device to determine whether the device is moving or is motionless ; analysing the images to detect a user 's face and unlocking the device
+' android lollipop users already have an almost identical feature known as trusted face in the smart lock menu
+once the screen is enabled and the camera is held in front of the face , the screen automatically unlocks
+apple , instead , provides a method for automatically unlocking a mobile device using a system comprising of ' capturing an initial image while the device is locked , monitoring a motion state of the mobile device to determine whether the device is moving or is motionless ; analysing the images to detect a user 's face and unlocking the device
+' android lollipop users already have an almost identical feature known as ' trusted face ' in the smart lock menu
+once the screen is enabled and the camera is held in front of the face , the screen automatically unlocks
+instead , once the phone is moved and positioned in front of the face the camera would begin scanning
+it will only unlock if the angle of the face matches , or is similar to , the one that was initially taken to avoid the phone unlocking simply when the phone is near a face
+instead , once the phone is moved and positioned in front of the face the camera would begin scanning for a face android lollipop users already have an almost identical feature known as ' trusted face ' ( left ) in the smart lock menu
+once the screen is enabled and the camera is held in front of the face , the screen automatically unlocks
+' it continued that once an allotted period of time has elapsed and a user 's face is not detected in any of the images , the device stays locked
+' in another embodiment , detecting the user 's face may also include verifying that the user is an authorised user of the device , ' the files continued
+' trusted face ' and smart lock are extensions of the face unlock feature that was launched on android ice cream sandwich ( pictured )
+this relies on the user pressing the power button to enable the screen ' the predetermined facial profile may be determined from an image that was previously captured by the device 's camera and stored in a storage of images of authorised users

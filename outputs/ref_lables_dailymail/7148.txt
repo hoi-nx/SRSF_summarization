@@ -1,0 +1,8 @@
+it 's no secret celebrities spend thousands upon thousands of dollars on maintaining their looks
+from bloody ' vampire facials ' to placenta serums and of course plastic surgery - the fountain of youth runs deep
+but an app is now trying to cut through all the cosmetics to determine exactly how old a person looks based on a picture
+the website , called how old do i look , it allows people to analyse any image found on bing , microsoft 's search engine , or upload their own
+it even allows users to search for celebrities - and see what microsoft thinks their real ages are
+oops : the site incorrectly guessed 30 - year - old khloe kardashian is actually 44 david beckham , 39 , sporting a full beard , was recognized as being 45 by the system , while 49 - year - old model cindy crawford registered as 40 madonna came out of the software well , being 37 - far below her real age of 56 - while it failed to recognise taylor swift at all 21 year old singer ariana grande was recognised as being 27 - while a logo for a beauty product was spotted as a 15 year old girl not bad : even with his graying beard , brad pitt , 51 , managed to look two years younger ' however , they are still helpful when you want to classify faces by these attributes
+' we found the ability of the face bing search api to estimate age and gender to be particularly interesting and chose this aspect of it for our project
+' family album : the site can even identify groups of poeple it allows people to age and sex any image found on bing , microsoft 's search engine , or upload their own

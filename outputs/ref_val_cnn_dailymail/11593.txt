@@ -1,0 +1,14 @@
+google wants to rank internet pages based on the quality of the facts they contain
+a new paper published by a group of software engineers suggests that the internet search giant may be preparing to change the algorithms it uses to scour the web
+currently searches appear according to a complex combination of key words and links with other websites , but this fails to weed out inaccurate information
+google may be about to change the way it delivers search results to users by ranking results by accuracy instead a google research team has developed a way of measuring the trustworthiness of the information contained on an internet page
+in a paper to be published in the proceedings of the very large database endowment , the google researchers said webpages would be allocated trustworthiness scores
+they said : ' quality assessment for web sources is of tremendous importance in web search
+' currently web searches are ranked by , among other things , the number of incoming links to a page to help google 's search bots determine the quality of the link
+google researchers have developed a new algorithm that looks for facts and inaccuracies on web pages webpages containing inaccurate information can be widely shared and linked to by blogs and other external sites , causing them to feature high up in google search results
+it then counts the number of incorrect facts on a page to give it a trust score
+to help the software the team has developed draws on google 's fast knowledge vault - a store of facts that have been pulled off the internet and are unanimously agreed on as being true
+the list of the top five gossip sites above currently rank in the top 15 per cent of search results but google researchers say that using their new algorithm these will be religated to the bottom half of search results websites that contain contradictory information are then moved down the rankings on internet searches
+in a test of their system , the researchers applied their model to 2.8 billion pages on the internet and were able to reliably predict the trustworthiness of 119 million pages and 5.6 million websites
+when the team applied their algorithm to a list of top 15 gossip websites including yahoo! omg ! , tmz , e online , and gawker they found that they ranked in the bottom 50 per cent of searches
+' however , under the current search system used by google , they rank among the top 15 per cent

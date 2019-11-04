@@ -1,0 +1,24 @@
+from tiny keyboards that learn your intentions to ones that fold in half to save space , the race is on to modify the humble computer keyboard , which has remained largely unchanged since it was invented
+now google has been granted a patent that hints that the clunky piece of hardware could one day be replaced with not much at all
+it suggests that using audio sensors that plug into a smartphone or tablet , any flat surface could be transformed into a virtual keyboard
+just like magic : google has been granted a patent ( image shown ) that suggests that using audio sensors that plug into a smartphone or tablet , any flat surface could be transformed into a virtual keyboard the design would make it far easier to type on devices with smaller touchscreens , which are currently dominated by pop - up keyboards
+the patent suggests that a user would tap on a surface just as if they were typing on a regular keyboard
+the audio sensors would decipher vibrations made by tapping to work out which â keys â a user is pressing and the corresponding letters would appear on a screen , like normal , quartz reported
+the patent hints that the google is one of many thinking about ways to revolutionise large piece of hardware , which have outgrown portable devices such as tablets and phones
+a samsung patent ( pictured ) shows a system that could turn a user âs hand into a keyboard developers have created a keyboard cover that turns every key of the board into one emoji
+once installed , the caps lock key lets users switch between regular and emoji keys meaning people can easily add images to facebook posts , tweets and even official documents
+developers have made a keyboard cover that turns every key into one emoji ( shown ) the emoji keyboard and its custom software were developed by a team of designers at california - based disk cactus
+each of the covers are made of silicone and act like standard covers to block out dust , dirt and liquid
+more than 150 emoji are accessible directly from the keyboard but using the shift , control , and option keys gives access to related characters
+it is available to pre-order from kickstarter for just $ 15 ( Â£ 10 ) and , if funded , will ship in april
+the design may have a few drawbacks however , as it could make typing tricky for people who ca nât touch type and no cushioning when pressing â keys â would mean that the process could become uncomfortable or even painful after a while
+while the patent filing does nât mean that google is working on the design , it hints that the firm is one of many thinking about ways to revolutionise the traditionally large piece of hardware , which has outgrown many portable devices such as tablets and phones
+a patent filed by samsung last march showed a wearable system that could turn a user âs hand into a keyboard
+in the proposed system , people wearing a camera - on a google glass - style device dubbed galaxy glass - would be able to look down at their hands , which would be mapped using a virtual keyboard , and use their thumbs to select the keys , negating the need for a physical keyboard
+the patent reads : â recently there is much interest in the wearable computers such as glasses - type terminal and wristwatch terminals
+â such wearable computers are even more limited in space for mounting an input means such as button type keypad and touchscreen
+' the system involves a camera for capturing an image , a storage unit that stores the â key to hand mapping table , â a display and a control unit
+numbers could be assigned to a forefinger , for example , while symbols could be assigned to the middle finger
+alternatively , letters could be plotted at various points across the fingers and palm from top to bottom
+users would then use their thumb to â press â the various keys on both hands
+the camera would capture the movement of the thumb , or identify the force pressed onto each finger , to establish which key had been pressed and type the message accordingly .

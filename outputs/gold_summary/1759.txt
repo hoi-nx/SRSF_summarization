@@ -1,0 +1,5 @@
+device , called intelligent speed limiter comes in the new s-max model
+drivers set a maximum speed using controls on the steering wheel
+cameras detect road signs and speed cameras so the car be slowed down
+this is done by restricting the amount of fuel supplied to the engine
+system can also detect people and make the car do an emergency stop

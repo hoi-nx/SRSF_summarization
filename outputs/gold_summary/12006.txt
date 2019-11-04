@@ -1,0 +1,4 @@
+' teen driver ' feature lets parents view the maximum speed reached
+they can see distance driven and how often safety features were used
+parents can preset a speed limit so that teenagers do n't drive too fast
+system will be included on 2016 chevrolet malibu which debuts in april

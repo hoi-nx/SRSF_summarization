@@ -1,0 +1,2 @@
+charts show differences in price for common medical procedure in six u.s. cities
+prices for a procedure like a tonsillectomy can range between $ 4,000 and $ 14,000

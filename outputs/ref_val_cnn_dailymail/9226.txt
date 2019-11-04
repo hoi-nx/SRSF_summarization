@@ -1,0 +1,9 @@
+it has been one of the most frustrating paradoxes of modern science - that light exists both as a wave and particle at the same time but can never be seen in both states simultaneously
+albert einstein was the first person to describe this apparent dual state of light in 1905 in an attempt to explain some of the apparently contradictory behaviour it displays
+yet when scientists attempt to observe these states , it has only ever been able to see light behave as photon particle or as an electromagnetic wave
+the bottom ' slice ' of the image shows the particles , while the top image shows light as a wave but now researchers based at the swiss federal institute of technology in lausanne ( epfl ) , have captured the first ever snapshot of light behaving as both a wave and particle
+the work shows that albert einstein was right when he proposed that electromagnetic radiation could behave as both a wave and a particle at the same time
+the technique for capturing the image could be used to help open up new areas of superfast computers that exploit the quantum states of materials
+in a paper published in the journal nature communications , the research team conducted an experiment and then used electrons to image the light
+dr carbone said that the resulting image produces a fingerprint of the wave - nature of light while also simultaneously demonstrating that it is a particle too
+the electrons pass close to the standing wave of light , they hit the photons it contains , again affecting the resulting image .

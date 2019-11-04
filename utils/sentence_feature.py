@@ -1,28 +1,55 @@
 import networkx as nx
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, TfidfTransformer, CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sumy.utils import get_stop_words
+import re
+import math
+import nltk
 import warnings
+
 warnings.simplefilter("ignore", UserWarning)
+
 
 class SentenceFeature():
     def __init__(self, parser) -> None:
         self.sents = parser.sents
-        #print(parser.sents)
         self.sents_i = list(range(len(self.sents)))  # list contains index of each sentence
-        self.vectorizer= CountVectorizer(stop_words=get_stop_words("english"))
+        self.chunked_sentences = parser.chunked_sentences()
+        self.entities_name = self.ner(self.chunked_sentences)
+        self.vectorizer = CountVectorizer(stop_words=get_stop_words("english"))
         self.X = self.vectorizer.fit_transform(self.sents)
         self.processed_words = parser.processed_words
         self.unprocessed_words = parser.unprocessed_words
 
+    def _get_name_entity(self, sent_i):
+        return len(self.entities_name[sent_i])
+
     def _get_position(self, sent_i):
         count = self.sents_i[-1]
-        #print(count)
         position = 1
         if count != 0:
             position = sent_i / count
         return position
+
+    def sentence_position(self, sent_i):
+        """
+        :param sent_i: int
+            Index of a sentence
+        :return: float
+        """
+        return len(self.sents) - sent_i / len(self.sents)
+
+    def numerical_data(self, sent_i):
+        """
+        :param sent_i: int
+            Index of a sentence
+        :return: float
+        """
+        return len(re.findall(r'\d+(.\d+)?', self.sents[sent_i])) / len(self.unprocessed_words[sent_i])
+
+    def sentence_length(self, sent_i):
+        return len(self.unprocessed_words[sent_i]) / np.max(len(self.unprocessed_words))
 
     def _get_doc_first(self, sent_i):
         """
@@ -98,6 +125,21 @@ class SentenceFeature():
             stopwords_ratio = 1
         return stopwords_ratio
 
+    def _get_tf_idf(self, sent_i):
+        return math.log((self._get_avg_term_freq(sent_i) * self._get_avg_doc_freq(sent_i)))
+
+    def _get_all_tf_idf(self):
+        score = []
+        for idx, val in enumerate(self.sents):
+            score.append(math.log((self._get_avg_term_freq(idx) * self._get_avg_doc_freq(idx))))
+        return score
+
+    def _get_centroid_similarity(self, sent_i):
+        tfidfScore = self._get_all_tf_idf()
+        centroidIndex = tfidfScore.index(max(tfidfScore))
+
+        return self._cal_cosine_similarity(self.sents[sent_i], self.sents[centroidIndex])
+
     def _get_avg_term_freq(self, sent_i):
         """
         :param sent_i: int
@@ -163,8 +205,8 @@ class SentenceFeature():
             stop = self._get_stopwords_ratio(sent_i)
             TF = self._get_avg_term_freq(sent_i)
             DF = self._get_avg_doc_freq(sent_i)
-            #Emb = self._get_emb(sent_i, word_vectors)
-            #core_rank_score = self._get_avg_core_rank_score(sent_i)
+            # Emb = self._get_emb(sent_i, word_vectors)
+            # core_rank_score = self._get_avg_core_rank_score(sent_i)
             return [stop, TF, DF]
 
         content_features = []
@@ -338,3 +380,21 @@ class SentenceFeature():
             corpus = [parsers.body]
         X = vectorizer.fit_transform(corpus)
         return vectorizer, X
+
+    def extract_entity_names(self, t):
+        entity_names = []
+        if hasattr(t, 'label') and t.label:
+            if t.label() == 'NE':
+                entity_names.append(' '.join([child[0] for child in t]))
+            else:
+                for child in t:
+                    entity_names.extend(self.extract_entity_names(child))
+
+        return entity_names
+
+    def ner(self, chunked_sentences):
+        entity_names = []
+        for tree in chunked_sentences:
+            print(self.extract_entity_names(tree))
+            entity_names.append(self.extract_entity_names(tree))
+        return entity_names

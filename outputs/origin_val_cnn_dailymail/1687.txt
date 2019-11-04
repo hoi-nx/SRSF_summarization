@@ -1,0 +1,34 @@
+smartwatches and bands promise a range of features but the latest has the potential to save your life
+called advicydrive , the wearable monitors your heart rate while driving to determine how awake you are
+if it detects a drop in heart rate , which suggests you 're dozing off , it sounds an alarm on a connected smartphone
+if it detects a drop in heart rate , which suggests you 're dozing off , it sounds an alarm on a smartphone ( illustrated ) when a person falls to sleep their heart rate drops by up around 10 to 30 beats per minute on average
+to detect the most subtle of these changes , advicydrive uses digital photoplethysmography ( ppg ) - an imaging test used to detect changes in blood flow at the microvascular level on the skin
+last year , researchers from the biomechanics institute in valencia , spain unveiled the harken system
+it measures the driver âs heart rate and breathing via a sensor system knitted into the seatbelt and seat cover
+if the rates drop too much , a warning alarm goes off
+designer jose solaz said : â the variation in heart and respiratory rate are good indicators of the state of the driver as they are related to fatigue
+' harken can monitor those variables and warn the driver before the symptoms appear
+â the researchers said the system is innovative because it can cancel out the motion of the car and only pick up heart and respiratory rate thanks to the â smart textile materials â embedded in the seat cover and seatbelt
+it 's typically used to monitor blood flow in people with raynaud 's disease , for example , from their fingers and toes
+the technology shines a green led onto the skin , and based on the variations in colour that are reflected back , the sensor can detect the heartbeat
+it uses a traffic - light system to monitor the beats and will issue a cautionary warning if it begins to drop into the ' amber ' section
+the loud alarm rings when the rate reaches the ' red ' zone '
+its italian designers said : ' the pulsed light sensor technology is the best on the market in terms of stability , reliability even in motion and in terms of energy consumption
+' they added that the detection is on par with a chest band ' without the disadvantage of having to wear an uncomfortable strap '
+the clip can be fitted to a wristband but will also attach to a person 's underwear
+it will work as long as its in contact with the skin
+the sensor is currently under development , so these claims have not been put to the test , and the firm has launched a campaign on kickstarter to fund the project
+kits are available to pre-order for Â£ 70 and will retail for Â£ 100 if the campaign is successful
+to detect the most subtle of changes , advicydrive uses digital photoplethysmography ( ppg ) - an imaging test used to detect changes in blood flow at the microvascular level on the skin
+it shines a green led onto the skin , and based on the variations in colour that are reflected back , the sensor can detect the heartbeat the clip ( pictured ) can be fitted to a wristband but will also clip to a person 's underwear or clothes
+it will work as long as its in contact with the skin
+the sensor is currently under development , so these claims have not been put to the test , and the firm has launched a campaign on kickstarter to fund the project last year , researchers from the biomechanics institute in valencia , spain unveiled the harken system
+it measures the driver âs heart rate and breathing via a sensor system knitted into the seatbelt and seat cover
+if the rates drop too much , a warning alarm goes off
+advicydrive uses a traffic - light system to monitor the wearer 's heart rate
+the app will ring an alarm when the rate reaches the ' red ' zone ' ( shown ) designer jose solaz said : â the variation in heart and respiratory rate are good indicators of the state of the driver as they are related to fatigue
+harken can monitor those variables and therefore warn the driver before the symptoms appear
+â the researchers said the system is innovative because it can cancel out the motion of the car and only pick up heart and respiratory rate thanks to the â smart textile materials â embedded in the seat cover and seatbelt
+crashes caused by tired drivers are most likely to happen on long journeys on monotonous roads , such as motorways , according to research
+young male drivers , lorry drivers , employees in company cars and shift workers have been found to be most at risk of falling asleep at the wheel
+research shows tiredness among drivers accounts for 20 to 35 per cent of serious accidents and suggests there are more than 6,000 fatalities a year in europe because of driver fatigue .

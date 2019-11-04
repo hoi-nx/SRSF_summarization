@@ -1,0 +1,14 @@
+it took 37 years for our engineering abilities to catch up with that idea : the first memristor was built by hp in 2008
+and today , many researchers believe it could spark a revolution in computing
+simply put , the memristor could mean the end of electronics as we know it and the beginning of a new era called " ionics "
+the transistor , developed in 1947 , is the main component of computer chips
+this alone would make regular computers much more powerful , but down the line , the memristor could also take on the processing
+rupp is a professor of electrochemical materials at eth , and she 's working with ibm to build a memristor - based machine
+memristor , she points out , function in a way that is similar to a human brain : " unlike a transistor , which is based on binary codes , a memristor can have multi-levels
+you could have several states , let 's say zero , one half , one quarter , one third , and so on , and that gives us a very powerful new perspective on how our computers may develop in the future , " she told cnn 's nick glass
+it is inevitable that , one day , we will need to move away from silicon based computing
+the memristor technology is a candidate for this crucial step : " it could mean the end of the silicon era , giving us lower power consumption , the ability to compute more information , increased data storage and completely new logic patterns for our computers , " says rupp
+memristors do n't require a silicon layer and different materials can be used as a substrate
+this could create a new class of microchips , that could eventually be integrated in everyday items such as windows , clothes or even coffee cups
+after manufacturing the first ever memristor , hp has been working for years on a new type of computer based on the technology
+" at the moment , manufacturing costs are still high , but the benefits are worth it : " memristor operate at a lower power consumption , with a faster speed , and with a higher volume density of information than anything we have based on silicon microchip transistors , " rupp told cnn

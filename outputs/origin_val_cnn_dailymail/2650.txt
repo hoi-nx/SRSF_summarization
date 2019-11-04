@@ -1,0 +1,24 @@
+scientists have developed a necklace dubbed the â diet choker â that monitors everything that goes down your throat - and sends you an alert if you overeat
+wearsens is a metal ring that goes around your neck and has a sensor which uses the vibrations in your throat to tell when you are eating and drinking
+the researchers behind the device have linked it up to a smartphone app which buzzes if you go over your daily calorie limit
+scientists have combined wearsens , a metal ring that goes around the neck ( above ) to monitor eating , with a smartphone app which counts calories it also lets you know if you eat too much of the wrong kind of food
+the device was developed by engineers at the ucla , los angeles and so far the tests on 30 people show that the it does work
+but the reaction elsewhere has been mixed reaction and some tech websites likened it to a choke collar , though it does not contract if you eat too much
+another website , bustle.com , dubbed it the â weirdest ( tech ) wearable we have seen to date â
+the ucla team said the wearsens works because each food makes a distinctive pattern of vibrations in the neck so the device is able to work out what it is you are consuming using a piezoelectric sensor , which measures changes in pressure or force
+in tests with a limited menu it has guessed with 90 per cent accuracy the difference between solid and liquid foods - and even the difference between hot or cold drinks
+it could also distinguish between hard and soft foods about 75 per cent of the time , the findings in the journal ieee sensors said
+wearsens co-founder majid sarrafzadeh said : â many nutrition methods are based on writing down what you eat
+â but this method has low compliance so we wanted to overcome these issues and wanted to do something that a pedometer does for activity â
+scientists are hopeful the technology will also tell users when they are eating the wrong types of food ( file image ) in a demonstration posted on youtube , the device asks for the user âs age , height , weight and their goal such as to lose weight or stay the same
+it will then tell them what they have eaten , how fast they eat their food and gives them advice such as if you miss a meal it mentions how it could leave you fatigued
+the ucla researchers said that other applications they could see for the device included tracking when somebody takes a pill to ensure they take their daily medicine
+it could also remotely monitor breathing patterns of transplant patients as abnormal breathing may be an early indicator that the organ is being rejected
+even smokers who are trying to quit could benefit from the device as it could potentially tell when they are puffing away from the movement in their neck
+the wearsens is the latest example of the growing industry of wearable tech and comes on the day that apple is due to release details of its long - awaited smart watch
+major tech companies are banking on consumers taking to the wave of wristbands , watches and eyewear that augments the functions of their smartphone
+last year google launched its range of android wear which includes a watch which allows you to check your email or send a text , meaning you do nât have to reach into your pocket for your phone
+the latest update to apple âs operating system for its iphone includes a â health â app which monitors how many steps a person takes each day like a pedometer
+not all wearable tech has been a success however and google âs controversial eyewear , google glass , was axed in the uk after less than a year of limited release
+google closed it explorer programme , which gave select people the chance to buy google glass for Â£ 990 , after a privacy backlash and because consumers did not take to the futuristic design
+google glass , which apple priced at Â£ 990 , was axed in the uk after less than a year of limited release

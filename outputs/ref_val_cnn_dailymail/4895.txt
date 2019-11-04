@@ -1,0 +1,16 @@
+ants may be the perfect workers - they share chores , solve complex problems and work to the death without complaint
+german engineers have crafted machines that mimic the cooperative behaviour of a colony , because the robots can make individual decisions as well as work as a team
+and they are capable of manoeuvring objects , hinting that such robots could one day replace humans as factory workers
+the firm said : â for the first time , the cooperative behaviour of the creatures has also been transferred to the world of technology using complex control algorithms
+â the machines work together to complete difficult tasks , such as manipulating a large object , as real ants do in nature
+they do this by using a stereo camera fitted in each robot âs head which helps an individual ant locate and identify target objects
+an ant can then pick it up using serrated grippers below its head
+sensors enable an ant to be aware of its surroundings and the robotic insects communicate over a wireless network to coordinate their actions
+the robots have plastic , 3d printed bodies with electric circuits printed on top , ( pictured ) while their legs and grippers are ceramic actuators which can bend precisely and easily using little energy â like their natural role models , the bionicants work together under clear rules , â said dr ing heinrich frontzek , head of future concepts at the firm
+the aim of the project is to create intelligent bots that could work in factories , taking over production jobs from humans
+â each ant makes its decisions autonomously , but in doing so is always subordinate to the common objective and thereby plays its part towards solving the task at hand ( pictured ) â the company said the bionicants will go on show at hannover messe - the world âs largest industrial technology fair - in april , along with other creations such as the firm âs robotic butterflies ( pictured ) festo 's bionic butterflies are incredibly light and are able to fly as a collective
+while they are not as cute as the ants and work alongside humans , they are able to deliver heavy stacks of toys , books and other products to employees to pack
+like the ants , the emotion butterflies are designed to work together and can fly autonomously without bumping into each other by using lightweight cameras and an intelligent guiding and monitoring system
+the machines work together to complete difficult tasks , such as manipulating a large object , as real ants do in nature
+sensors enable an ant to be aware of its surroundings and the robotic insects communicate over a wireless network to coordinate their actions like the ants , the emotion butterflies ( pictured ) are designed to work together and can fly autonomously without bumping into each other by using lightweight cameras and an intelligent guising and monitoring system festo has also developed a robot inspired by the chameleon , called the flexshapegripper
+' the chameleon is able to catch a variety of different insects by putting its tongue over the respective prey and securely enclosing it , ' the firm says

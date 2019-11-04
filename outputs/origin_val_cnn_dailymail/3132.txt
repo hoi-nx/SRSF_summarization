@@ -1,0 +1,70 @@
+virtual reality gaming is coming ' this year , ' facebook 's chief technology officer schroepfer has promised
+the release date for the firm 's oculus headset has been shrouded in secrecy until now
+he also said people would be able to game in vr on ' something ' shipped by oculus - and said work was progressing well on facebook plan to build drones to give internet access to underdeveloped nations
+' why is vr going to work now , when it did n't work in the ' 80s and ' 90s ? ' asked schroepfer
+' because the technology is more advanced than before and ready for primetime , he said
+' each one of these core tracks of technology had to hit a minimum core viability ... to get to that sense of presence to sense that you 're truly there
+' ' you 're going to be able to do it in something shipped by oculus , ' schroepfer said
+' this is going to be incredible
+' ' vr is more than just another platform , it can create a whole range of human experiences , ' said michael abrash , the chief scientist at oculus
+' vr has the potential to change just about everything about the way we live
+' he also reveald the firm thought drones were key to getting connectivity around the world
+' this basically mean going to the sky , ' schroepfer says
+he showed off the aquila , an internet - connected unmanned drone with the wingspan of a 737 and the ' mass of a small car
+' it would fly over regions of the developing world , sprinkling internet access like so much rain
+the drones , flying at 65,000ft ( 19,800 metres ) , will be capable of staying in the air for months
+they are relatively cheap and will be most effective for suburban areas that do not have the cables or infrastructure to carry internet or telephone signals
+yael maguire , engineering director of facebook âs connectivity lab , has previously told the social good summit that the planes will be â roughly the size â of a boeing 747 , but much lighter than the popular aeroplane , which weighs around 600,000lbs ( 272,155kg ) without passengers or fuel
+facebook previously said the drones will be ' relatively cheap ' - although did not specify a cost - and will be most effective for suburban areas that do not have the cables or infrastructure to carry internet or telephone signals
+facebook has revealed more details about its plans to provide web access to the world
+drones as large as jumbo jets are set to extend the reach of wi-fi around the world
+they will be powered by the sun and hover some 65,000 feet ( 19,800 metres ) above the ground the california - based tech giant has joined forces with nokia , qualcomm , samsung and other tech firms to develop the planes in an initiative called internet.org
+today , around 2.7 billion people have access to the internet , which is just one third of the global population
+the members of the initiative said in a report that connecting the world is ' one of the fundamental challenges of our time ' and they plan to do it using a variety of technologies , including drones
+' when people have access to the internet , they can not only connect with their friends , family and communities , but they can also gain access to the tools and information to help find jobs , start businesses , access healthcare , education and financial services and have a greater say in their societies
+' they get to participate in the knowledge economy , ' the report said
+the drones are effectively mobile phone masts in the sky and bounce smartphone communications between satellites and base stations on earth
+schroepfer said the company will have more information to share on aquila later this year
+yesterday facebook said it is to begin supporting virtual reality on its newsfeed , with users able to put on a vr headset and explore a virtual location
+the social network announced that users will be able to view videos filmed with multiple cameras , and move the viewpoint in order to explore a location
+the innovation is being showcased at the firm 's f8 developers ' conference in san francisco under the name teleportation station - a name that was leaked via an app notification this morning
+the videos are shot with twenty - four cameras working in parallel
+' you can move around inside the video , ' zuckerberg said , ' and view it from different angles
+' the company is demonstrating the new video format for attendees at this week 's f8 conference by showing off a 24 - camera - view of the facebook headquarters in menlo park , california
+on a desktop computer , it is controlled by a mouse
+however , the company describes its spherical videos as a ' first step ' toward even more immersive videos that we 'll view through virtual reality headsets like the oculus rift , which straps over your eyes and provide the illusion of stepping inside a digital environment
+' you 're going to be able to put on your oculus headset , ' zuckerberg said , ' and view spherical videos there too
+' he also announced that users will soon be able to share content from third - party apps in their facebook 's instant messaging service
+facebook aims to use a mix of solar - powered aircraft and low - orbit satellites to beam signals carrying the internet to hard - to - reach locations
+the drones , flying at 65,000ft ( 19,800 metres ) , will be capable of staying in the air for months
+they are relatively cheap and will be most effective for suburban areas that do not have the cables or infrastructure to carry internet or telephone signals
+the drones are effectively mobile phone masts in the sky and bounce smartphone communications between satellites and base stations on earth
+low - orbit and geosynchronous satellites , which have orbits that match the earth âs rotation and are effectively stationary , will cover more remote areas in africa and asia
+the internet access would be transmitted in the form of free - space optical communication , or fso , which transmits data using infrared laser beams
+' one of the fastest growing and most important members of our family is messenger , ' said mr zuckerberg
+' facebook used to be this single blue app and it did a lot of different things , now facebook is a family of apps , ' he said
+' moving from being a single service to a family of apps is the biggest shift we 've made in our strategy in helping connect people
+' the messenger platform was also launched , allowing developers to build new services into the app , which is used by 600 million users each month
+mr zuckerberg said it would give users ' more tools for expression '
+the new platform will give users the chance to communicate directly with businesses , for example to change an order as well as track its delivery
+facebook 's marcus , vice president of messaging products , took to the stage to confirm that apps like espn have already built apps that will now be supported in messenger
+over 40 apps will be launched in the coming days , he confirmed
+the initial kit for developers to build their software into messenger will be available from today , though no general release date has yet been confirmed
+mr marcus also spoke of facebook 's desire to revolutionise online shopping by allowing users to receive real - time shopping updates via messenger
+this will start a message thread with the brand a user has shopped with , so they can track and alter an order via an instant message conversation
+users can then send a thumbs - up to confirm an order
+it will begin rolling out in the ' next few weeks ' , according to mr marcus
+' it 's time for us to reinvent how people and business communicate , ' he said
+ilya sukhar , from the social media site 's parse department , the area of facebook made for developers , also announced that the social network will begin supporting software development kits ( sdks ) for the ' internet of things '
+this is the idea that all a person 's smart devices can be connected together , enabling developers to create apps for facebook that can control part of the home
+facebook is trying to mould its messenger app into a more versatile communications channel as smartphones create new ways for people to connect with friends and businesses beyond the walls of the company 's ubiquitous social network
+to pull it off , facebook is opening messenger so outside programmers can build features tailored for the service
+messenger will also be adding the ability to display store receipts and shipping information to help consumers keep track of their interactions with merchants and other businesses
+facebook ceo zuckerberg touted the messenger expansion wednesday during his opening speech at a two - day conference for developers in san francisco
+the push to plant more features in messenger underscores the growing importance of apps that enable more intimate and direct conversations than social networks
+the example of receiving a notification when a garage door is opened was demonstrated on - stage
+the f8 developers ' conference , which is being attended by more than 3,000 facebook app developers , is the social network 's only major live show of the year
+the company , which has more than 1.3 billion monthly users , also unveiled a range of new tools for advertisers , including new analytics tools to monitor ad campaigns
+' all of you are the ones building the services that are unleashing this new wave of expression , ' said mr zuckerberg , as he returned to the stage
+' it 's really our honour to serve you and to be on this journey together
+let 's go connect the world , ' he said .

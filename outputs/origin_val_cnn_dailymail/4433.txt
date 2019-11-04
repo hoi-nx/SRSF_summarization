@@ -1,0 +1,28 @@
+for earth - bound optical telescopes , the surface of venus is shrouded beneath thick clouds made mostly of carbon dioxide
+to penetrate this veil , probes like the magellan spacecraft use radar to reveal remarkable features of the planet , such as mountains , craters , and volcanoes
+but now , astronomers have combined the green bank telescope with the radar transmitter at the arecibo observatory to make remarkably detailed images of the planet 's surface from earth
+pictured is a projection of the radar data of venus collected in 2012
+striking surface features , like mountains and ridges , are easily seen
+the black diagonal band at the center represents areas too close to the equator to obtain well - resolved image data the radar signals from arecibo observatory in puerto rico passed through both earth 's atmosphere and the atmosphere of venus
+here they hit the surface and bounced back to be received by the green bank telescope in west virginia in a process known as bistatic radar
+this capability is essential to study not only the surface as it appears now , but also to monitor it for changes
+by comparing images taken at different periods in time , scientists hope to eventually detect signs of active volcanism
+they believe images such as this could also reveal other dynamic geologic processes that could provide clues to venus 's geologic history and subsurface conditions
+spain astronomers have revealed a new theory for a ' y ' shape on venus ( annotated image from the pioneer venus orbiter in 1979 shown )
+they say it is formed by winds pushing a ' wave ' of clouds on the planet
+these winds move faster at higher altitudes , creating the odd shape ' it is painstaking to compare radar images to search for evidence of change , ' said bruce campbell , a senior scientist at the smithsonian 's national air and space museum in washington , ' the work is ongoing
+in the meantime , combining images from this and an earlier observing period is yielding a wealth of insight about other processes that alter the surface of venus
+' venus is slightly smaller than earth but has a similar mass. it is the second closest planet to the sun at a distance of about 67 million miles ( 108 million kilometres ) , and takes about 225 days to orbit the sun. one day on venus lasts as long as 243 earth days
+its thick and toxic atmosphere is made up mostly of carbon dioxide and nitrogen , with clouds of sulphuric acid droplets
+it 's believed that its atmosphere contributed to a runaway greenhouse effect that made the planet inhospitable
+the planet 's extreme high temperatures of almost 480 Â° c ( 900 â° f ) make it seem an unlikely place for for life as we know it
+high - resolution radar images of venus were first obtained by arecibo observatory in 1988 and most recently by arecibo observatory and green bank telescope in 2012
+when astronomers first started taking images of venus , they were somewhat baffled by a mysterious ' y ' shape that covered the entire planet
+last week researchers say they have an answer - high intensity winds are distorting a ' wave ' of clouds to produce a stretched effect
+the discovery could also reveal how similar processes take place on other slow - rotating bodies in the solar system
+the latest theory was proposed by astronomers from the institute of astrophysics of andalusia ( iaa-csic ) in granada , spain , in collaboration with the university of the basque country and the institute of astrophysics and space sciences of portugal
+on venus strong winds move the upper atmosphere 225 mph ( 360km/h ) , circling the planet every four to five earth days
+but the planet itself takes almost 243 earth days to complete an orbit - meaning the winds are much faster than the rotation speed of the planet
+the winds have a mostly constant speed at different latitude , but nearer the pole they circle the planet quicker as the circumference of the planet is smaller
+this ultimately gives rise to this ' y ' shape , as the clouds at the top and bottom of the shape are moved more quickly
+to take the stunning images , astronomers combined the green bank telescope ( right ) in west virginia with the radar transmitter at the arecibo observatory ( left ) in puerto rico

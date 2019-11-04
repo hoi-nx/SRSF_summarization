@@ -1,0 +1,15 @@
+technology that claims to transform any smartphone into a star trek - style tricorder is set to be unveiled in israel
+the company behind the device says it has the potential to break down the chemical components of almost any object from a distance
+the technology could help a range of industries such as food and drink , healthcare and the defence sector , the researchers claim
+the company behind the device says it has the potential to break down the chemical components of almost any object from a distance
+the image shows how the picture might be used unispectral and tel aviv university , who are behind the system , say it works by analysing a materials ' hyperspectral signature ' , which is its unique chemical fingerprint
+the team have already patented the optical part of the system , which is based on existing microelectromechanical or ' mems ' technology
+' the optical element acts as a tunable filter and the software - an image fusion library - would support this new component and extract all the relevant information from the image , ' said professor mendlovic at tel aviv university
+hyperspectral imaging collects and processes information from across the electromagnetic spectrum
+it was used largely by spock , the alien first officer of the starship enterprise once the camera take an image , the data would be further analysed by a third - party to extract the hyperspectral signature at any location in the image
+hyperspectral imaging collects and processes information from across the electromagnetic spectrum
+for each pixel in an image , a hyperspectral camera acquires the light intensity for a large number of different spectral bands
+' we predict hyperspectral imaging will play a major role in consumer electronics , the automotive industry , biotechnology , and homeland security
+' agricultural applications may also benefit because hyperspectral imaging could be used to identify properties of crops , vegetables , and other types of foods , ' mr raz says
+' a first - generation demonstration system of the camera
+once the camera take an image , the data would be further analysed by a third - party to extract the hyperspectral signature at any location in the image according to professor mendlovic , unispectral is currently in discussions with major smartphone makers , car companies , and wearable device makers to move the technology forward

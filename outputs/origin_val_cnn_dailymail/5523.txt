@@ -1,0 +1,55 @@
+getting to mars is no easy feat : the journey of several hundred million miles takes about nine months , one - way , and a manned mission will likely in total take about three years
+so one scientist took a look at different types of propulsion - including nuclear - to find out if there was a quicker way to get there
+but it seems that , aside from an engineering breakthrough , we ca nât really shorten these times - and he thinks it âs unlikely we âll send humans within five decades , not the 2030s as nasa believes
+dr bertolami from the university of porto was speaking to mailonline
+he studied different types of propulsion that could get humans to mars ( shown )
+in total a manned mission would last three to four years , which poses major problems , such as exposure to radiation theoretical physicist dr bertolami from the university of porto , together with his colleagues dr andrã© guerra and dr paulo gil , carried out a study comparing different space propulsion methods for a manned mission to mars
+option 1 - a ' giant leap ' from moon to mars - return to the moon - build a lunar base - send humans to the surface of mars option 2-least technological risk - send humans into lunar orbit - visit an asteroid in its own orbit - return to the moon 's surface - explore martian moons deimos and phobos - enter orbit around mars - land on the red planet option 3 - nasa 's current favoured path - robotically capture an asteroid - place it in lunar orbit for astronauts to visit - travel to the moons of mars - place humans in mars orbit - set foot on mars based on the team âs calculations , they found that the total mission time poses serious problems to a potential manned mission
+in total the mission will last three to four years , which is â very demanding â and â almost impossible â according to dr bertolami
+â despite what people say , we are a long way from reaching mars , â he told mailonline
+one particular issue is radiation
+astronauts on a mission to and from mars will be outside of earth âs magnetic field , and thus the risk of harm is much higher than when in earth orbit
+nasa âs proposal is to send a mission there and back , but dr bertolami said more infrastructure was needed to make the mission possible
+â i see no way of reaching mars in five decades , â said dr bertolami
+â i do nât believe one can reach mars through a brute force approach
+â you have to be able to create complicated and sophisticated means of avoiding these hazards
+â he added : â there are too many thing we do nât know , obstacles in travel and in the technology itself , and the mass budgets for a mission are immense
+â i would like to be a bit more optimistic , but i âm afraid this is how it is
+â various forms of propulsion have been touted for a mission to mars , including chemical , ion ( electric ) and nuclear
+but while nuclear is often said to be the ' holy grail ' , the team found it did not noticeably shorten the mission over other versions
+shown is an illustration of a concept mars transfer vehicle dr bertolami , who was also part of a science committee for esa 's satellite navigation programme galileo , instead suggests that we should consider returning to the lunar surface and improving our technologies , before attempting a mission to the red planet
+owing to the orbits of earth and mars there are specific windows of opportunity when a mission can take place
+our planets come as close to each other as 33.9 million miles ( 54.6 million km ) , but can be as distant as 250 million miles ( 400 million km )
+for this reason spacecraft to mars , such as the curiosity rover , have to launch in certain windows when the planets are aligned
+the next window is open from january 2016 to april 2016 , and will see the launch of two more missions to the red planet
+for a future manned mission , they will need to launch out in one of the windows and return in one , which will take two years in total
+just getting there will take up to nine months
+the astronauts will be there waiting for a year until they can come back - a total of around three years
+â from my point of view we should get back to moon , and i think it would be extremely useful to start with habitats at the moon , â he said
+â once you can reach the moon on a regular basis , we will have learned a lot of things to achieve that
+â i would never consider mars before reaching this scientific level
+â in their study , the researchers looked at other methods of propulsion to see if there was any way to make a mars mission more feasible in the near future
+â reaching mars is a complicated business , and you have to start with a strategy , â dr bertolami said
+for their study , they chose a mission plan that was similar to the apollo moon missions
+the astronauts would start in low earth orbit , then go to mars and land , then return from mars orbit and land on earth
+they looked at four different kinds of propulsion - chemical , ion , nuclear and a concept electromagnetic engine
+shown is a graph of the different types of propulsion for a mission to mars , how much they would weigh and their travel time
+cece is a type of chemical propulsion , nuclear engine for rocket vehicle application is nuclear propulsion , rit - xt is ion ( electric ) propulsion and pemt is pure electro-magnetic thrust but while a nuclear engine is often touted as the holy grail of space travel , the team found that for a mission to mars , there was no benefit in such an engine
+while it might be slightly faster , the mission time is still similar overall , but such an engine would cost and weight a lot more
+nasa actually attempted to build a nuclear - powered engine before , known as nuclear engine for rocket vehicle application ( nuclear engine for rocket vehicle application ) , with a view to using it to get to mars , but the programme was scrapped in 1972
+in fact , the best way to reach mars was a combination of chemical and ion engines - the former to reach orbit , on a rocket , and the latter for the cruise to mars
+nasa actually attempted to build a nuclear - powered engine before , known as nuclear engine for rocket vehicle application ( nuclear engine for rocket vehicle application ) , shown in this illustration , with a view to using it to get to mars , but the programme was scrapped in 1972 according to dr bertolami and his team , the best way to reach mars was a combination of chemical and ion ( shown ) engines - the former to reach orbit , on a rocket , and the latter for the cruise to mars â most people say that nuclear is helpful , â he continued
+â it makes the flight time much shorter and the mass budget is lower
+but it turns out basically that âs not really the case
+â one of the proposals for nuclear propulsion is that a reactor could emit particles onto a giant sail , which would propel the craft forwards
+this is similar to a solar sail but â you carry your sun with you , â said dr bertolami
+dr bertolami says a problem arises because , while nuclear propulsion could accelerate to quite high speeds , it needs to brake again to enter orbit around the red planet
+while it might be able to reach higher speeds for a mission to mars over chemical and ion propulsion , the amount it would have to brake means that it does n't really reduce the time of the mission by any considerable margin
+and the weight of hoisting a nuclear reactor into orbit , coupled with the cost , does not make it an attractive option
+chemical propulsion is currently the only way to get from earth into orbit , so any mission to mars will have to still rely on it
+nasa 's sls ( sls ) rocket , illustrated , for example will use a combination of liquid hydrogen and liquid oxygen to take a mars - bound spacecraft into orbit â at the end of the day , if you do the calculations properly , you find out that traditional measures like chemical and electrical turn out to be more efficient , â he said
+â that âs rather surprising
+â however , looking further into the future , dr bertolami said if humans were to travel beyond mars - such as to a moon of jupiter - then nuclear propulsion becomes feasible
+â beyond mars then the issue is indeed to do it as fast as possible , and then i would think that nuclear propulsion would turn out to be the most interesting one , â he said
+â i think for this particular case , nuclear propulsion will be the best option
+â but again , i think we are still a long way to reaching that

@@ -1,0 +1,9 @@
+if you 're an iphone or ipad owner , your encrypted passwords , bank details and other private details may be at risk from hackers
+estimates suggest around 1,000 ios apps are vulnerable to a flaw in connectivity software from afnetworking
+this includes uber , microsoft 's onedrive and movies by flixster and the flaw leaves any information , even if its sent over a seemingly secure https connection , potentially open to hackers
+search for apps below estimates from security researchers suggest around 1,000 ios apps are vulnerable to a flaw in connectivity software from afnetworking
+this includes uber , microsoft 's onedrive and movies by flixster
+the uber app is shown left and its vulnerability report , taken from sourcedna 's online tool is shown right the security researchers are asking readers to highlight any apps still at risk in the comments on its blog post
+at the time of writing , microsoft 's onedrive and movies ( vulnerability report is pictured ) is still at risk , as is citrix openvoice audio conferencing and alibaba.com the flaw was first reported at the end of last month by security researchers simone bovi and mauro gentile and specifically applies to version 2.5.1
+sourcedna has continued to monitor these apps and created a search tool to let developers - and phone users - check to see if their apps and devices are at risk
+at the time of writing , microsoft 's onedrive and movies is still at risk , as is uber , citrix openvoice audio conferencing and alibaba.com

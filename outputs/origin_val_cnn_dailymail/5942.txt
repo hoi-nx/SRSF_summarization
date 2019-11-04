@@ -1,0 +1,39 @@
+a short circuit has temporarily rendered nasa 's curiosity inactive as engineers investigate the problem
+the mars rover stopped work when an electrical problem was discovered while it was using its arm to move powder into its sample container
+the severity of the problem is not yet known , but nasa said they expected to resume operations in several days if it can be resolved
+a short circuit occurred in the rover 's arm as it was moving
+nasa engineers in california are now investigating the problem
+the rover ( shown here in a recent mosaic image taken by its arm ) had been transferring rock powder into a sample analysis container ' we are running tests on the vehicle in its present configuration before we move the arm or drive , ' said curiosity project manager jim erickson , of nasa 's jpl in pasadena , california
+' this gives us the best opportunity to determine where the short is
+' the short circuit occurred while the rover was moving its arm on 27 february
+when the rover detected the anomaly , it stopped the movement of its arm
+nasa said that such a brief short could have little effect on rover operations , or it ' could prompt the rover team to restrict use of a mechanism '
+quite how much lasting damage the short will have caused , if any , is not yet known
+on twitter the official account for the rover , @ marscuriosity , said : ' call me johnny five
+some ops on hold while my team investigates a short circuit
+' the rover 's top speed is 1.5 inches ( 3.8 centimetres ) per second
+curiosity is the fourth rover to visit mars
+it took around seven minutes to land on the mars
+the rover is fitted with 17 cameras
+it weighs about the same as a mini cooper at approximately 2,000lb ( 900kg )
+scientists considered 60 possible landing sites before deciding on gale crater
+the fault occurred while the rover had been transferring rock powder collected by its drill on the arm to laboratory instruments on the rover
+this powder was taken from a rocket target called telegraph peak
+curiosity has successfully analysed five samples from drilling targets before in 2013 and 2014 , but this is the first time this problem has arisen
+on this particular occasion , curiosity revealed the true colour of mars was not red - but blue and grey
+by drilling a few centimetres into the ground , the drill dug up material that had a different colouration to the surface
+the fault occurred while the rover had been transferring rock powder collected by its drill on the arm to laboratory instruments on the rover
+this powder was taken from a rocket target called telegraph peak
+the material appears blueish - grey , seen here , because it had not yet oxidised in the mars air the reason is that mars is mostly made of silicon and oxygen , and also contains significant quantities of iron , magnesium , aluminium , calcium and potassium
+when the soil is exposed to the air it oxidises and ' rusts ' , giving it its red appearance
+' we 're sort of seeing a new colouration for mars here , and it 's an exciting one to us , ' joel hurowitz , sampling system scientist for curiosity at nasa 's jpl ( jpl ) , said in a statement
+this raw - color view from curiosity 's mastcam shows the rover 's drill just after finishing a drilling operation at telegraph peak on 24 february 2015
+three days later , a fault - protection action by the rover halted a process of transferring sample powder that was collected during this drilling on twitter the official account for the rover , @ marscuriosity , said : ' call me johnny five [ pictured ]
+some ops on hold while my team investigates a short circuit
+' one of the reasons for the particularly different colour might be the large amounts of silicon that were dug up , as analysed by the apxs ( apxs ) on the rover
+' when you graph the ratios of silica to magnesium and silica to aluminium , ' telegraph peak ' is toward the end of the range we 've seen , ' said curiosity co-investigator doug ming , from the nasa johnson space centre in the us
+' it 's what you would expect if there has been some acidic leaching
+we want to see what minerals are present where we found this chemistry
+' curiosity is now continuing to climb mount sharp , at the centre of gale crater , to look back into the geological history of mars - and analyse soils at different altitudes
+the rover had been transferring material to the sample analysis at mars ( sam ) instrument , seen here in a previous image taken by curiosity
+it has successfully analysed four drill samples before , but has not yet experienced this short circuit failure

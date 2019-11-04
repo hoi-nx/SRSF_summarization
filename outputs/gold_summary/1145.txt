@@ -1,0 +1,5 @@
+each day facebook will highlight posts previously made on the same date
+posts appear on a user 's on this day page , which is only visible to them
+users then have the option to edit and share these posts with their friends
+it is similar to the timehop app currently used by facebook users
+the feature is being rolled out gradually and , when available , will appear as bookmark on the site 's news feed

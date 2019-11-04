@@ -1,0 +1,57 @@
+uk 's fbi has launched its cybercrime ' strike week ' , arresting 57 suspected hackers in a series of 25 raids including a member of the notorious lizard squad
+the 16 - year - old from leeds was held by the national crime agency ( national crime agency ) on suspicion of targeting approximately 350 websites
+it is claimed he may be a member of the lizard squad hackers who say they brought down the sony playstation and microsoft 's xbox networks as well as facebook and instagram
+one suspect was held in connection with an alleged cyber attack on the department of defense ( department of defense ) - and may have been a bitter lizard squad rival
+the 23 - year - old man was arrested on wednesday on suspicion of offences linked to data stolen from a messaging service used by department of defense employees around the world
+contact information for around 800 people including name , title , e-mail addresses and phone numbers , as well as details for around 34,400 devices were obtained during the attack last june , the national crime agency said
+following the attack , the hacker posted screenshots taken from the dashboard used to control the database as well as a bizarre message on the text storage website pastebin
+it read : ' we smite the lizards , lizardsquad your time is near
+we 're in your bases , we control your satellites
+' the missiles shall rein upon thy who claim alliance , watch your heads , * * t-47 until lift off
+we 're one , we 're many , we lurk in the dark , we 're everywhere and anywhere
+' live free die hard ! department of defense , disa emss : enhanced mobile satellite services is not all , department of defense has no defenses
+' campaign : national crime agency officers force their way in to another property during a string of raids they are calling ' strike week ' message : the national crime agency , considered uk 's fbi , has been working with counterparts from the department of defense in the united states lizard squad 's facebook page after claiming it hacked sony playstation and xbox the lizard squad took credit for bringing down the microsoft 's xbox , and sony playstation 's playstation online networks , hitting users on christmas day
+the hacking group said it wanted to expose the two firms ' poor security
+the consoles rely on an internet connection for many functions
+one of the most popular features of the consoles , for example , is the ability to play against friends and other users
+while an internet connection is not required to play all games , new xbox one consoles need to be online to be successfully set - up
+many of those who received the consoles as christmas presents are thought to have experienced problems getting started
+furthermore , games on both consoles often require an internet connection to be installed fully , which was ruled out by the hack
+a message on the xbox status page at the weekend said its core services were ' up and running '
+sony playstation engineers then confirmed its core services were also back online , but heavy traffic might continue to cause problems , as thousands of users log back on
+the stolen data was used as part of an international satellite message dissemination system known as enhanced mobile satellite services
+it also included imei numbers , which are the unique codes used to identify a mobile device
+no sensitive data was obtained and none of the data obtained could be used to personally identify anyone or threaten united states national security , the national crime agency added
+more than 40 arrests have been made this week by the national crime agency 's nccu at more than 20 separate locations across england , wales and scotland as part of a week of activity targeting cyber crime
+another man was held on suspicion of involvement in a 2012 hack on yahoo!
+andy archibald , deputy director of the national crime agency 's nccu , said : ' behind this week 's activity is the message that all of us , as individuals , businesses or law enforcement agencies , have a role to play in making the uk a safe place to enjoy the huge opportunities provided by the internet
+' awareness of the type of cyber crime dangers which are out there is vital , whoever you are , as is collaboration between organisations across different sectors , regions and countries to develop the most effective ways of combating those threats
+' we will continue to work with partners to pursue and disrupt the major crime groups targeting the uk , but also , crucially , to make the uk as difficult as possible a target for cyber criminals in the first place
+' jeffrey thorpe , special agent in charge , at the united states department of defense criminal investigative service ( dcis ) , said : ' this arrest underscores dcis commitment and the joint ongoing efforts among international law enforcement to stop cyber criminals in their tracks
+dcis special agents will use every tool at their disposal to pursue and bring to justice those that attack the department of defense
+' revealed : alleged hackers and cyber-criminals held in the uk - 21 - year - old man arrested on suspicion of a network intrusion attack committed by â d33ds company â hacking group , which stole over 400,000 email addresses and passwords from yahoo! and published them online in 2012
+- 23 - year old man arrested on suspicion of offences relating to a network intrusion in june 2014 on the united states department of defense ( department of defense )
+this relates to theft of information from the enhanced mobile satellite services global communication system used by the department of defense to communicate with employees internationally
+- 22 - year - old male arrested in aldbourne , marlborough on suspicion of developing and distributing malware ( malicious software )
+- 20 - year - old male from hackney , london arrested on suspicion of committing a Â£ 15,000 phishing attack
+- 27 - year - old from leyton , london arrested on suspicion of cyber-enabled fraud
+- 25 - year - old man from london has been arrested on suspicion of deploying malware against banks resulting in financial losses
+- 16 - year - old male , from the pudsey area of leeds has been arrested by the metropolitan police for suspected computer misuse act offences concerning the use of ddos attacks believed to target approximately 350 websites
+- two men , aged 38 and 29 years , arrested in south london and the cambridge area for suspected conspiracy and computer misuse act offences relating to the theft of valuable intellectual property from a london financial company
+- 25 suspects in the london and essex areas were arrested on suspicion of cyber-enabled fraud offences , including fraud by false representation , theft and money laundering
+- an 18 - year - old man arrested in watford suspected of being responsible for the development and administration of the titanium and avenger stressor tools which have been used in ddos attacks on public sector websites , including police
+- a 22 - year - old man and a 59 - year old woman arrested in camberwell suspected of offences relating to cyber-enabled fraud targeting high street retailer loyalty point schemes
+- a 22 - yr - old man arrested in slough suspected of offences relating to cyber-enabled fraud
+- officers from thames valley police arrested five men in kiddlington , oxford , aged 40 , 39 , 38 , 36 and 34 years for conspiracy to commit computer misuse offences , in relation to a network intrusion attack
+- officers from sussex and surrey police cyber crime unit arrested a 58 - year - old man in bexhill , sussex , suspected of network intrusion and ddos offences - a 21 - year - old man arrested by police scotland in county durham on suspicion of computer misuse act offences relating to a ddos attack on the police scotland website
+- a 51 - yr - old man arrested by rocu in northumbria on suspicion of computer misuse act offences relating to a network intrusion
+- a 33 - yr - old man from barry was arrested by south wales rocu , suspected of a ddos on a rival company for competitive advantage
+- three suspects arrested in south wales by nccu , gwent and dyfed powys police on suspicion of a number of computer misuse act offences
+- working with the united states fbi , a production order was served by the east midlands rocu on a hosting company whose servers are suspected of being used to house suspected criminal infrastructure
+- several rocu âs have also issued cease and desist orders visiting individuals who have been identified as purchasing remote access tools ( rats )
+lizard squad is a network of hackers which bears striking similarities to the online anarchist collective anonymous and is described as ' vocal , taunting and bit obnoxious '
+the group seeks to cause mayhem online ' for a laugh ' and has called itself the ' next generation grinch ' after the children 's character that hates christmas , often using twitter to boast of upcoming attacks
+some reports say it mainly operates from russia but others believe it is more likely to be made up of underground networks of hackers from around the world , communicating using the ' dark web '
+lizard squad has a history of targeting computer game companies , particularly sony playstation
+in august it sent a bomb threat to sony playstation chief executive john smedley , the same month in which it attacked sony playstation just to cause ' havoc '
+dan holden , of online security company arbor networks , said : ' if they 're coming after you , you 're going to have a bad day

@@ -1,0 +1,6 @@
+concept technology was created by austin - based chaotic moon studios
+it syncs with fitness trackers , such as the jawbone , to monitor heart rate
+app tracks length of activity to determine how much energy is being used
+algorithm then converts this energy into ' cpu time on a bitcoin mining rig '
+during a demo the designers earned five cents for four minutes activity
+and the more energy a user expends , the more digital currency they mine

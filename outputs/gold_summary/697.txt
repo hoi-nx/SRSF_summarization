@@ -1,0 +1,5 @@
+fujitsu has developed an iris authentication system
+it unlocks a smartphone screen by scanning your eyes
+and it can be used to log into facebook , email or other sites
+technology recognises iris pattern by shining infrared light onto the eyes
+it takes an image of the iris pattern with the infrared camera which is then cross-referenced each time the user looks at their phone

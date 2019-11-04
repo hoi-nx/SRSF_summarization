@@ -1,0 +1,6 @@
+the project began as a kickstarter campaign that was funded in november
+it was set up by designer benedikt groã and geographer joey lee
+they raised $ 11,492 ( Â£ 7,630 ) and have since set up a crowdsourcing tool
+called aerial bold , it lets people scan through mapbox satellite images
+they then catalogue all the letters , numbers and characters they can find
+database will develop a letterform detection and classification algorithms

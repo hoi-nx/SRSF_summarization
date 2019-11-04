@@ -1,0 +1,39 @@
+apple and google are making a play to dominate your car âs dashboard , but they âre not the only firms working on the technology
+at this year âs mobile world congress in barcelona , chip maker qualcomm is showcasing a maserati kitted out with optical and ultrasonic sensors , touchscreen displays and rear - view cameras
+and with 4g technology built in , the concept car does nât need a phone to get online so can double up as a wi-fi hotspot for all passengers
+the maserati ( pictured ) is on display at this year âs mobile world congress in barcelona and uses qualcomm technology to power its sensors , camera and on - board modems
+it has 4g technology built in , so does n't need a phone to get online , and this means it can double up as a wi-fi hotspot for all passengers like with apple âs carplay and google âs android auto , the maserati concept has a display that can be used with voice control , touch and hand gestures
+by default , the screen displays map info , controls , music playback , and phone calls but it also splits into three to show â now playing â along the bottom , maps on the top left and media on the top right
+although the system can sync with smartphones and tablets - and uses a screen mirroring technology called mirrorlink - it is more advanced than apple and google âs systems because it does nât need one to work
+instead it comes with built - in apps and 4g
+multiple phones and tablets can then connect to this 4g network to share the car âs â wi-fi â
+qualcomm âs vice president for product management duggal told mailonline it is also developing a system to project phone displays over usb to the head unit
+the maserati ( pictured ) is a concept but qualcomm âs vice president for product management duggal said it showcases the potential for connected cars and believes these kinds of systems will be in cars soon the concept has a display that can be used with voice control , touch and hand gestures
+by default , the screen displays map info , car controls ( left ) , music playback , and recent calls
+the system syncs with phones using screen mirroring technology called mirrorlink ( right ) but also comes with its own mobile network the maserati is also kitted out cameras that provide an almost 360 - degree view of the car and warn of impending collisions , obstacles and more
+the rear - view camera can additionally be used for parking assist features ( pictured )
+this technology runs on blackberry 's qnx car platform earlier this week ford unveiled its latest app that not only shows how far you can travel on the power you have remaining , it bases its predictions on your unique driving style
+called myford mobile , it also lets drivers remotely access their vehicles meaning they can set the cabin temperature on a cold morning before they leave their house
+the app was announced at mobile world congress in barcelona and currently works with a selection of ford âs electric and hybrid cars
+it specifically suits electric cars because the app can directly link to the battery to see a status level and accurate mileage
+but ford spokesman abraham phillip told mailonline the team is working on developing the software for petrol and diesel range
+elsewhere , the car features a wipower wireless charging surface
+the sensor and camera setup provides an almost 360 - degree view of the car and warns of impending collisions , obstacles and more
+plus a â digital instrument cluster â - or screen behind the wheel - shows the driver information from all the car âs systems at a glance
+details about fuel , speed and any technical faults are updated in real - time , including an 8 - inch image from the rear - view parking assist camera to show the road behind
+and advanced map data plots the road ahead - even if it is beyond the view of the driver
+this technology runs on the qnx car platform which is already running in more than 20 million vehicles
+at the same time , a network of sensors work together to boost driver safety
+these include a light detection and ranging ( lidar ) sensor that shows a forward - facing collision warnings up to 164ft ( 50 metres )
+a set of ultrasonic and optical sensors near each wing mirror spot pedestrians , cyclists , and obstacles in the blind spots , helping the driver make safer lane changes and turns
+a set of ultrasonic and optical sensors near each wing mirror ( pictured ) spot pedestrians , cyclists , and obstacles in the blind spots , helping the driver make safer lane changes and turns a â digital instrument cluster â - or screen behind the wheel - shows the driver information from all the car âs systems at a glance plus navigation details ( pictured )
+these details are updated in real - time and advanced map data plots the road ahead - even if it is beyond the view of the driver the mirrors show real - time video footage to offer a wide field of view , plus a warning bar that goes from green ( shown ) to red when an obstacle approaches and the mirrors themselves show real - time video footage offering a wider field of view than traditional mirrors
+meanwhile , the rear - view camera , with ultrasonic proximity sensors , provides an unobstructed view of what âs coming up from behind
+and when a warning is made it appears on a strip of leds on the windshield
+this means , for example , that if a driver starts indicating right but it is nât safe to move over - if a cyclist is approaching for example , or they âre too close to a car - the strip will glow red
+if it âs safe to move over or change lanes , the light glows green
+a similar system is used on the wing mirrors to warn of nearby obstacles
+the car is a concept but mr duggal said it showcases the potential for connected cars and believes these kinds of sensors and systems will be in vehicles in the near future
+apple firm first toyed with an in - car system at its worldwide developer conference in june 2013
+at that point it was known as ' carplay ' but following changes in the design team the system was unveiled at last year 's geneva motor show , under the moniker carplay ( apple maps on carplay pictured ) elsewhere google used its annual developer i / o in june to unveil android auto auto , a key feature of its latest operating system android lollipop
+android auto works with any android auto phone to show a user 's information on the dashboard ( google maps on android auto pictured )

@@ -1,0 +1,4 @@
+the hack was discovered by london - based security experts at mdsec
+they built a device capable of simulating a person 's pin entry over usb
+this gadget then tries every combination until the correct one is found
+hack is even able to bypass apple 's built - in fail safe that locks the device after 10 incorrect attempts are made

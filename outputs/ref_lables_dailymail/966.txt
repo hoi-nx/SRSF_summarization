@@ -1,0 +1,6 @@
+it is a fascinating view of exactly what goes into a modern smartphone - and how samsung does business
+the internals reveal samsung used more of its own chips to power the new galaxy s6 smartphone than it did for the predecessor galaxy s5 , according to an early teardown report , in a blow to u.s. chip supplier qualcomm
+samsung is not only using its own exynos mobile processor , as had been widely reported , but also decided to rely on its in - house semiconductor business to source other parts , including the modem and power management integrated circuit chips , ottawa - based consultancy chipworks said
+the galaxy s6 also comes with samsung 's shannon modem chip , u.s. phone carrierat&t said on its website
+' it 's pretty clear if they 're using shannon for the modem for at&t that they 're trying to use all - samsung silicon , ' said jim mcgregor , an analyst at tirias research
+but it had been unclear whether samsung would drop qualcomm 's modem chips as well

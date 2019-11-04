@@ -1,0 +1,28 @@
+microsoft hopes to banish the password from mobile phones and computer with the next version of windows
+instead of remembering a complex password , users will simply need to look at their phone or use a fingerprint reader
+called windows hello , it will be part of windows 10 when it launches later this year
+the cameras use infrared technology to identify your face or iris and can recognize you in a variety of lighting conditions
+these security features are opt - in , meaning that users will be able to still rely on passwords and pins to unlock devices and features if they so desire
+' when we started building windows 10 , the team spent a lot of time and energy thinking about how to make computing more personal , ' said belfiore of microsoft
+' we want your devices to recognize you , to understand what you 're saying â¦ we want the experience to go wherever you do and we want you to feel a great sense of trust as you go
+called windows hello , the new system introduces support for biometric authentication â using your face , iris , or fingerprint to unlock your devices â with technology that is much safer than traditional passwords
+' you - uniquely you - plus your device are the keys to your windows experience , apps , data and even websites and services â not a random assortment of letters and numbers that are easily forgotten , hacked , or written down and pinned to a bulletin board , ' belfiore said
+the firm is also confident the system can not be fooled - and has even tested users holding up pictures of others
+' a combination of special hardware and software will be used to accurately verify it is you , not a picture of you or someone trying to impersonate you , ' microsoft said
+' the cameras use infrared technology to identify your face or iris and can recognize you in a variety of lighting conditions
+' the firm will use infrared technology to identify your face or iris
+the firm is also confident the system can not be fooled - and has even tested users holding up pictures of others
+new operating system will run on the ' broadest types of devices ever '
+cortana personal assistant runs on the desktop
+various app stores merged into one platform , called the one store
+return of the start menu , which had been removed from windows 8
+users can create multiple desktops to keep things organised
+' not only is windows hello more convenient than typing a password â it 's more secure ! ' our system enables you to authenticate applications , enterprise content , and even certain online experiences without a password being stored on your device or in a network server at all
+' the firm also hit out at current password systems
+' today , passwords are the primary method most of us use to protect our personal information , but they are inconvenient and insecure
+individual documents can also be locked using the technology ' they are easily hackable and even when complex they are not effective , but most of us want something easy to remember , so we either choose a simple password or end up noting it down somewhere making it less secure
+' you may have seen recent press coverage about a single group collecting 1.2 billion user names and passwords from websites they hacked
+' this creates lousy odds in the hacker roulette for all of us â there are only about 2 billion people online today ! ' windows 10 will include a new xbox one app to allow users to easily share with friends , and is extremely similar to the firm 's xbox one console system
+the company also revealed that windows 10 devices shipping this autumn will have built - in windows hello features , and devices that already have fingerprint readers will also support the technology
+' oem systems incorporating intel 's realsense 3d camera ( f200 ) will support the facial and iris unlock features of windows hello , including automatic sign - in to windows , and support to unlock passport without the need for a pin , ' the company said
+these security features are opt - in , meaning that users will be able to still rely on passwords and pins to unlock devices and features if they so desire .

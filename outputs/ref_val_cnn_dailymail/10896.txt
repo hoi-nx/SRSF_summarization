@@ -1,0 +1,13 @@
+but robotics engineers have now come up with what they say is the best way to fold a variety of clothes into neat little rectangles
+their findings , of course , are intended to help a new generation of robots take on some of our more monotonous household chores
+the diagram above shows the approach outlined by the scientists for folding a jumper or long sleeved t - shirt however , their work has also revealed the most effective ways of folding clothing so it can be stacked and packed away that may also help humans too
+they use a principal that they have called the ' g-fold ' - where clothing is laid out on a flat surface and gravity is used to help assist the folding of clothing
+the robot developed by researchers at the university of california berkeley is able to wash and fold clothes , recognise different items so they can be folded neatly away
+dr abbeel , an associate professor in computer science at the university of california berkeley , and his colleagues who have been conducting the research , said they attempted to solve the problem of folding clothing by treating it as a problem of geometry
+' the researchers have now used their findings to help develop a robot that is able to sort and fold laundry
+they developed software that allowed the willow garage personal robot to grip clothes with claw like gripper hands and lay it out on a flat surface
+this is the technique the engineers recommended for folding up a standard t - shirt into a neat rectangle folding a pair of trousers or jeans requires just the simplest of folds shown above according to the research the approach outlined above shows how the researchers recommend folding a variety of different clothing the researchers have written software that enables a robot to fold clothing into neat rectangles ( shown above ) it is then able to assess them best way of folding the clothing based on its shape
+in a series of tests they found the robot was able to fold up to 40 different articles of clothing , including trousers , towels , sweaters and t - shirts
+folding a towel might seem simple but for a robot it requires the ability to use some complex geometry writing in a paper in a new journal on household robotic services , the researchers said : ' the g-fold method worked reasonably well on pants
+recently an approach known as the japanese folding method , where a t - shirt is folded by gripping just two points on the cloth , has become popular
+however dr abbeel and his team said : ' while this study dealt explicitly with the task of laundry folding , we believe the tools put forth may generalize well beyond this to many deformable object manipulation challenges , such as ironing or bed - making

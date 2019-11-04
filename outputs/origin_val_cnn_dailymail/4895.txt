@@ -1,0 +1,42 @@
+ants may be the perfect workers - they share chores , solve complex problems and work to the death without complaint
+and now the behaviour and appearance of nature âs most diligent insect has been emulated in plastic and metal , with the creation of bionicants
+german engineers have crafted machines that mimic the cooperative behaviour of a colony , because the robots can make individual decisions as well as work as a team
+and they are capable of manoeuvring objects , hinting that such robots could one day replace humans as factory workers
+the firm said : â for the first time , the cooperative behaviour of the creatures has also been transferred to the world of technology using complex control algorithms
+â the machines work together to complete difficult tasks , such as manipulating a large object , as real ants do in nature
+they do this by using a stereo camera fitted in each robot âs head which helps an individual ant locate and identify target objects
+an ant can then pick it up using serrated grippers below its head
+sensors enable an ant to be aware of its surroundings and the robotic insects communicate over a wireless network to coordinate their actions
+the robots have plastic , 3d printed bodies with electric circuits printed on top , ( pictured ) while their legs and grippers are ceramic actuators which can bend precisely and easily using little energy â like their natural role models , the bionicants work together under clear rules , â said dr ing heinrich frontzek , head of future concepts at the firm
+â they communicate with each other and coordinate both their actions and movements
+â each ant makes its decisions autonomously , but in doing so is always subordinate to the common objective and thereby plays its part towards solving the task at hand
+â amazon has launched a competition encouraging engineers to create its next generation of shelf - picking robots
+bots will battle it out at the icra conference in seattle in may
+' the challenge combines object recognition , pose recognition , grasp planning , compliant manipulation , motion planning , task planning , task execution , and error detection and recovery , ' amazon said
+participating robots will earn points by locating products on shelves , retrieving them and putting them into cardboard boxes ready to be sent to customers
+points will be deducted for dropped or damaged good and the team that creates the winning robot will win $ 26,000 ( Â£ 17,463 )
+amazon currently uses robots by kiva systems to fetch items so its human workforces does nât have to walk as far in its vast warehouses
+but its machines ca n't pick and pack products yet
+the robots have plastic , 3d printed bodies with electric circuits printed on top , new scientist reported , while their legs and grippers are ceramic actuators which can bend precisely and easily using little energy
+the aim of the project is to create intelligent bots that could work in factories , taking over production jobs from humans
+this is not as far - fetched as it may seem
+amazon already uses an army of 15,000 robots in its huge warehouses to pick up items ordered by customers
+â each ant makes its decisions autonomously , but in doing so is always subordinate to the common objective and thereby plays its part towards solving the task at hand ( pictured ) â the company said the bionicants will go on show at hannover messe - the world âs largest industrial technology fair - in april , along with other creations such as the firm âs robotic butterflies ( pictured ) festo 's bionic butterflies are incredibly light and are able to fly as a collective
+ten cameras installed in the room record the butterflies using infrared markers
+they transmit this position data to a computer , which coordinates the artificial insects ' flight
+the intelligent networking system creates a guidance and monitoring system to stop the butterflies colliding , which could be used for drones working in future factories
+while they are not as cute as the ants and work alongside humans , they are able to deliver heavy stacks of toys , books and other products to employees to pack
+the bionicants will go on show at hannover messe - the world âs largest industrial technology fair - in april , along with other creations such as the firm âs robotic butterflies
+like the ants , the emotion butterflies are designed to work together and can fly autonomously without bumping into each other by using lightweight cameras and an intelligent guiding and monitoring system
+â the communication and sensor technology used , which constitutes an indoor gps system , enables the butterflies to exhibit collective behaviour without danger of collision , â the company said
+ten cameras installed in the room record the butterflies using infrared markers
+they transmit this position data to a computer , which coordinates the artificial insects ' flight
+the intelligent networking system creates a guidance and monitoring system to stop the butterflies colliding , which could be used for drones working in future factories
+the machines work together to complete difficult tasks , such as manipulating a large object , as real ants do in nature
+sensors enable an ant to be aware of its surroundings and the robotic insects communicate over a wireless network to coordinate their actions like the ants , the emotion butterflies ( pictured ) are designed to work together and can fly autonomously without bumping into each other by using lightweight cameras and an intelligent guising and monitoring system festo has also developed a robot inspired by the chameleon , called the flexshapegripper
+the colourful lizard is able to put its tongue over prey and securely enclose it - a process that the robot mimics
+it uses the principle to grip a wide selection of objects in a form - fitting manner using an elastic silicone cap and can even pick up several objects , such as ball bearings , at once
+the machine does n't physically resemble a chameleon and could be used on a production line
+' the chameleon is able to catch a variety of different insects by putting its tongue over the respective prey and securely enclosing it , ' the firm says
+' the flexshapegripper uses this principle to grip the widest range of objects in a form - fitting manner
+the robot uses the same technique to grip a wide selection of objects in a form - fitting manner using an elastic silicone cap and can even pick up several objects , such as ball bearings , at once ( pictured )

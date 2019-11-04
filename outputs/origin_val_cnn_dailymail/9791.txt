@@ -1,0 +1,36 @@
+running low on fuel and making a desperate search for the nearest station could soon be a thing of the past
+ford has unveiled its latest app that not only shows how far you can travel on the power you have remaining , it bases its predictions on your unique driving style
+the myford mobile also lets drivers remotely access their vehicles meaning they can set the cabin temperature on a cold morning before they leave their house
+the app was announced at mobile world congress in barcelona and currently works with a selection of ford âs electric and hybrid cars
+smart car : to check their driving range , drivers open the app and add their location and destination it specifically suits electric cars because the app can directly link to the battery to see a status level and accurate mileage
+but ford spokesman abraham phillip told mailonline the team is working on developing the software for petrol and diesel range
+however , he could nât give a timeframe for this because it depends on the technology being integrated , and legislation in individual markets
+for example , due to emission restrictions in the eu users ca nât use the myford mobile app to remotely start their car , but they can in the us
+similar restrictions may apply for the fuel management feature
+cos : the myford mobile also lets drivers remotely access their vehicles meaning they can set the cabin temperature on a cold morning before they leave their house ( ford 's focus electric , pictured ) the app uses a traffic light system to show if the journey is possible , or at least how far the driver can travel before needing to charge their car using a map ( screenshots of app pictured ) to check their driving range , drivers open the app and add their location and destination
+the app uses a traffic light system to show if the journey is possible , or at least how far the driver can travel before needing to charge their car using a map
+this map also shows the nearest charging stations , including their price
+the first vehicles to offer myford mobile in europe will be the focus electric , available in spring 2015
+now available in europe , the focus electric is powered by an electric motor and lithium - ion battery powertrain that achieves a top speed of 85mph ( 137 km / h )
+the 6.6 kw onboard charger has a driving range of 62 miles ( 100km ) with two to three hours charging , and around 93 miles ( 150 km ) driving range with three to four hours charging from a 32 a charging station
+* it additionally has sync 2 voice control with touchscreen to let drivers programme charging times , and set a chosen cabin temperature for when they start the journey , from within the car
+myford mobile is also available for the c-max energi plug - in electric hybrid vehicle
+to learn a driver âs habits the app determines how far they have travelled within a certain time to gauge speed but also how often they braked , based on distances travelled , and when they accelerated significantly
+the driver is then rated on a scale from â zippy â to â zen â
+to be more fuel efficient , the driver needs to be at the latter end of the scale
+but if they âre not , the app offers tips such as releasing the accelerator or braking less heavily
+the trends screen additionally shows miles , or kilometres driven , and how much co2 has been saved
+taking inspiration from gaming and personal fitness apps , myford mobile shows co2 savings as exercise balls , or hot - air balloons to reflect how much could be used to fill each
+in terms of the â remote preparation â features , the driver can set the cabin to warm up or cool down at a set time each day , or set the precise temperature
+as well as informing drivers when they have made co2 savings , alerts also let drivers know when they have reached certain zero - emission distance benchmarks , such as covering a distance equivalent to one round - the - world trip
+this is shown as an achievement figure
+and if the driver ca nât remember where they parked the car , the app will pinpoint its location on a map
+the first vehicles to offer myford mobile in europe will be the focus electric , which also has sync 2 voice - activated controls , available in spring 2015
+myford mobile is also available for the c-max energi plug - in electric hybrid vehicle
+more vehicles will be announced later this year
+to learn a driver âs habits the app determines how far they have travelled within a certain time to gauge speed , and when they accelerated significantly ( screen shots of app pictured ) myford mobile is a free app on ios and android for the compatible ford car owners
+it connects to the car via an on - board modem and this sends data directly to a remote server and is available in english , dutch , french , german and spanish , myford mobile is free for the first five years of vehicle ownership
+â myford mobile makes owning an electric vehicle even more convenient
+it displays co2 savings in terms of objects everyone is familiar with , and shows how further energy efficiencies can be achieved in a way that is easily understood , â said don butler , executive director , connected vehicle and services , ford
+â electric car drivers want to understand the environmental benefits their vehicle brings , and also to know how they could improve their contribution to help make a better future
+myford mobile helps them to do this

@@ -1,0 +1,4 @@
+babies learn the name of new objects by ' mapping ' their surroundings
+this means they associate a word using the object 's proximity to them
+study said this applies to their physical location as well as their posture
+researchers used a humanoid called icub and infants to test this theory

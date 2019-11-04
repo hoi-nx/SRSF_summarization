@@ -1,0 +1,5 @@
+a stanford university mathematician compared shuffling techniques
+dealers using a ' riffle ' shuffle need to repeat the process seven times to get a random pack of cards , said peri diaconis
+this technique involves cutting a deck and shuffling the halves together
+whereas ' overhand ' needs to be repeated 10,000 times to get same results
+the ' smooshing ' or wash method takes one minute to randomise cards

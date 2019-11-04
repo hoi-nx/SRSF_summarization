@@ -1,0 +1,13 @@
+in charles darwin âs theory of evolution , life is able to evolve through a process of â natural selection â , where certain traits become more or less common in animals based on their benefit
+and now researchers are starting to emulate the same process in robots , so that they can learn how to perform complex tasks
+the research involves a similar process of selection but on a larger and faster scale , allowing artificial brains to pick out the most worthwhile traits and continue evolving
+research carried out by a team from michigan state university used genetic algorithms to model a large population of robot brains ( stock image shown )
+these were asked to perform tasks , such as finding the exit to a maze
+those that performed the task best had simulated ' offspring ' , creating a better brain the research , led by computational biologist dr adami from michigan state university , involves using genetic algorithms to model a large population of robot â brains â working on a task
+for example , this could be finding the exit to a maze
+the brains that performed the task best had the largest number of simulated â offspring â , meaning the smartest robots multiplied
+the researchers ran this genetic algorithm over thousands , and sometimes hundreds of thousands of generations , and then downloaded the surviving brains into robots that executed the tasks in the outside world
+one of the more complicated tasks the team 's robots worked on required multiple machines to figure out and remember in which order they would leave a room
+this , according to professor cronin , mimicked the process of natural selection , which charles darwin proposed for driving evolution
+dr adami believes that evolving robot brains in complicated worlds that force them to interact with each other is the best path toward self - aware intelligence
+one of these included finding the exit to a maze ( stock image shown ) charles darwin , british naturalist , is shown here in a portrait from 1878

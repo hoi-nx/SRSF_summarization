@@ -1,0 +1,21 @@
+a self - driving car is gearing up for a 3,500 - mile cross-country road trip from san francisco to new york that begins next week
+a person will always be behind the wheel of the autonomous car , developed by delphi , in order to take control if there is a situation the vehicle can not handle on its own
+the car will begin its journey on march 22 so that it can reach new york in time for the international auto show
+the autonomous vehicle will mainly stick to the highways , where it will be able to pass slower cars and maintain a safe distance from other automobiles all on its own
+delphi cto jeff owens told wired the road trip will be the ' ultimate test ' for the vehicle , as it will be exposed to a ' range of driving conditions ' as well as various types of weather
+it 's design is based on a 2014 audi sq5
+according to delphi officials , the road trip will be the longest automated drive ever attempted in north america
+in 2010 an autonomous van created by italian company vislab completed an 8,000 - mile journey from europe to shanghai for three months
+unlike google 's driverless car ( pictured ) , dephi 's vehicle senors are tucked in the car 's front , rear and sides and thus can not be seen
+although it will be the delphi car 's longest journey , it wo n't be its first
+the delphi vehicle has driven around the company 's silicon valley office and has already completed a trip from san francisco to los angeles
+but the car really earned its stripes when , during a demonstration at the las vegas consumer electronics show in january , it braked by itself as two drunk men stumbled into the street in front of it
+delphi says the vehicle is capable of making complex decisions , like stopping and then proceeding at a four - way stop , merging onto the highway or maneuvering around a bicyclist or a trash can
+when the car wants the driver to resume control , it uses a verbal warning and flashes lights on the dashboard
+although most experts say a true driverless vehicle is at least a decade away , delphi 's autonomous automobile is helping the technology look more like a regular car
+unlike other driverless cars developed by google and honda , the lidar sensors on dephi 's vehicle are tucked in the car 's front , rear and sides and thus can not be seen
+the car also has cameras throughout , including one that watches the driver
+because lidar systems can cost around $ 70,000 apiece , they drive up the price of the autonomous prototypes
+but delphi engineer doug welk said one of the reasons for the road trip is to help decide what combination of sensors is best suited for the car , which will ultimately help lower costs
+delphi estimates it will cost around $ 5,000 to make a vehicle almost fully autonomous by 2019
+delphi cto jeff owens said the road trip would be the ' ultimate test ' for the autonomous vehicle , as it would be exposed to a ' range of driving conditions ' as well as various types of weather

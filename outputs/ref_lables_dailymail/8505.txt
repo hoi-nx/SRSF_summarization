@@ -1,0 +1,22 @@
+google has developed a system to allow robots to download new personalities online
+' above it atlas , which according to google - owned boston dynamics , is a ' high mobility , humanoid robot designed to negotiate outdoor , rough terrain
+according to google owned boston dynamics , atlas is a ' high mobility , humanoid robot designed to negotiate outdoor , rough terrain
+' atlas can walk bipedally leaving the upper limbs free to lift , carry , and manipulate the environment
+' in extremely challenging terrain , atlas is strong and coordinated enough to climb using hands and feet , to pick its way through congested spaces
+' google 's patent details a cloud - based system where a personality could be downloaded to a robot , in the same way one might download an app. ' the robot personality may also be modifiable within a base personality construct ( i.e. , a default - persona ) to provide states or moods representing transitory conditions of happiness , fear , surprise , perplexion ( e.g. , the woody allen robot ) , thoughtfulness , derision ( e.g. , the rodney dangerfield robot ) , and so forth , ' states the patent
+' the firm also explains ' this disclosure relates to a robot imbued with a personality , or personalities
+' google already owns several firms developing robotic technology , including atlas , 6.2 feet of metal with a plastic body that can walk , run , jump and even open doors
+this is latest version of the atlas robot created by boston dynamics , a google - owned robot firm
+google 's patent drawings reveal the system can share personalities and download them darpa expects at least twenty teams to compete in the drc finals
+the teams using the darpa - developed atlas robot will use an entirely new version , which is battery powered for the first time
+the atlas robot created by google - owned firm boston dynamics is a formidable figure at 6ft 2in tall and weighing in at 330lb
+atlas will also now carry an onboard 3.7 - kilowatt - hour lithium - ion battery pack , with the potential for one hour of ' mixed mission ' operation that includes walking , standing , use of tools , and other movements
+the upgraded atlas is 75 percent new â only the lower legs and feet were carried over from the original design gill pratt , of darpa said : ' atlas unplugged is the upgrade to allow it to run entirely on batteries
+' ' the new atlas is 75 % new , it has much more dexterity and is quieter , and stronger
+' the introduction of a battery and variable - pressure pump into atlas poses a strategic challenge for teams , ' said pratt
+given their identical hardware , the atlas teams will have to differentiate themselves through software , control interfaces , and competition strategy
+darpa demonstrated the new atlas with a fall arrestor in place
+the atlas robot has already shown it can walk , jump and even drive a car however , it 's not just karate - ian has another trick up his sleeve - software written by the florida institute for human and machine interaction which allows him to drive a car
+the ' crane ' stance , being held by karate kid daniel larusso ( played by ralph maccio left ) in the 1984 film inspired the latest movements of the atlas robot
+it demonstrates strong balancing skills and composure and showcases the agility of the google - owned machine , said the firm atlas is a high mobility , humanoid robot designed to negotiate outdoor , rough terrain , boston dynamics said
+the atlas robot has an articulated sensor head includes stereo cameras and a laser range finder so it can ' see ' where it is going

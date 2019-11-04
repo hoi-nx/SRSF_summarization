@@ -1,0 +1,13 @@
+researchers in massachusetts believe a person 's keystrokes may reveal a huge amount of information about their motor skills
+now they 're working on creating a keyboard that can tell doctors if someone has the neuron impairment , simply by analysing the way they type
+in people with parkinson 's disease , dopamine - producing cells in part of the brain called the substantia nigra are killed off , leading to tremors , slowness of movement , and difficulty walking researchers at the mit have now created an algorithm that can tell how effectively someone is striking a keypad
+it does this by analysing something known as ' key hold time ' - a measure of how long a key is pressed before being released
+we just pay attention to what keys are being pressed , not when or for how long
+the researchers were able to detect early parkinson 's disease with a remarkable 85 per cent accuracy
+preliminary results from a study of about two dozen parkinson 's disease 's patients suggest that the researchers ' algorithm for analysing keystrokes can also distinguish people who have the disease from those who do n't
+the team is now planning a larger study of parkinson 's disease 's patients
+they are also working on smartphone apps that could be used to gather the same kind of data from mobile devices
+' we thought this was a unique opportunity to have a window into the brain using your normal interactions with an electronic device , ' says mit researcher sanchez-ferro
+' overall , it strikes me that this has great potential to detect subtle motor impairments even in advance of a clinician 's ability to find them , ' adds growdon , who was not involved in the study
+the researchers believe this strategy could also be used to evaluate patients with other diseases that affect motor skills , such as rheumatoid arthritis
+the team are working on smartphone apps that may be used to gather the same type of data from mobiles

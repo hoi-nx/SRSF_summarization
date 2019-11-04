@@ -1,0 +1,6 @@
+san francisco company has developed the cinder sensing cooker
+it uses ' satellite technology ' to cook food to precise temperatures
+the user selects what food they are cooking using an app
+the device then uses two plates to heat it to the right temperature
+it can also store cooked food for up to two hours ready to serve
+the company plans to release the product in early 2016

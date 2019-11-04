@@ -35,6 +35,7 @@ class SRS2F_RNN_RNN(BasicModule):
             batch_first=True,
             bidirectional=True
         )
+       # self.sent_LSTM = nn.LSTM(input_size=2 * H, hidden_size=H, batch_first=True, bidirectional=True)
         self.fc = nn.Linear(2 * H, 2 * H)
 
         # Parameters of Classification Layer

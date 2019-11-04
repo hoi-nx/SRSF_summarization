@@ -1,0 +1,4 @@
+app has a new , cleaner layout , including an extra tab for ' calls '
+android users can make calls , providing they have an internet connection
+voip calls have to be made between whatsapp users and are free
+feature is expected to roll out for iphone users in the next couple of weeks

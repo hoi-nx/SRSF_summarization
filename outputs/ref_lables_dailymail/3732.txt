@@ -1,0 +1,12 @@
+while apple offers touch id to use your fingerprint to unlock a handset , google has now released an update to its android software allowing owners to unlock their phone with their voice
+known as trusted voice , it can unlock a phone simply by hearing its owner say ' ok , google '
+google has released an update to its android software allowing owners to unlock their phone with their voice ' we 've heard from multiple users that the fully formed feature is rolling out , ' said android police
+' a warning advises that trusted voice unlocking is less secure than other options , but just a couple taps and you 'll be able to unlock and execute commands on your secured device by simply uttering ' ok google
+the popup when you enable ' trusted voice ' warns that the feature is not as secure as a traditional lock screen and that ' someone with a similar voice could unlock your device
+' google also offers an alternative way to unlock an android phone - and it involves using your face
+the face unlock feature was originally introduced in 2011 as part of android 4.0 , also known as ice cream sandwich , but despite this , it is still a relatively unknown tool
+the voice unlock feature has not been officially announced by google , but has begun to appear on some android handsets to set up face unlock , people with android phones running ice cream sandwich or higher can go to settings , security , click on screen lock and select face unlock
+to set up face unlock , people with android phones running ice cream sandwich or higher can go to settings , security , click on screen lock and select face unlock
+as a backup , users need to additionally set up a screen lock pattern or pin , in case the camera breaks or fails to recognise their face
+google already lets its users enable two - step verification for their online accounts , and offers face unlock on android
+with face unlock , pictured , android users can use their face to unlock their smartphone or tablet , in place of a pin or a pattern a number of nexus 5 users reported problems with the face unlock feature when the phone launched earlier this year , but google has said that these bugs should be fixed with the introduction of android 4.4 kitkat

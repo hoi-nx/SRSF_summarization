@@ -1,12 +1,17 @@
 import string
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
+import nltk
 
 import warnings
+
 warnings.simplefilter("ignore", UserWarning)
+
+
 class BaseParser():
-    def __init__(self, sents, word_tokenize, stopwords, pos_tagger, keep_only_n_and_adj, remove_stopwords, stemming_mode):
-        self.sents=sents
+    def __init__(self, sents, word_tokenize, stopwords, pos_tagger, keep_only_n_and_adj, remove_stopwords,
+                 stemming_mode):
+        self.sents = sents
         self.unprocessed_words = self.tokenize_words(sents, word_tokenize)
         processed_words = self.unprocessed_words
 
@@ -27,6 +32,13 @@ class BaseParser():
     def tokenize_words(self, sents, tokenizer):
         sents = list(map(lambda x: x.translate(str.maketrans('', '', string.punctuation)), sents))  # remove punctuation
         return [[t.lower() for t in tokenizer(sent)] for sent in sents]
+
+    def post_tag(self):
+        return [nltk.pos_tag(sentence) for sentence in self.unprocessed_words]
+
+    def chunked_sentences(self):
+        tagged_sentences = [nltk.pos_tag(sentence) for sentence in self.unprocessed_words]
+        return nltk.ne_chunk_sents(tagged_sentences, binary=True)
 
     def keep_only_n_and_adj(self, words, pos_tagger):
         processed_words_with_pos = []
@@ -50,4 +62,3 @@ class BaseParser():
     def stem_words(self, words):
         ps = PorterStemmer()
         return [[ps.stem(w) for w in s] for s in words]
-

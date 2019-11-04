@@ -1,0 +1,6 @@
+two updates will make model s fleet ' impossible to run out of range '
+a range assurance app will communicate with tesla 's superchargers
+trip planner feature will map out the best route for driver 's destination
+this will use data such as wind speed and location to nearest charger
+other features include autosteering which will be available in 3 months
+tesla will soon give drivers ability to summon their car to any location

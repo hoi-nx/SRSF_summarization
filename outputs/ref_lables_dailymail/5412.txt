@@ -1,0 +1,27 @@
+intel has shown of a terrifying glimpse of the future - a swarm of robot spiders that can be controlled with a flick of the wrist
+at the chip giant 's developers forum in china , intel ceo krzanich revealed the demonstration to show off the firm 's button sized computed and controller wristband
+' the curie wristband can understand motion , and actually interpret if you 're running , walking of swimming , ' said krzanich ' the intel curie module is a tiny hardware product based on the intel quark se system chip , which is the company 's first purpose - built system on a chip for wearable devices , ' the firm said
+intel also unveiled a tiny wearable computer , called curie , that is the size of a small button
+while the curie hardware is based on intel 's first purpose - built system - on - chip ( soc ) for wearable devices and is expected to ship to manufacturing partners in the second half of this year
+packed into the tiny computer is bluetooth , sensors and battery charging capabilities
+at the annual event , krzanich stressed the need for intel and the developer community to provide leading - edge technologies to china that drive differentiation across a range of products and industries â from the data center to pc and mobile devices to wearables , as well as the iot ( iot )
+the robots are controlled by a wristband containing intel 's curie computer the size of a button
+' intel remains focused on delivering leadership products and technologies in traditional areas of computing , while also investing in new areas and entrepreneurs â students , makers and developers â to find and fuel future generations of innovation with china
+intel 's 3d - printed experimental dress crowned at the collar with robotic spider legs
+the dress rises when the wearer is stressed out ( right ) but returns to normal ( left ) when they calm down intel 's 3d printed dress in action - the dress can sense the wearer 's mood it is not intel 's first move into arachnid - based systems
+earlier this year the chip giant showed off a tablet that can use hand gestures to scroll a recipe , drones that can manoeuvre an obstacle course without human intervention and even smart clothing that can help the visually impaired navigate safely - and a smart cocktail dress that can repel people who invade the wearer 's space
+intel ceo krzanich also used the keynote at the consumer electronics show in las vegas to show off the company 's intel realsense technology for seeing and understanding depth
+intel also showed off experimental designer wipprecht 's latest spider dress
+' i 'm showing how fashion can be thought provoking , something that pushes people to think and share their feelings
+3d - printed experimental dress crowned at the collar with robotic spider legs which move
+giant screens driven by intel 's realsense technology at the 2015 ces ( ces ) in las vegas eliana pereira mecham gestures while interacting with realsense technology at the intel booth during the ces the technology uses 3d and infrared cameras to allow the user to interact with images on a monitor
+' ceo krzanich also used a keynote tuesday to show off the company 's intel realsense technology for seeing and understanding depth , showing off : food network with intel realsense 3d camera : intel and food network have collaborated to create a cooking application that uses intel realsense technology to eliminate the need to touch the device and instead use gesture control and voice commands on an intel realsense 3d camera enabled device for easy scrolling through the application and navigation of recipes in real time
+all - in - one pc with 3d display concept : intel showcased a futuristic ' 3d i / o ' technology that integrates intel realsense technology with a specialized glass screen to enable an immersive , hologram - like experience without the need for additional eyewear
+intel realsense technology inside robotics and multi-copter drone : intel demonstrated an irobot â® ava Â® 500 video collaboration robot equipped with intel realsense cameras to support the platform 's autonomous navigation and obstacle avoidance technologies
+in addition , intel highlighted the growing possibilities for multi-copter drones , including the inspection of fields and power lines , delivering goods , and even monitoring endangered species
+during the ces keynote , intel created a make - shift obstacle course inside the ces keynote ballroom and demonstrated a number of asctec * firefly multi-copter drones equipped with intel realsense cameras that provide 360 - degree sensing and enabled with unique collision avoidance capabilities
+intel 's intel realsense camera module , which weighs as little as 8 grams and is less than 4mm thick , brings depth perception to drones both indoors and outdoors with minimal impact to payload and flight times
+intel hopes to put the realsense system into laptops and tablets
+nixie founders christoph kohstall shows off the wrist mounted drone , he 2014 ' make it wearable ' challenge winner and the first wearable camera that can fly
+krzanich welcomed nixie founders christoph kohstall and jelena jovanovic to the stage to discuss the intel ' make it wearable ' challenge and highlighted the opportunity it offers to innovators and entrepreneurs
+krzanich went on to say that intel will sponsor the intel ' make it wearable ' challenge again later this year .

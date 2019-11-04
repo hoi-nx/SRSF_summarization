@@ -1,0 +1,5 @@
+nypd will deploy the shotspotter system throughout bronx and brooklyn
+shotspotter uses antennas and acoustic detectors to pinpoint locations
+can detect how many shooters are present and how many shots were fired
+police headquarters receive the information in real time and can then send data to officers already near the area
+ten units will be deployed in the bronx and seven in brooklyn

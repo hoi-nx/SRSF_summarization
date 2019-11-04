@@ -1,0 +1,15 @@
+two vietnamese citizens and a canadian have been charged over roles in hacking email service providers in the u.s. in one of the largest reported data breaches in the nation 's history , the justice department said on friday
+nguyen , 28 , is charged with hacking at least eight email service providers between february 2009 and june 2012 and obtaining more than one billion email addresses
+the service providers involved were not named
+according to the allegations , nguyen and fellow vietnamese citizen vu , 25 , used the data to send so - called spam to tens of millions of people directing them to products they were selling online
+hacked : the data breach compromised almost one billion email addresses across the u.s. from february 2009 to june 2012 both men resided in the netherlands
+vu , who was extradited to the u.s. in march of last year , pleaded guilty on thursday to conspiracy to commit computer fraud
+the other defendant , canadian da silva , 33 , was charged with conspiracy to commit money laundering
+he is the co-owner of a company called 21 celsius inc , that allegedly struck up a marketing arrangement with nguyen and vu to generate revenue and launder the proceeds , according to the justice department
+the two men made $ 2 million from sales on those products over two years
+â those individuals who line their pockets with money gained through deceiving others should know they will not go undetected and will be held accountable , â said special agent in charge veronica f. hyman-pillot of the irs criminal investigation division
+vu was taken into custody in the netherlands in 2012 and was extradited to the u.s. at the beginning of march
+arrests : two men from vietnamese directed spam to canadian , da silva and the three men made more than $ 2 million he has pleaded guilty to to conspiracy to commit computer fraud
+da silva was nabbed by authorities in february at ft. lauderdale international airport trying to leave the country
+' this case reflects the cutting - edge problems posed by today 's cybercrime cases , where the hackers did n't target just a single company ; they infiltrated most of the country 's email distribution firms , ' said acting u.s. attorney john a. horn
+' and the scope of the intrusion is unnerving , in that the hackers did n't stop after stealing the companies ' proprietary data â they then hijacked the companies ' own distribution platforms to send out bulk emails and reaped the profits from email traffic directed to specific websites

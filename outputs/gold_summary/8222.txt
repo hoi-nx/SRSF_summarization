@@ -1,0 +1,6 @@
+test involves running in three - minute segments on a treadmill
+the speed needs to gradually increase along with growing incline
+runners can then plug in their vital statistics into a basic formula
+as well as age and gender , the formula factors in peak heart rate
+it also looks at ability to tolerate exertion as measured by ' mets '
+scientists say the test is more useful than existing stress exams

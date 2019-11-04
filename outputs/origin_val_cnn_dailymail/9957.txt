@@ -1,0 +1,29 @@
+frustrated users of the app store , mac app store and itunes around the world were unable to download songs and apps from apple 's sites for much of the day
+the services were down for approximately eleven hours and the long outage may have cost apple millions of dollars in lost sales
+apple has revealed technical problems caused by an internal dns error - although all service have now been restored
+error : outage is thought to be affecting would - be customers in the uk , us , canada , india and other regions apple also confirmed in an update on its status page that the issue was global
+this morning , the page claimed that all services were functioning well - despite there being problems - but it has now been updated to show that the app store , itunes store , mac app store and ibooks store are all ' unavailable to all users '
+this afternoon , apple issued a statement , saying : ' we apologise to our customers experiencing problems with itunes and other services this morning
+' the cause was an internal dns error at apple
+we âre working to make all of the services available to customers as soon as possible , and we thank everyone for their patience
+' currently music , film and tv content is visible in the itunes store , but users ca nât buy it
+some users have seen error messages , while others are simply unable to download the goods they want in the digital stores
+the front pages of both the app store and mac app store are accessible , but there are broken pages on the sites when accessing individual apps
+currently some customers simply see a spinning circle indicating that a song is in the process of being downloaded , but nothing happens
+others are shown an error page saying that content can not be displayed , or that the store is temporarily unavailable and could not complete their request , when they try to download an album
+the status page also reveals that some users had problems accessing their icloud mail this morning and may have been unable to sign in
+this morning , apple 's status page claimed that all its services were functioning well - despite there being problems - but it has now been updated to show that the app store , itunes store , mac app store and ibooks store are all ' unavailable to all users ' a post from californian tech giant 's apple support twitter handle said : ' app store issue : you may be receiving an error this morning
+apple are currently working on this and we do apologise
+' in 2014 apple revealed in that it had made $ 18.06 billion in revenue from itunes , including its software and services , making up 10 per cent of apple 's total net sales
+if this year 's revenues match 2014 's , the firm could be losing more than $ 2 million an hour - equivalent to $ 34,000 every minute
+london - based social media analyst tim grimes tweeted : ' based on 2014 itunes revenue : apple are losing $ 34,246 per minute , $ 2,054,794 per hour the # itunes store is down
+' seeing as the outage encompasses other services , it could follow that apple 's losses are much higher than this
+tim cook has previously said that the app store posted $ 4.6 billion in revenue for the fourth quarter of 2014 , which means that firm could also be losing around $ 2 million an hour , or almost $ 35,000 a minute
+frustration : in both itunes and the app store , users simply see a spinning circle indicating that a song or app is in the process of being downloaded , but nothing happens , as shown in the screenshots above one person tweeted : ' if itunes does n't start working within the next two hours i will literally cry ... ' while another said ' itunes store has been down for like 2 hours
+' a user called misterdand said : ' itunes , app store is down worldwide , which is screwing up my morning ! has someone hacked them ? # apple # itunes ' and a user called lightcap wrote : ' apple 's app store is down ( for purchasing , not browsing ) , but the world 's most useless site remains useless as ever ... ' posting a link to the company 's status page
+making a humorous reference to apple 's new macbook , which was unveiled with just one port earlier this week , twitter user schwarztech said : ' maybe someone accidentally unplugged the single usb - c cable that the app / ibook storer runs off of ? ' the outage appears to have been ongoing for several hours this morning , according to the next web , which said that ibooks and in - app purchases ca n't be accessed
+testflight - a service used by developers to test apps - is also down , as well as apple support , meaning it is hard for customers to get help in accessing the services
+earlier today the problems seem to be geographically inconsistent
+for example , it 's been reported that it 's possible to download apps from the indian app store , but music tracks are inaccessible
+but now apple has said the outage is affecting all its users across the world , but has yet to respond to mailonline 's request for comment
+the app store was last down on monday , but the move was intentional as apple prepared to launch its apple watch in san francisco .

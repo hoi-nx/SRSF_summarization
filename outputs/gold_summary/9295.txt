@@ -1,0 +1,8 @@
+piper nv is on display at mobile world congress in barcelona
+it has a hd panoramic camera with180 Â° fisheye lens and zoom
+other sensors include humidity , temperature and motion detector
+piper additionally has an infrared and night vision mode
+syncs with a free ios and android app to control the home
+panic mode runs on lock screen and sounds a siren when activated
+works with z wave plugs to make any appliance smart
+appliances are then controlled remotely using the app

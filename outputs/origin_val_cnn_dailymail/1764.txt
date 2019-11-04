@@ -1,0 +1,45 @@
+â there are very few moments in a man 's existence when he experiences so much ludicrous distress , â dickens wrote about having to chasing a hat in the pickwick papers
+but in the modern world , the same could easily be said about repeatedly forgetting an important password
+now researchers have turned to the great victorian author to help find a way of making passwords both secure and more memorable
+researchers have turned to the works of dickens ( illustrated ) to generate secure but memorable passwords according to new research by us - based computer scientists
+they used a model from probability theory to examine the occurrence of letters within mr dickens ' a tale of two cities to generate new passwords they used a model from probability theory to examine the occurrence of letters within mr dickens ' a tale of two cities to generate new passwords
+the process works by looking for two characters that commonly appear together but then generating a third letter that does not
+millions of internet users still rely upon easy - to - crack passwords such as â qwerty â and â 123456 â , but many people are choosing to use more complex sets of characters for our online accounts
+however , a new study has found these seemingly random passwords may be more obvious to hack than you realise
+researchers have shown that passwords such as â mnbvcxz â , â qaz2wsx â and â adgjmptw â can be cracked in seconds - and adding numbers to your codes does little to boost its strength
+the analysis was made by hosting firm wp engine using 10 million passwords recently released by security consultant mark burnett
+they spotted that a number of complex passwords were being used by multiple people
+for example , â qaz2wsx â was in the top 30
+they also noticed that a website called zxcvbn scored these words as zero , or low , for so - called entropy
+entropy is used to determine the strength of a password in terms of â information entropy â
+this comes from information theory and is measured in bits
+the more bits a word is assigned , based on the number of guesses it would take to crack , the stronger the password
+other words that received a low score include â qwertyuiop â , â 1qaz2wsx â and â zxcvbnm â
+this is because each of these words follow a certain pattern on a keyboard , known as â keyboard walks â
+the same approach is used to generate the third character using the second and third letter and so on
+the result is 56 - bit passwords that look like english but are not , making them easy to remember but harder for hackers to guess
+among the examples produced by the approach from the a tale of two cities were : ' the cusay is wither ? ' and ' ther highly to a vice of eart '
+this password would be entered as they are typed above , including spaces
+according to dr clements , a computer and software engineer at the california polytechnic state university who devised the approach , these are easier to remember than random strings of letters and characters that are often recommended by password generators
+he said : ' users are very bad at choosing passwords
+' today , the general assumption - evidenced by the lack of systems using randomly assigned passwords - is that users can not be expected to recall secure passwords ' if we âre convinced that random passwords are a good idea , and that recalling a 56 - bit password is at least within the realm of possibility , we must try to find a set of passwords that are as memorable as possible
+' research on passwords has shown that most people tend to use letters or words that are easiest for them to remember
+mark burnett , a utah - based password researcher who recently published a list of 10 million passwords taken from those shared over the internet , found that the most commonly used password is 123456 followed by the word password
+others tend to use their own name or use a password that is identical to their username
+these are easy to break as most hackers will use easy to remember passwords when trying to break into an account
+they will also tend to use real words when attempting to guess someones password
+the graph above shows the distribution of letters following ' ca ' in a tale of two cities by dickens
+among the examples produced by the approach from the a tale of two cities include : ' the cusay is wither ? ' and ' ther highly to a vice of eart '
+these would be entered as they are typed , including spaces 1
+trustno1 source : mark burnett online security experts recommend using a random string of letters , numbers and characters that use both upper and lower case letters
+an eight - character password generated in this way can produce around 72 quadrillion possible variations - making it virtually impossible to guess
+however , these are difficult to remember
+dr clements ' approach , which was highlighted by the magazine new scientist , uses markov models which are a way of generating random states based on states that currently exist
+in the approach he took , two letters like ' ca ' may appear together in a piece of text , then the chance that they are followed by the letter ' r ' is 278/1397 for example
+however the chance of those two letters being followed by the letter ' f ' or ' x ' is far less in that piece of text
+by randomly generating letters using an algorthim that selects those letters based on meeting certain pobability rules of it appearing with the two preceeding letters in a piece of text , the method produces random but familiar looking passwords
+dr clements said that the approach is not just limited to the works of dickens
+indeed it could be used to generate passwords from a person 's own emails , for example
+he said : ' naturally , the choice of a tale of two cities is largely arbitrary - any corpus of reasonable length will suffice
+' one intriguing possibility would be to choose the full text of all of the e-mails in a particular user âs history
+' this text would presumably reflect the style of text that a particular user is accustomed to read and write , and should in principle be extraordinarily memorable

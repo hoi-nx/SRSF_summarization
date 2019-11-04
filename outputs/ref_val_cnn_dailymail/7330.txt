@@ -1,0 +1,13 @@
+but one firm has developed what it considers to be the next level in gaming - a headset that lets you control on - screen and physical objects using just your mind
+in a demonstration at mobile world congress in barcelona , mailonline put the technology to the test to see if it lives up to the hype
+brain power : the ieee ( ieee ) and australian - based emotiv have developed what it considers to be the next level in gaming - a headset ( pictured ) that lets you control on - screen and physical objects using just your mind the game was developed in partnership with the ieee ( ieee ) and australian - based emotiv
+a â driver â is wired up to emotiv âs electroencephalography ( eeg ) headset and the device is trained to read their unique brain patterns
+the first step involves training the headset to learn the wearer âs â neutral â state
+this involves â clearing their brain â
+victoria woollaston tried out the ieee and emotiv technology at mobile world congress in barcelona
+intense : mailonline 's victoria woollaston tries out the cutting - edge technology for herself â this is the first time i âve worn an eeg headset and expected it to be uncomfortable and intrusive , but it âs the opposite
+â training the headset took less than a minute , for both the neural and push states , but trying to clear your brain is tricky at the best of times , let alone at a noisy and busy trade show
+during the demonstration , these brain waves moved a car the size of a shoebox around a track and each race involves two players wired up to the headset
+these sensors measure and monitor brain waves and these patterns are converted to commands using a brain - computer interface
+the technology is currently a proof - of - concept and there are no immediate plans to release the game and headset
+however , the emotiv headset is available from $ 499 ( Â£ 324 ) and it will work with existing brain - computer interface games and software that work with eeg readings

@@ -1,0 +1,4 @@
+michigan data scientist , olsen , came up with route using an algorithm that calculates shortest distance
+the 13,699 - mile route travels through 48 states and would take 9.33 days of non-stop driving on clear roads
+mr olsen also created a 12,290 - mile road trip map that makes stops at the top - ranked tripadvisor cities in us
+he has created a european road trip and released code used to create it so that any can create a custom route

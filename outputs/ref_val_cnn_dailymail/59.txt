@@ -1,0 +1,8 @@
+a self - driving car is gearing up for a 3,500 - mile cross-country road trip from san francisco to new york that begins next week
+a person will always be behind the wheel of the autonomous car , developed by delphi , in order to take control if there is a situation the vehicle can not handle on its own
+the autonomous vehicle will mainly stick to the highways , where it will be able to pass slower cars and maintain a safe distance from other automobiles all on its own
+delphi cto jeff owens told wired the road trip will be the ' ultimate test ' for the vehicle , as it will be exposed to a ' range of driving conditions ' as well as various types of weather
+according to delphi officials , the road trip will be the longest automated drive ever attempted in north america
+although it will be the delphi car 's longest journey , it wo n't be its first
+but delphi engineer doug welk said one of the reasons for the road trip is to help decide what combination of sensors is best suited for the car , which will ultimately help lower costs
+delphi cto jeff owens said the road trip would be the ' ultimate test ' for the autonomous vehicle , as it would be exposed to a ' range of driving conditions ' as well as various types of weather

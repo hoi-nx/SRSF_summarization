@@ -1,0 +1,5 @@
+nhs heart age calculator predicts when you 'll suffer heart attack or stroke
+asks for age , weight and height , whether you smoke and where you live
+probes medical history checking for diabetes , rheumatoid arthritis , kidney disease and irregular heart beats as well as family history of heart disease
+aims to arm people with the knowledge to live healthier lifestyles
+but critics warn it could push more to take medication to lower their cholesterol , including statins , and suffer unnecessary side effects

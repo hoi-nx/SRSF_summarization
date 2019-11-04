@@ -1,0 +1,9 @@
+apple âs touch id is fast and accurate - until your hand is even the slightest bit dirty or wet
+chip maker qualcomm has unveiled its sense id 3d fingerprint scanner capable of capturing everything from ridges to sweat pores using ultrasonic technology
+the demo version ( pictured ) was covered in glass that measures 0.9mm thick , and qualcomm did not reveal what the maximum thickness is
+phones running sense id are expected to launch later this year , but qualcomm did not reveal to mailonline which devices or manufacturers it is working with a prototype version of the sensor is on display at mobile world congress in barcelona
+when a finger is placed on the tiny sensor - the demo version has a 9mm by 4mm â active area â - the software captures an image of the fingerprint instantly
+apple âs touch id ( pictured ) is fast and accurate - until your hand is even the slightest bit dirty or wet this is stored and used to authenticate a user quickly , with little margin of error
+and because it uses waves that bounce off the surface of the finger it can be used behind materials such as glass or metal
+the demo version was covered in glass that measures 0.9mm thick , and qualcomm did not reveal what the maximum thickness is
+the firm did say , though , that the technology makes it more accurate and powerful than capacitive sensors , like those seen on apple and samsung devices

@@ -1,0 +1,28 @@
+an app that â sings â your messages and sends them to other people over facebook messenger has been released
+called â ditty â , it converts up to 70 characters into music using auto - tune , with a variety of popular songs available in the app. from nursery rhymes such as hickory dickory dock to more contemporary music like chandelier , any message can be â musicified â and sent to other people
+users can type in a 70 - character message and have it turned into a song
+the ios and android app is free , although some songs cost 80p the app , from california - based zya , is free to download and available now for ios and android
+when a user loads up the app they are presented with a window to type messages in at the bottom of the screen , and a scrollable list of songs to choose from
+after a typing a message , a user can then preview what it will sound like with different songs before sending it over facebook messenger
+the messages are converted into 20 - second music clips , displayed in a text - based music video , and the words of the message are then sung in tune to the song
+it works by matching up the syllable count of a message with the lyrics of a song
+while some of the dozens of songs on the service are free , most such as â counting stars â and â the gambler â require payment of Â£ 0.80 ( $ 0.99 )
+once a song is bought , it is stored in the user âs library and can be used as many times as they want
+zya also said they had plans to add more songs , with a target of 100 in the next few months
+when a user loads up the app they are presented with a window to type messages in at the bottom , and a scrollable list of songs to choose from ( left )
+after typing a message , a user can then preview what it will sound like with different songs before sending it over facebook messenger ( right ) forty different apps will be available on messenger in the coming days , allowing users of the service to send each other sports clips and animations , facebook said
+another feature will allow consumers to use messenger to send a text message to make a restaurant reservation or to receive a notification that a product purchased online has shipped
+the example of receiving a notification when a garage door is opened was demonstrated on - stage
+â everyone loves music , but making it has always divided people into two camps - those who can and those who ca nât , â the company said in a statement
+â ditty changes that by making the simple act of typing a musical experience
+â ' ditty is a brand new experience that sings personal messages to the melody of famous songs and makes them shareable via messenger
+' users type in up to 70 characters , select a well - known track and ditty generates a personalised lyric video to send to friends
+' the release of ditty follows news from the f8 developer conference in san francisco , where facebook announced its messenger app would be opened to third party developers
+known as the messenger platform , it will allow developers to build new services into the app , which is used by 600 million users each month
+boss mark zuckerberg said it would give users ' more tools for expression '
+the release of ditty follows news from the f8 developer conference in san francisco , where facebook boss mark zuckerberg ( pictured ) announced their messenger app would be opened to third party developers
+known as the messenger platform , it will allow developers to build new services into the app the new platform will give users the chance to communicate directly with businesses , for example to change an order as well as track its delivery
+facebook 's marcus , vice president of messaging products , took to the stage to confirm that apps like espn have already built apps that will now be supported in messenger
+over 40 apps will be launched in the coming days , he confirmed - with ditty being just one
+the initial kit for developers to build their software into messenger is available now , though no general release date has yet been confirmed
+mr marcus also spoke of facebook 's desire to revolutionise online shopping by allowing users to receive real - time shopping updates via messenger .

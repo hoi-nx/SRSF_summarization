@@ -1,0 +1,83 @@
+it was a foregone conclusion that htc would use this year 's mobile world congress to launch its latest handset , but the taiwanese firm had something else up its sleeve
+at the event in barcelona the phone maker unveiled early details about a full - body virtual reality system it has developed in partnership with gaming giant valve
+the system , dubbed re vive , moves beyond just a headset and uses kinect - style lasers to track even the smallest of body movements , letting players become fully immersed in their games
+at htc unveiled early details of a full - body virtual reality system developed in partnership with gaming giant valve
+the system moves beyond a headset ( pictured ) and uses kinect - style lasers to track the smallest of body movements , letting players become fully immersed in game kinect is a system designed by microsoft for use with its xbox games consoles
+the technology can read up to six skeletons at once and its ' small object detection ' is said to be two - and - a - half times better
+this means it can identify small movements of the hand on a controller , for example
+htc âs vive has â full room scale â and two wireless controllers with hand tracking
+a developer version will launch in the spring and the consumer model will go on sale later in the year
+the system is powered by the oculus rift technology and htc will announce more information nearer the time of the developer launch
+htc also used the event to unveil its 5 - inch htc one m9 phone with 20mp camera and a fitness band , in partnership with under armour
+in particular , the htc one m8 's rear - facing 4 ultrapixel camera has been added to the front of the m9 , and the m9 's rear camera has been upgraded to 20mp
+kinect is a system designed by microsoft for use with its xbox games consoles.the technology can read up to six skeletons at once and its ' small object detection ' is said to be two - and - a - half times better.this means it can identify small movements of the hand on a controller , for example ( pictured ) ultrapixels are , for all intents and purposes , another name for megapixels
+however , each individual pixel is marginally larger meaning they capture more light
+in addition to the upgraded lenses , htc has developed software called dynamic exposure designed around the human eye
+when a photo is taken on the one m9 , this algorithm makes it appear as close to how the human eye would view it as possible , with the same light adjustment and focus
+it also adds similar depth qualities , boosted by the dual camera the firm originally added on the htc one m8
+' i have previously struggled to buy into virtual reality when it consisted of sitting on a chair and simply looking around , but htc âs vive system has convinced me otherwise
+during the demonstration i was taken into a room that was empty except for a computer setup , the htc vive headset , two controllers and sensors on two of the walls
+these sensors use lasers to plot the room âs shape , size and obstacles
+for the demonstration version , the headset was attached to the computer using wires
+but the htc spokesman told mailonline this was because of the interference from the various networks covering the trade show and the final version will be wireless
+during a demonstration mailonline 's victoria woollaston was taken into a room that was empty except for a computer setup , the htc vive headset ( pictured ) , two controllers and sensors on two of the walls
+these sensors use lasers to plot the room âs shape , size and obstacles once i put the headset on , a grid appeared around me similar to how the holodeck appears in star trek
+the demonstrator handed me the wireless controllers , which in itself was a strange experience to see controllers â floating â towards you but not see the hands holding them
+i was then trained to use the controllers by blowing up a balloon with the left hand and punching it through the air with the right
+the first â experience â dropped me underwater onto a sunken ship
+small fish swam around me , which i could â touch â and move
+i could look over the edge of the ship and explore the deck
+if at any point i approached a real - world obstacle , a feint grid would appear to warn me
+during this experience a virtual stingray swam near my face and a huge whale made me jump as it appeared on my left shoulder and cast a shadow over me
+another experience involved painting in the air
+colours and brushes were selected with the left controller and painted with the right
+these paintings hung in the air and i was able to walk through them
+i also made snow fall around me
+a third involved exploring a kitchen , making a meal and serving it
+at one point i dropped an egg near my foot and it broke and made a mess
+i could use the controllers and triggers to pick up objects , move them around and drop them
+these skills were then put to the test during another experience in which i had to repair a robot
+while the final experience had me placed in the middle of a virtual battle
+i could explore the battleground and kneel down so my face was in line with the ground
+i could n't count the number of times i jumped , laughed , expressed surprise and was wowed by this technology
+and this is an early version , with a limited number of trials
+by these standards , this technology has the potential to live up to htc âs claims of being revolutionary
+that said , there is one substantial benefit to having a stationary virtual reality experience compared to one you can explore and that âs convenience
+i ca nât imagine many people have rooms they can dedicate entirely to this technology , or want to spend money on a host of kit , rather than just a headset
+as it stands though this technology literally took my breath away at times and was the stand out tech of this year âs mobile world congress
+' victoria woollaston the ' full - body virtual reality system ' was a surprise announcement at an event where htc also unveiled it m9 handset and a fitness band
+the m9 has added incremental changes compared to previous htc one m8 ( pictured ) and these include taking the 4 ultrapixel camera from rear of htc one m8 and adding it to the front of the m9 handset : htc has also unveiled its 5 - inch htc one m9 phone with 20mp camera and a fitness band beside this , however , the changes between the htc one m8 and m9 are incremental with the majority of tweaks being made to the operating system
+these include highly customisable themes and dynamic home screens
+using the phone 's location , and by learning about a user 's habits , the m9 will change which icons appear on the home screen throughout the day
+for example , if it knows the user is at home it will prioritise gaming and social network apps , but when it senses the user is near a tube or train station it will push the national rail app - or similar - to the front
+it only suggests apps that the user has already installed , and the suggestions can be customised or switched off completely
+elsewhere , the m9 is powered by the latest qualcomm snapdragon technology and features 3gb of ram
+it has 32gb of storage with the option to extend this using an sd card , plus all customers get 100gb google drive for two years
+mailonline 's victoria woollaston reveals her first impressions of htc 's new device
+' there is little to get excited about with the one m9
+' its predecessors - the original one known as m7 and the one htc one m8 - are well - made , well - built and were global successes
+' and the m9 is more of the same
+' this means it has the same great design and feels comfortable to hold - so is far from a criticism - but it hardly warrants spending money to upgrade , especially from the htc one m8
+' the standout feature of the m9 is its cameras
+' htc leads the way with smartphone cameras and has tapped into the growing trend of ' smartphone photography '
+' by adding the 4ultrapixel camera from the htc one m8 to the front of the m9 , it also understands its customers love of selfies
+' seeing the dynamic exposure in action does highlight how shots on iphone and android devices can sometimes fall short , but again , this is n't a reason to upgrade on its own
+' beyond that the innovations are minimal
+' htc prides itself on including features that add value rather than gimmicks , but without these there seems little incentive to switch - especially if you 're a samsung or apple owner
+' many of its software features , such as blinkfeed and the new dynamic homescreen , will appeal to hardcore htc fans , but may seem like bloatware to others
+' that 's not to say the phone is poor , and if an m7 owner is looking to upgrade then the m9 seems like an obvious choice
+' but by tapping into its existing market rather than looking to expand , the handset may struggle to emulate its predecessors successes
+' the phone will be available from 31 march in three colours - ' gold on silver ' , ' gum metal grey on grey ' and ' gold on gold
+' prices are yet to be announced
+htc also used the event to launch its first fitness band in partnership with under armour
+the partnership was announced in january and under armour âs team of designers , sports scientists and athletes have worked with htc âs connected products to create the wearable
+it will work with ua record - an app that lets people record and analyse their activity levels from various other apps such as myfitnesspal and endomodo
+the band pairs with android 4.3 + and ios 7 + to also show phone notifications
+it will additionally respond to gestures to make it easier to control when exercising , for example
+htc said the band launch in the us later this year and the company is ' evaluating ' it in europe
+again , no price details were given
+the m9 's rear camera has been upgraded to 20mp
+in addition to the new lenses , htc has developed software called dynamic exposure designed to mimic the human eye
+when a photo is taken this algorithm adjusts exposure , focus and depth accordingly
+this is boosted by the dual - lens setup added on the htc one m8 ( shown ) beside the camera updates , the differences between the htc one m8 and m9 are incremental , with the majority of tweaks being made to the operating system
+many of the leaked specifications ( pictured ) before the event have been confirmed including 3gb of ram , screen size , operating system and processor

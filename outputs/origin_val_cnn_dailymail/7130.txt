@@ -1,0 +1,24 @@
+doctors stress the importance of detecting disease early on to give people the best chance of recovery
+and in the very near future you could get these early warning signs using just your smartphone
+a san francisco firm has developed a sensor that identifies gases and molecules released in a person âs breath that could hint at an underlying illness
+doctor in a stick ? the very early model of the sensor ( pictured ) has been created by san francisco - based boydsense and is on display at this year âs mobile world congress in barcelona advanced software and prediction algorithms are then used with a connected app to reveal any anomalies
+the very early model of the sensor has been created by san francisco - based boydsense and is on display at this year âs mobile world congress in barcelona
+endogenous volatile organic compounds ( vocs ) are released either through everyday metabolic activity , or by diseases in the body
+once created , they travel into the blood and are released in urine or breath
+in addition to detecting volatile compounds in the breath , the firm said the sensor could be used to identify compounds released by rotting food some compounds , including carbon for instance , are released naturally
+boydsense has therefore developed software that can identify at which point the level of a gas or compound is beyond what is considered normal
+it uses predictive algorithms to then convert the data so that patients and doctors can understand what the results mean
+it is hoped that complex processing will prevent needless worry or give a false reading that suggests they are ill. if the sensor is added to a smartphone , for example , a patient could record their breath and the results could be sent to their doctor automatically
+in particular , the sensors build on current breath gas analysers that are used to detect early signs of diabetes and even lung cancer
+in addition to detecting volatile compounds in the breath , mr thuillier said the sensor could be used to identify compounds released by rotting food
+in the mailonline demo , the boydsense sensor was able to detect an orange within 30 seconds boydsense âs boss thuillier gave mailonline a demo of the technology at mobile world congress
+the current sensor is a prototype and syncs with a smartphone via bluetooth - although mr thuillier hopes future models will be embedded into the phones themselves
+it takes around a minute to normalise and stabilise , a process needed to ensure that any readings are not contaminated by previous â sniffs â
+this process is expected to be much faster on a finalised version , however
+for the demo , the sensor is then placed inside a jar containing molecules released by oranges
+within about 30 seconds the sensor beeped to say it had recognised the molecules and a picture of an orange appeared on the connected smartphone
+this was a simplified way of demonstrating its capabilities , but mr thuillier explained that the compounds released by oranges and vanilla - another jar in the demo - were complex enough to show its potential
+if attached to a smartphone , the sensor could be placed in a fridge or cupboard and detect if chicken is nearing its best - before date , or if fruit and vegetables are about to turn
+mr thuillier said : â i am excited to help lead in the creation of the first multi-bio sensing platform that detects and analyses biosignatures anywhere , anytime
+this platform will improve the way consumers manage their wellness
+boydsense aims to be the world leader in solutions and services that enable and transform the way people gather and manage their biosignature analytics

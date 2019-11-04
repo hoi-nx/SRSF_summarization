@@ -1,0 +1,42 @@
+cia researchers have been involved in a ' sustained effort ' for nearly a decade to crack the security protecting apple iphones and ipad
+this is according to investigative news site , the intercept , who today cited documents obtained from nsa whistleblower snowden
+the report says top - secret documents reveal u.s. government researchers had created a version of xcode , apple 's software application development tool , to create surveillance backdoors
+cia researchers have been involved in a ' sustained effort ' for nearly a decade to crack the security protecting apple iphones and tablets
+this is according to , investigative news site , the intercept , who claims to have access to top secret files detailing the spying activity these backdoors would have allowed them access into programs distributed on apple 's app store
+the intercept has in the past published a number of reports from documents released by whistleblower snowden
+the site 's editors include glenn greenwald , who won a pulitzer prize for his work in reporting on snowden 's revelations , and by oscar - winning documentary maker laura poitras
+it said the latest documents , which covered a period from 2006 to 2013 , stop short of proving whether u.s. intelligence researchers had succeeded in breaking apple 's encryption coding , which secures user data and communications
+efforts to break into apple products by government security researchers started as early as 2006 , a year before apple introduced its first iphones and continued through the launch of the ipad in 2010 and beyond , the intercept said
+the intercept today cited documents obtained from nsa whistleblower snowden ( pictured )
+it said the latest documents , which covered a period from2006 to 2013 , stop short of proving whether u.s. intelligenc eresearchers had succeeded in breaking apple 's encryption coding breaching apple security was part of a top - secret programme by the u.s. government , aided by british intelligence researchers , to hack ' secure communications products , both foreign and domestic ' including google android phones , it added
+silicon valley technology companies have in recent months sought to restore trust among consumers around the world that their products have not become tools for widespread government surveillance of citizens
+last september , apple strengthened encryption methods for data stored on iphones
+it claimed the changes meant the company no longer had any way to extract customer data on the devices , even if a government ordered it to with a search warrant
+silicon valley rival google said shortly afterward that it also planned to increase the use of stronger encryption tools
+what is a ' backdoor ' ? a backdoor is a hidden remote access from an outside source to the device that enables the hacker to have almost full access with little detection
+should you be worried if you use an apple device ? backdoors are not the type of thing an average hacker can easily exploit
+so far there has been no evidence that they 've been used for identity theft or a criminal attack how would could the government potentially make use of these backdoors ? backdoors can provide access to unencrypted information even if users have chosen to encrypt the data they back up
+data can include the user 's address book , stored photos , the voicemail database and any accounts configured on the device
+what are the main concerns ? earlier this year , security expert zdziarski focused on three particular services known by the technical names com.apple.pcapd , com.apple.mobile.file_relay and com.apple.mobile.house_arrest that are a cause for concern
+how do these hidden files work ? the pcapd service starts a ' packet sniffer ' on an ios device which records all data traffic to and from your iphones
+it 's installed by default on all ios devices and gives the user no warning when it 's activated
+the file_relay service exists to sweep up large volumes of raw data from particular sources on an iphones , and then release it in unencrypted form
+these include the address book , accounts , gps logs , photos , notes , calendar files , call history , voicemail and other records
+the third service , house_arrest , originally allowed itunes to copy documents to third - party apps
+now , as reported in readwrite , house_arrest has access to wider app - related data , including photos , databases , screenshots and temporary ' cached ' information
+more information about apple 's diagnostic capabilities is available from the firm 's support pages
+both companies said the moves were aimed at protecting the privacy of users of their products and that this was partly a response to wide - scale u.s. government spying on internet users revealed by snowden in 2013
+an apple spokesman pointed to public statements by chief executive cook on privacy , but declined to comment further
+' i want to be absolutely clear that we have never worked with any government agency from any country to create a backdoor in any of our products or services , ' cook wrote in a statement on privacy and security published last year
+' we have also never allowed access to our servers
+' leaders including u.s. president barack obama and british prime minister david cameron have expressed concern that turning such privacy - enhancing tools into mass market features could prevent governments from tracking militants planning attacks
+the cia did not immediately reply to a request for comment
+silicon valley technology companies have in recent months sought to restore trust among consumers around the world that their products have not become tools for widespread government surveillance of citizens last year , a security expert warned apple âs ios software contains potentially sinister tools that could be used by governments to spy on iphones and ipad users
+speaking at the ' hackers on planet earth ' conference in new york , zdziarski said that most users are unaware of the lack of protection for iphones data
+he added files found hidden within the firm 's software contain a file - relay service that can be used to access the user 's address book , photos , voicemail and any accounts configured on the device
+the conclusion was based on an analysis of 600 million ios devices , with handsets running the most recent versions of the software at particular risk
+mr zdziarski said there is a file dubbed â com.apple.pcapd â on the device that fires up without notifying the ios device 's owner
+he explained this can record network traffic and http request / response data from the device and could be targeted via wi-fi
+â this software is n't some legacy code left on the device by apple engineers for testing - it has been actively updated and expanded in various ios revisions , â the register claimed
+backdoors are not the type of thing an average hacker can easily exploit , and so far there has been no evidence they 've been used for identity theft or a criminal attack apple responded by saying the services identified by mr zdziarski are not deliberately provided for government agencies to exploit
+the company added they are for ' diagnostic ' purposes , and to allow it workers to manage their company âs devices .

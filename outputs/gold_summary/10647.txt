@@ -1,0 +1,6 @@
+research was carried out by a team from michigan state university
+they used genetic algorithms to model a large population of robot brains
+these were asked to perform tasks , such as finding the exit to a maze
+those that performed the task best had simulated ' offspring ' and multiplied
+in so doing they could learn to perform tasks better and better
+it simulates charles darwin 's theory of natural selection

@@ -1,0 +1,6 @@
+free words u was created by developers sam mendelson and allan zhang
+it changes words in text messages to boost a user âs vocabulary
+the sentence structure and meaning , or idiomatic usage , stays the same
+for example , â have a good time â becomes â have a congenial time â
+tapping a word shows its definition and users can change it back
+words can also be collected and users can compete with their friends

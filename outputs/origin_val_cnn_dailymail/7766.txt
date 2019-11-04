@@ -1,0 +1,33 @@
+google has confirmed rumours it will soon be offering mobile network plans
+vice president sundar pichai said the firm is working with unnamed operators during a talk at mobile world congress in barcelona
+rumours claim it will be initially offered to cities that have google fiber , such as kansas , texas and utah
+elsewhere , mr sundar pichai confirmed google was working on android pay as well as loon , designed to connect more urban areas
+sundar pichai , senior vice president of android pay , chrome and apps , talks during a conference during the mobile world congress , the world 's largest mobile phone trade show in barcelona , spain google has confirmed year - long rumours it will be offering mobile network plans in the u.s
+speaking at mobile world congress in barcelona , vice president sundar pichai said the tech giant is working with unnamed network operators on developing a cellular plan
+â you will see us announce it in the coming months , i think we are at a stage where it is important to think about hardware , software and connectability together , â said the 43 - year - old
+mr pichai also confirmed rumours that google is working on a payment service and unveiled plans for its loon - designed to connect urban areas
+the rumours of a google mobile network plan first emerged in april last year , and the unnamed networks are believed to be sprint and t-mobile in the u.s
+instead of building masts , google will buy access to existing 3g and 4g networks at wholesale prices and sell the connectivity back to customers at a cheaper rate
+visitors use their smartphones to take pictures of the new galaxy s6 edge displayed inside a glass cabinet , during the mobile world congress , the world 's largest mobile phone trade show in barcelona this would make google a mobile virtual network operator ( mvno ) similar to lycamobile in the u.s that runs on t-mobile âs network , and tesco mobile in the uk which shares o2 âs networks
+mvnos do n't own the infrastructure the networks are built on
+instead , they buy access to parts of these networks at wholesale prices
+the company can then use these network to run its own wireless plans and resell the connectivity back to customers - usually at a reduced rate
+mr pinchai said : â we want to be able to experiment along those lines , [ but ] we do n't intend to be a network operator at scale
+â a mobile virtual network operator ( mvno ) is a company that offers mobile service plans using existing networks
+mvnos do n't own the infrastructure the networks are built on
+instead , they buy access to parts of these networks at wholesale prices
+the company can then use this access to run its own wireless plans and resell the connectivity back to customers - usually at a reduced rate
+lycamobile in the u.s , for example , is an mvno because it runs on t-mobile âs network
+in the uk , tesco mobile shares o2 âs , and ultimately telefonica âs , networks
+an mvno is typically run as an independent company , with its own staff and customer service he described the plans as a â project â and will do it on a small enough scale to not threaten existing networks
+in particular , mr sundar pichai said the setup should provide at seamless connection between wi-fi and mobile networks
+sources said at the time of the original rumours that any google - branded mobile network would initially launch in cities that have google fiber
+google launched its 1000mps fiber broadband service in 2011 , starting with kansas city
+in 2013 , the firm announced it was expanding the service to austin in texas , provo in utah and a number of other towns in missouri and california
+more locations are due to be added later this year , but the roll - out is slow because google has to install the relevant infrastructure needed
+google fiber starts at $ 70 ( Â£ 42 ) a month and has been praised for offering high speeds at relatively low prices
+google âs wireless plans would remove some of the costs , and time spent , in setting up its own network and it would equally benefit from using already established and well - connected networks
+this could help google cement itself as an internet service provider
+google could additionally use the network to sell its nexus range of phones , for example , with contract or service plans
+mr sundar pichai also used the event to announce the launch of google fiber in more urban areas and to announce loon , designed to bring connectivity to rural areas , and project titan - a drone version of loon
+he also confirmed android pay will be built into its mobile software and will have nfc components , but wo nât launch it before samsung launches its pay service later this year .

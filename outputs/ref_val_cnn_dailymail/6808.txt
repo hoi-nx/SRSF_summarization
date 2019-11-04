@@ -1,0 +1,11 @@
+hidden patterns of climate change have been revealed by scientists using a method more normally used to diagnose heart disease
+the scientists used multiscale entropy analysis to measure the ' pulse of the planet ' in an attempt to look for subtle changes in temperature on earth
+the graph above shows how the entropy - or predictability - of european air temperatures have become less predictable over time scales of between 12 months and 70 months
+the black lines shows the temperature predictability between 1850 to 1960 while the red lines shows the entropy between 1961 and 2014 researchers at the university of leicester , however , have used it to look at the variability in the temperature in europe
+they found that the climate appears to have become less regular recently when temperatures are examined on times - scales of longer than 12 months
+the chances of heatwaves in europe have dramatically increased in the past decade as a result of warming temperatures , experts have said
+professor balzter , a climate scientist at the university of leicester who led the study , said : ' i had the idea to apply a new method to the climate data
+' it has been applied a lot to diagnose heart disease , because it is good at detecting regularity and randomness in time - series data
+' multiscale entropy analysis works by searching data for small patterns of information that appear repeatedly
+they found that air temperatures between 1961 and 2014 have become less predictable than between 1850 and 1960 over time scales of between 12 months and 70 months
+heatwaves , like the one above hitting brighton beach , have become harder to predict because temperatures patterns across europe have become more irregular , according to the new research by climate scientists this map of central europe shows where entropy has increased ( blue ) and where it has decreased ( red ) this map of central europe shows where the temperature data had the greatest change in entropy , as shown by the colours where yellow is the greatest change and hardest to predict while white is an entropy change of zero ' a large number of extreme weather events such as prolonged cold spells , heatwaves , droughts and floods have been recorded around the world in the past 10 years

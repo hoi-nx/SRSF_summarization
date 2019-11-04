@@ -1,0 +1,10 @@
+some people like to run with a dog as a companion , while others use a â smart â accessory to keep track of the progress they âve made
+called joggobot ( shown ) it is designed to float in front of jogger when they run
+the technology could allow it to track the speed and direction of the runner
+and it could be used for other sports like cycling and rowing the research , by the royal melbourne institute of technology in australian , reported popular science , was presented at the computer-human interaction conference in seoul
+in their paper , the researchers explained how they asked 13 joggers to run for an average of 26 minutes with a drone - specifically a quadcopter - as a companion
+the goal was to see if a drone could motivate a runner to keep their pace up , and provide a companion that helped them stay fit
+the drone was designed to fly 13ft ( four metres ) in front of the jogger at a height of 10ft ( three metres )
+technology has been developed where a drone could lock onto a pattern on a runner âs shirt in order to track their speed and direction , although this has n't been implemented yet
+however , technology has been developed where a drone could lock onto a pattern on a runner âs shirt in order to track their speed and direction ( shown ) there were some concerns from the runners , though ; occasionally the quadcopter would deviate from its path , leading them to question their safety
+â the researchers think their study could help design flying robots that support joggers , and it could even be used for other sports as well such as cycling , cross-country skiing , rowing or even fun runs

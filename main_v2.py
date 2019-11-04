@@ -12,6 +12,8 @@ from torch.utils.data import DataLoader
 from torch.nn.utils import clip_grad_norm
 from time import time
 from tqdm import tqdm
+import os
+import errno
 import warnings
 
 warnings.simplefilter("ignore", UserWarning)
@@ -219,9 +221,14 @@ def m_test():
             topk_indices.sort()
             doc = batch['doc'][doc_id].split('\n')[:doc_len]
             hyp = [doc[index] for index in topk_indices]
-            ref = summaries[doc_id]
-            with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
-                f.write(ref)
+           # ref = summaries[doc_id]
+           # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
+               # f.write(ref)
+            try:
+                os.makedirs(args.hyp)
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
             with open(os.path.join(args.hyp, str(file_id) + '.txt'), 'w') as f:
                 f.write('\n'.join(hyp))
             start = stop

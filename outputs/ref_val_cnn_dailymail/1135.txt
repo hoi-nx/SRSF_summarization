@@ -1,0 +1,12 @@
+the illustration shows the habitable zone for different types of stars
+the green area is the habitable zone ( hz ) , where liquid water can exist on a planet âs surface
+the red area is too hot for liquid water on the planetary surface and the blue area is too cold for liquid water on the planetary surface ' according to the statistics and the indications we have , a good share of the planets in the habitable zone will be solid planets where there might be liquid water and where life could exist , ' said jacobsen , from the university of copenhagen
+the findings are based on data from the american space agency nasa 's kepler space telescope , which has confirmed the existence of around 1,000 planets orbiting stars in the milky way
+to estimate the positions of the ' hidden ' planets , the researchers updated a 250 - year - old mathematical concept called the titius-bode law law
+pictured are exoplanetary systems where the previously known planets are marked with blue dots , while the red dots show the planets predicted by the titius-bode law on the composition of planetary systems
+124 planetary systems in the survey â based on data from the kepler satellite , fit with this formula the law , which inferred the existence of uranus before it was seen , states that there is a certain ratio between the orbital periods of planets in a solar system
+' we decided to use this method to calculate the potential planetary positions in 151 planetary systems , where the kepler satellite had found between three and six planets , ' said mr jacobsen
+' in 124 of the planetary systems , the titius-bode law fit with the position of the planets
+' using t-b 's law we tried to predict where there could be more planets further out in the planetary systems
+' in this way , the scientists predicted a total of 228 planets in the 151 systems and concluded that each system should have an average of one to three planets in the habitable zone
+extrapolating further , this suggested that there could be billions of stars in the milky way with habitable zone planets where surface water and life could exist

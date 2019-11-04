@@ -1,0 +1,22 @@
+mapbox , a popular custom online map tool used by companies including pinterest and uber , has created a new set of maps that are out of this world
+the amazing maps of mars were made using data from nasa and esa spacecraft
+they are in high - resolution , and allow users to zoom in to the surface and see key features across the red planet
+scroll down to use both maps washington dc - based mapbox have created interactive maps of the surface of mars
+they use data from nasa and esa spacecraft to create the high - resolution detailed maps
+the mars satellite map , shown , uses black and white imagery taken by the mars orbiter camera on the mgs ( mgs ) the maps are named mars satellite and mars terrain , and were created by data analyst and mapping strategist matt greene at mapbox
+in december 2014 it was announced an instrument on the curiosity had identified spikes of methane that scientists believe may have come from bacteria - like organisms on the surface
+the discovery , reported in the journal science , followed studies of gas samples by curiosity 's tls ( tls ) - an instrument that uses intense light to carry out chemical analysis
+â we love space , and we think it 's amazing how much detail is mapped of our distant neighbour , â said mapbox on their website
+â that 's why we 're using mapbox 's tools to make it possible to explore mars from anywhere
+â the mars satellite map uses black and white imagery taken by the mars orbiter camera on the mgs ( mgs ) , provided by nasa and malin space science systems
+nasa âs mgs was operational in orbit around mars from 12 september 1997 to 2 november 2006
+it was a global mapping mission that examined the entire planet , including its atmosphere and surface
+data from the mgs mission has been used to identify landing sites for rovers and landers on the surface
+the whole surface of mars is then rendered in high - resolution , with landing sites and geological features on the surface highlighted
+nasa âs mgs , illustrated , was operational in orbit around mars from 12 september 1997 to 2 november 2006
+it was a global mapping mission that examined the entire planet , including its atmosphere and surface one of the most interesting is olympus mons , an enormous dormant volcano that is one of the largest mountains in the solar system , measuring 16 miles ( 25 kilometres ) tall
+a second map called mars terrain uses vectorised hillshades and contours from digital elevation models of mars to visualise the surface
+this uses information from the mars orbital laser altimeter an instrument that was also on board the mgs
+it also uses data from the high resolution stereo camera on esa âs mars express , which has been in orbit around mars since christmas day in 2003 and is still operational today
+one of the most interesting features that can be seen is olympus mons , a huge dormant volcano that is one of the largest mountains in the solar system , measuring 16 miles ( 25 kilometres ) tall a second map called mars terrain , shown , uses vectorised hillshades and contours from digital elevation models of mars to visualise the surface
+this uses information from the mars orbital laser altimeter an instrument that was also on board the mgs

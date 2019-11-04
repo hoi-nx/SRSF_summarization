@@ -1,0 +1,43 @@
+hong kong it was n't supposed to work
+but china 's great firewall -- a massive internet surveillance and content control system -- has , in many respects , been an unparalleled success
+china has internet companies worth billions of dollars and more web users than the population of the u.s. -- all while still being able to block information it deems counter to its interests
+and now , some fear , the model is going global
+" if you are sitting in beijing , what 's the problem ? " asks bishop , china watcher and author of the china newsletter in the latest episode of " on china
+" " you are still in power , you have 650 million internet users , you have billions of dollars of economic value going to the internet everyday , you 've used the internet to increase government transparency , investors love us and they ca n't throw enough money at our companies that have more than half a trillion dollars in market capitalization , " says bishop
+soon after china tip - toed onto the internet in the late 1980s , it laid down the foundation of the great firewall but critics asserted that an internet with chinese characteristics would be no internet at all
+during a high - profile media tour in beijing in 1999 , mit media lab founder and technology pundit negroponte declared that a " healthy disrespect for authority " was required for any successful internet industry
+a year later , then - u.s. president bill clinton announced that " liberty will spread by cell phone and cable modem " and that any attempt to control the internet in china would be " like trying to nail jell-o to the wall
+" well folks , it 's now 2015 and china has done the impossible
+it 's nailed the jell-o. china has proven it can have its great firewall and enjoy great prosperity too
+tsui , associate professor at the chinese university of hong kong and former head of free expression at google asia-pacific , says that most chinese are happy with the status quo
+" their lives have noticeably improved , " he says
+" the model has worked so far
+" currently home to the world 's largest internet market , china is also home to some of the world 's most valuable internet companies including e-commerce giant alibaba and tencent , now estimated to be worth $ 66.1 billion
+the government has fostered the development of the internet by offering incentives for local entrepreneurs while building walls to keep big western rivals out
+the ban on western social media sites like youtube and facebook has also given home court advantage to china 's own internet stars like youku and wechat
+and contrary to negroponte 's declaration , respecting the strict rules that govern china 's internet has not gotten in the way of innovation as chinese tech developers reinterpret existing business models and build out new mobile apps
+" i have n't really come across anybody who would say that yes , because we do n't have a free internet , therefore we ca n't innovate , " says bishop
+" from beijing 's perspective , there 's this fear that if we open up the internet then it will be chaos
+so if the cost is good - enough or almost - good - enough innovation ... it seems like a pretty straight forward equation from the perspective of the policymakers
+" and there are signs the great firewall is expanding its reach
+last week , the chinese and english news websites of reuters news agency became inaccessible in china , joining a number of foreign media destinations that are barred online in china
+there have been ways to get around it
+through vpns , or vpns , web users in china can access restricted content
+but in a recent crackdown , the chinese government is shutting down vpns -- beijing 's latest move to shore up its cyber-authority
+" you can filter out keywords , you can filter by url , you can block or poison dns ( domain name system ) , and increasingly now they identify vpns , " says tsui
+" the problem is that it 's decided on a national level by the government , " he adds
+" it 's this attitude that ' father knows best
+' " and that " father " would be lu wei , the so - called internet czar of china who was recently photographed smiling at zuckerberg 's desk during a visit at facebook 's headquarters in california
+" lu wei is really pushing this ' internet sovereignty ' model , where we can control the information , we can control the internet within our borders and we will use our model , " says rife , the east asia research director of amnesty international
+" more than that , the chinese authorities are pushing this as a model for the globe and they are going to get a lot of acceptance or buy - in from a lot of different countries
+" amnesty international fears the great firewall could become the next great export from china
+" it would be a very attractive model for instance for russia , for egypt , or for other states , " rife says
+" it would be obviously in china 's interest for other people and other nation states to agree with them and their interpretation of internet sovereignty
+" and instead of backing away , western onlookers may be nodding their heads in agreement
+last year , the u.s. - based linkedin decided to censor some content on its chinese site
+and fear is mounting that zuckerberg 's recent charm offensive with lu wei reflects facebook 's desire to do whatever it takes to crack the china market
+so would global internet users rise up against a facebook that censors its posts and monitors its users to comply with local laws in china ? it 's unlikely , says bishop
+" i actually think most users do n't care
+" " at the end of the day , they 're not going to give up facebook because facebook is operating differently in china
+" a facebook that fits the firewall , and fortune at the expense of freedom
+that is precisely china 's vision of how the internet should be .

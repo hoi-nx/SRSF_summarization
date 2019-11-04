@@ -1,0 +1,30 @@
+one of the most pernicious phrases in the debate over how to counter extremist use of social media is " whack - a - mole
+" in national security circles , many believe that suspending social media accounts used by violent extremists is a pointless endeavor
+they argue that , as in the children 's arcade game " whac-a-mole , " suspending accounts is a fruitless endeavor because , they claim , new accounts are created for every account that is suspended
+to examine this assumption , technologist jonathon morgan and i collected data on millions of twitter accounts , including tens of thousands used by isis supporters , and found substantial evidence to the contrary
+in september 2014 , twitter began to crack down on isis supporters who used its platform , suspending tens of thousands of accounts over the course of several months
+while many users did create new accounts during the first month of the crackdown , the number of new accounts plunged after september , even though suspensions increased
+twitter has indicated that its suspensions fell at least at the high end of our estimated figure , possibly even higher still
+the result is that suspensions are outpacing the number of new accounts successfully created , possibly by a wide margin
+the size of isis 's support network on twitter is shrinking as a result
+additionally , we found that the suspensions targeted some of the most active and effective users in the network , the professional activists who empowered isis to broadcast its propaganda to unsuspecting audiences by spamming hashtags such as # worldcup and # cakeboss
+not only has isis suffered a blow to its ability to spam others , its supporters on twitter are so weakened that they are now hoist by their own petard
+the hashtag that isis uses to promote its own messages has been taken over by opposing spammers , trolls and activists , who frequently tweet five times as much anti-isis content as isis can muster on any given day
+isis content continues to be available online , of course
+the number of suspensions is not sufficient to completely deny them the use of twitter
+but their audience is shrinking and their ability to game twitter with manipulative tactics such as auto - tweeting " bots " has been significantly diminished
+an estimated 10 % of tweets sent by isis supporters are directed at rebuilding their social networks rather than disseminating propaganda , and that does n't account for the additional impact of time lost to the process of creating new accounts and waiting for followers to find them
+these are worthy goals , and they detract from isis 's ability to accomplish its online strategy of intimidation , provocation and recruitment , which is discussed at more length in my new book with jessica stern , isis : the state of terror
+isis users call the suspensions " devastating " and their fury provides evidence that suspensions hit them where it hurts
+but that does n't mean suspensions are ineffective , any more than a cold day outside invalidates decades of temperature trends that show the impact of climate change
+the view outside your window , especially if you are an analyst or journalist following a couple hundred terrorist accounts , will not always accurately reflect an online climate where tens of thousands of accounts are in play
+while our study was only a preliminary look at this issue , it examined a body of data that dwarfs any existing study on the subject
+while future research will help clarify the impact of suspensions over time , it is not likely to ever fully settle the complaints of the whack - a - mole crowd , who are as persistent as their favorite metaphor
+nevertheless , it 's time to move the serious debate away from the question of whether suspensions are effective and toward more complex issues with a better grounding in the available data
+there are complications that arise from the suspension process
+one of the most notable we observed in our study was the question of how people in the network behave under pressure
+our analysis suggested that the social network of isis supporters on twitter is becoming more insular , with users following each other more and becoming less and less exposed to outside influences
+while it is harder to enter the network in the first place and to stay there as an active user , it is possible that this echo - chamber effect might lead new users to radicalize more swiftly and more intensely
+tampering with an online social network , through suspensions or other means , is a form of social engineering , and we need to better understand what that means for users
+we would be better served by research into such new questions than by continuing a tired debate about whether suspensions are effective at degrading the size and online distribution networks of extremist groups
+it 's time to take this debate to the next level , and let the whack - a - mole mole stay whacked .

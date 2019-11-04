@@ -1,0 +1,36 @@
+computer hacking was once the realm of curious teenagers
+it 's now the arena of government spies , professional thieves and soldiers of fortune
+today , it 's all about the money
+that 's why chinese hackers broke into lockheed martin and stole the blueprints to the trillion - dollar f - 35 fighter jet
+it 's also why russian hackers have sneaked into western oil and gas companies for years
+the stakes are higher , too
+in 2010 , hackers slipped a " digital bomb " into the nasdaq that nearly sabotaged the stock market
+in 2012 , iranian ruined 30,000 computers at saudi oil producer aramco
+and think of the immense ( and yet undisclosed ) damage from north korea 's cyberattack on sony pictures last year
+computers were destroyed , executives ' embarrassing emails were exposed , and the entire movie studio was thrown into chaos
+it was n't always this way
+hacking actually has some pretty innocent and harmless beginnings
+the whole concept of " hacking " sprouted from the mit nearly 50 years ago
+computer science students there borrowed the term from a group of model train enthusiasts who " hacked " electric train tracks and switches in 1969 to improve performance
+these new hackers were already figuring out how to alter computer software and hardware to speed it up , even as the scientists at at&t were developing unix , one of the world 's first major operating systems
+hacking became the art of figuring out unique solutions
+it takes an insatiable curiosity about how things work ; hackers wanted to make technology work better , or differently
+they were not inherently good or bad , just clever
+in that sense , the first generation of true hackers were " phreakers , " a bunch of united states punks who toyed with the nation 's telephone system
+they would make international phone calls , just for the fun of it , to explore how the telephone network was set up
+this trained engineer took that concept to the next level by building a custom " blue box " to make those free calls
+wire fraud spiked , and the fbi cracked down on phreakers and their blue boxes
+this was the golden age of hacking
+hackers met on text - only bulletin board systems to talk about phreaking , share computer passwords and tips
+it 's no surprise , then , that the fbi was on high alert that year , and arrested six teenagers in milwaukee -- who called themselves the 414s , after their area code -- when they tapped into the los alamos national laboratory , a nuclear weapon research facility
+the damage of hacking started getting more serious , too
+the next year , a few german hackers working for the russian kgb were caught breaking into the pentagon
+the cat - and - mouse game between law enforcement and hackers continued throughout the 1990s
+there was a bone - chilling moment when a ragtag group of hackers calling themselves l0pht testified before congress in 1998 and said they could shut down the internet in 30 minutes
+previously , hackers broke into computers and networks because they were curious and those tools were inaccessible
+the best proof came in 2003 , when microsoft started offering a $ 5 million bounty on hackers attacking windows
+by the mid- 2000s , hacking belonged to organized crime , governments and hacktivists
+first , crime : hackers around the world wrote malicious software ( malware ) to hijack tens of thousands of computers , using their processing power to generate spam
+when the united states wanted to sabotage the iranian nuclear program in 2009 , it hacked a development facility and unleashed the most dangerous computer virus the world has ever seen
+similarly , there 's proof that russian used hackers to coordinate its attack on georgia during a five - day war in 2008 , taking out key news and government websites as tanks rolled into those specific cities
+as a result , law enforcement tolerance for hacking has fallen to zero

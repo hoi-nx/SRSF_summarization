@@ -1,0 +1,14 @@
+microsoft hopes to lure more people to use its new windows 10 software by making it easy to use many of the same apps they 're already using on apple or android phones
+the move marks a radical shift in strategy for the world 's biggest software company , which still dominates the personal computer market but has failed to get any real traction on tablets and phones , partly because of a lack of apps
+the company said at its annual build conference on wednesday that it will release new programming tools for software developers to rapidly adapt their apple and android apps to run on devices that use the new windows 10 operating system coming late this year
+various app stores merged into one platform , called the one store
+microsoft also announced a new name for the web browser that it plans to offer with windows 10
+the company promises its new ' edge ' browser is faster and more useful than the internet explorer that microsoft has offered for the last 20 years
+while microsoft has already previewed some aspects of the new windows , a parade of top executives is using the build conference to demonstrate more software features and app - building tools , with an emphasis on mobile devices as well as pcs. ultimately , they 're hoping to win over people who have turned to smartphones and tablets that run on rival operating systems from google and apple
+during the three - day conference , microsoft is also expected to show off new windows smartphones or other devices and reveal more details about such tech initiatives as the company 's new spartan web browser ; its siri - like digital assistant known as cortana ; and the hololens , a futuristic ' augmented reality ' headset that projects three - dimensional images in a wearer 's field of vision
+but perhaps most importantly , this year 's conference is an opportunity for microsoft to persuade an audience of more than 5,000 techies and independent programmers that it 's worth their time to create new apps and programs for windows 10
+experts say microsoft needs a rich variety of apps if it wants to appeal to people who are increasingly using mobile gadgets instead of personal computers
+internet explorer , which was first called ie , was first released as part of the add - on package plus ! for windows 95 in 1995
+however , it struggled in the face of competition , and in may 2012 it was announced that google 's chrome overtook ie as the most used browser worldwide
+he said microsoft has struggled with a ' chicken - and - egg ' problem , in which developers have been reluctant to build mobile apps for windows because relatively few people use windows phones and tablets
+currently , there are more than 1.4 million apps for android phones and about the same for apple devices , while there are only a few hundred thousand apps that work on windows phones and tablets

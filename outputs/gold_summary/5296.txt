@@ -1,0 +1,3 @@
+weather map produced using data from nasa 's terra satellite that measures land surface temperature
+it shows how the temperatures last month compared with those recorded over a 10 year period from 2001
+map shows the temperature divide that has been experienced between the east and west of the country

@@ -1,0 +1,5 @@
+hybrid device , dubbed msw 115 , uses almost transparent oled screen
+it delivers messages and data while allowing users to see watch hands
+powered by an arm cortex m4 chip , the battery lasts for almost a week
+operating system is compatible with android , ios , and windows phones
+prices start at $ 549 ( Â£ 370 ) rising to $ 1,249 ( Â£ 810 ) for limited edition model

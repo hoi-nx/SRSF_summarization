@@ -1,0 +1,10 @@
+virtual reality headsets could help to tackle air sickness and jet lag during flights , according to a team of british engineers
+a new device , called the vr , provides passengers with a virtual image of the horizon that mimics the movements of the aircraft
+this can help to combat the conflict between the information coming from a person 's eyes and their sense of balance in the inner ear , which can lead to travel sickness
+the system , designed by in - flight entertainment company flow flow ife , can also present travellers with high quality images of their destination that replicate the time of day to help them acclimatise to their new time zone
+qantas is the first to introduce virtual reality headsets to its passengers ( above ) to keep them entertained during long flights but the devices could also help combat problems like air sickness and jet lag codrington , general manager for product development at in - flight entertainment company flow flow ife , which has created the device , told the times : ' the worst thing for bringing on motion sickness is a disconnect between what the eyes are seeing and what the body is feeling
+' what our system does is eliminate that disconnect by showing you a horizon that moves up and down as the aircraft does
+' the company showcased a prototype of its device at the aircraft international expo in hamburg last week
+the device uses accelerometers to detect the movement of the aircraft and displays a horizon that moves with it inside
+the display can also provide passengers with a way of exploring their destination with three dimensional content
+the graphic above shows how the virtual reality goggles would help to relieve the symptoms of travel sickness the vr headsets would use accelerometres to detect the movement of the aircraft so it can be displayed on the screen , helping to reduce the mismatch between the eyes and inner ear that can lead to travel sickness however , new devices have started to overcome this by using faster graphics and screen refresh rates

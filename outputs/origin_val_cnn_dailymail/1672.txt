@@ -1,0 +1,22 @@
+cockroaches might not be the most beloved of all critters - but is it ethical to control their movement with mind - control technology ? that âs a debate engineers at texas a&m university are stirring with their latest â robo - roach â device , which can control the path a cockroach takes with wireless technology
+they have created little backpacks for the bugs and implanted electrodes into their nervous system to control their movement
+their backpack stimulates the nervous system in the bugs ' brains ( image provided by dr hong liang )
+doing so allows the direction of their movement to be altered
+it is different to previous technologies that stimulated antennae this is not the first technology to turn cockroaches into controllable insects - others have even released products you can buy to create your own remote - controlled roach
+but previous attempts to manipulate the movements of cockroaches relied on stimulating their antennae , tricking them into avoiding objects
+the technology developed by texas a&m university , meanwhile , works by stimulating nerves in the cockroach âs brain to allow for greater control
+the paper , published in the journal of the royal society interface , details how the team built a small micro-controller , wireless receiver and a rechargeable lithium battery
+these were packaged together in a â backpack â weighing 0.007lbs ( 3g ) that was attached to the cockroach
+next , they inserted electrodes into the body of a cockroach to stimulate its nervous system
+by stimulating either left or right side , the team then found they could control the bug , although it only responded correctly about 60 per cent of the time
+in tests , the researchers were able to control the movement of the cockroaches around obstacles ( shown )
+while they can only control their direction for now , the researchers hope to advance the technology to have greater control , such as making it walk , run and stop on command speaking to the guardian , lead researcher dr hong liang said the benefits of such technology could include attaching cameras or sensors to cockroaches , and having them explore areas humans can not - such as disaster zones
+â insects can do things a robot can not , â she said
+â they can go into small places , sense the environment , and if there âs movement , from a predator say , they can escape much better than a system designed by a human
+â we wanted to find ways to work with them
+â while they can only control their direction for now , the researchers hope to advance the technology to have greater control , such as making it walk , run and stop on command
+in november 2014 researchers from north carolina fitted the hardy creatures with electrical backpacks complete with tiny microphones to detect the faintest of sounds
+the idea is that cyborg cockroaches , or â biobots â , could enter crumpled buildings hit by earthquakes , for example , and help emergency workers find survivors
+â in a collapsed building , sound is the best way to find survivors , â said alper bozkurt , an assistant professor of electrical and computer engineering at north carolina state university
+â the goal is to use the biobots with high - resolution microphones to differentiate between sounds that matter - like people calling for help - from sounds that do n't matter - like a leaking pipe
+â once we 've identified sounds that matter , we can use the biobots equipped with microphone arrays to zero - in on where those sounds are coming from

@@ -1,0 +1,8 @@
+a programmer has created these stunning graphs to reveal the dominant colour of artworks through history they show orange has always been the most popular colour - although in recent years blue has begun to catch up
+the software extracts the relevant colour information from images or artworks found online
+the plot above is based on 94,526 images for the years 1800 - 2000
+the graph shows a clear trend toward more blue paintings toward the end of the 20th century , with all colours increasing except for orange
+he found the paintings change over time - from orange to blue
+' if we assume a smooth linear deterioration of certain colours in oil paintings , it would be possible to subtract that change and study the short term fluctuation in colour use
+' for example the marked increase of blue at the time of the first world war , might actually reflect a true trend in colour use
+' two versions of van gogh 's sunflowers painting on show at the national gallery in in london , england : yellow and orange are the most popular colours in artworks from 1800 , it has been found

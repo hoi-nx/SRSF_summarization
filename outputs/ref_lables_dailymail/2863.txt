@@ -1,0 +1,17 @@
+if you âre fed up with repeatedly typing passwords , hovering your finger on a sensor or staring at your phone waiting for it to scan your face to unlock it , a new device could cure your woes
+the salt card is designed to end the tiresome task of manually unlocking a smartphone or tablet by automatically making it come to life whenever the user is nearby
+the credit card - sized gadget also locks devices again as soon as a user moves out of range at a distance of 10 feet ( three metres )
+. they claim it will save people around 53 hours over a year , based on the belief that the average phone user unlocks their phone 150 times a day
+the duo , based in chicago , illinois , came up with the idea as an increased method of security and a time - saving device and recently raised more than $ 82,000 ( Â£ 53,512 ) on kickstarter to put it into production
+the salt card is made of durable plastic with a matte finish and is the same height and length as an ordinary credit card
+the credit card - sized gadget ( illustrated ) also locks devices again as soon as a user moves out of range
+it connects to an app on a user âs android handset or iphone via bluetooth and also tells them if they have strayed too far from their wallet , where it is suggested the salt card is stored the start - up claims that its salt card is more secure than fingerprint scanners , such as the one in apple 's iphone handset ( pictured ) and it can be used with gloves in the winter chip maker qualcomm has unveiled its sense id 3d fingerprint scanner - the first biometric sensor using ultrasonic technology
+setting up the card is said to be simple , as users only have to enter the unique 12 - digit code printed on the front of the card in the ios or android app to register it as their own
+from then on , their phone automatically unlocks when they move within 10ft ( three metres ) of it
+it is claimed that the card will save people around 53 hours over a year , based on the time it takes to type a password into their phone 150 times a day the card costs $ 20 ( Â£ 13 ) and can be ordered from the company âs website
+â many people are looking for additional ways to secure their phone and people are always looking for ways to save time , â he said
+however , it may appear that if a user 's handbag is stolen with their wallet including the card and their phone inside , salt may prove less secure than a stanard password
+â there are already key fobs that can unlock handsets and many people no longer input a pin , instead using biometric technology , such as fingerprint scanners and face scanners , to unlock their smartphones
+but the pair of salt card inventors say that phone unlocking is just the beginning for them and in the future , they hope to develop the idea as a platform for communicating with all sorts of electronic devices
+there are already key fobs that can unlock handsets and many people no longer input a pin , instead using biometric technology such as fingerprint scanners and iris scanners ( illustrated ) to unlock their smartphones fujitsu has developed a â custom compact and high - output infrared led â , and a custom infrared camera
+each time they look at their phone , the sensor scans their eye , matches it with the stored image and unlocks the device

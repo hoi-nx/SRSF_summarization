@@ -1,0 +1,6 @@
+the system tracks a users hands movements using ultrasound
+gestures can skip through images , play videos and take selfies
+it can also control characters in online games or control music
+ultrasound signals sent through the air from speakers in smartphones and tablets bounce against a user âs hand and are recorded by microphones
+elliptic labs uses these signals to recognise hand gestures
+the company compared it to the way bats use echolocation to navigate

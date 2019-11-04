@@ -1,0 +1,5 @@
+switchmate is fixed onto existing light switches using a magnetic fastener
+the device acts like a ' robotic finger ' when controlled using a mobile phone
+it can turn lights at set certain times and even detect when you are nearby
+developers say it is more versatile than smart lightbulbs currently on offer
+however , the device can not currently be used to control dimmer switches

@@ -1,0 +1,24 @@
+blackout : the range is fully encrypted by default and comes with secure features that let you make calls and send texts that are impossible to track if you âre fed up of apps asking to access your private data and do nât want advertisers tracking your every move , there is now a range of â spy â phones designed to keep you off the grid
+the original blackphone was unveiled last year and its successor - the blackphone 2 - as well as the first ever blacktablet have been announced at this year âs mobile world congress in barcelona
+the range is fully encrypted by default and comes with a suite of secure features that let you make calls and send texts that are impossible to eavesdrop on or track
+blackphone âs android - based devices are built by spanish manufacturer geeksphone alongside security experts silent circle and pgp ( pgp )
+they launched the original handset at last year âs mobile world congress and told mailonline that the range is for people who â want to stay private without compromising on the features seen on typical android phones
+â everything from the custom - built privatos to web browsing and apps , are encrypted , or have been fitted with an extra layer of security
+privatos is a so - called â skin â that runs on top of traditional android software , meaning all android apps are compatible
+the encryption on the blackphone , blackphone 2 and tablet is done via the silent circle and spideroak privacy and security software
+as the firm explained : â there is no bloatware , no hooks to carriers , and no leaky data
+â for the blackphone 2 , this software has been upgraded to version 1.1 , designed to separate work apps from personal ones through the use of multiple profiles on the same device
+upgrade : blackphone âs android - based devices are built by spanish manufacturer geeksphone alongside security experts silent circle and pgp ( pgp ) ( handset specs shown ) for example , this shows users which apps want access to which data
+the blackphone owner can then decide to restrict access to that information and handpick the apps and the data they share
+everything , from the custom - built privatos to web browsing and apps , are encrypted , or have been fitted with an extra layer of security
+the encryption on the blackphone , blackphone 2 and blackphone tablet is done via the silent circle and spideroak privacy and security software
+internet access on the phone is carried out through a virtual private network ( vpn ) that sends and receives data in a way that âs designed to keep it hidden
+the blackphone 2 is larger than the original with a screen size of 5.5 - inches compared to last year âs 4.7 - inch
+it will go on sale by june this year , although price details were not announced
+last year âs phone cost $ 629 ( Â£ 376 ) plus shipping and the updated version is likely to cost roughly the same amount
+private : the company said it is ' anti-personal data from the ground up â and added the phone will appeal to those who do n't want any data collection ( original blackphone model pictured ) the firm did nât reveal much more information about the new flagship tablet , other than it will go on sale later this year
+â public awareness of the erosion of privacy has never been higher , â zimmermann , co-founder of silent circle told mailonline at this year âs event in barcelona
+â silent suite is the blackphone âs core set of app that encrypts calls , texts and other communication to keep it private
+features include : silent phone : this lets users make private voice and video calls in hd clarity over a peer to - peer encrypted voip service
+silent store : installed on all blackphone devices , the privacy - focused app store features apps from the developers vetted by silent circle
+â blackphone âs managing director , toby weir-jones told mailonline : â the availability of a tool does not create the intent for mischief

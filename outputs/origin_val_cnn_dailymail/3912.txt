@@ -1,0 +1,29 @@
+if you have ever wondered why sleepwalkers can navigate their surroundings without bumping into obstacles , a new study may hint at the answer
+scientists have discovered that navigational cells in the brain are just as active when we are asleep as when we are awake
+the finding builds on last year 's discovery of the brain âs â gps system â which comprises clusters of cells that give us a sense of direction
+scientists have revealed that navigational brain cells ( an illustration of neurons is shown ) are just as active when we are asleep as when we are awake
+they made their discovery in the brains of mice researchers from nyu , in new york , focused on the ' head direction system ' in mice , which acts as a compass
+the brain cells in the systems fire more whenever a creature âs head points in a certain direction
+they found that these head direction neurons are active during sleep
+the researchers studied brain activity in mice during deep , or rapid eye movement ( rem ) sleep , that âs a stage known for intense dreaming activity in humans , during which brain electrical activity is virtually indistinguishable from that when awake
+they found that during deep sleep , the ' needle ' of the brain compass in the mice moved at the same speed when they were asleep , as when they were awake
+the researchers studied brain activity in mice during slow - wave and rapid eye movement ( rem ) sleep , that âs a stage known for intense dreaming activity in humans , during which brain electrical activity is virtually indistinguishable from that when awake
+a stock image is shown for the first time , conscious memories have been implanted into the minds of mice while they slept
+scientists from the industrial physics and chemistry higher educational institution in paris , france , used the brain 's replay process - that of replaying the day 's events - to create new memories in the brains of mice , while they slept
+the team , led by karim benchenane , focused on place cells - which are neurons that fire in response to thinking about , or being in , a specific place â and help animals and humans form internal maps
+he monitored the activity of these cells when the mice explored an â arena â using electrodes , isolating the cell that fired in a certain arena location
+while the mice slept , they monitored the creature âs brain activity and when the specific place cell fired , an electrode stimulated the brain areas linked to reward
+when the mice woke up , they immediately scurried to the location that was linked to the rewarding feeling , showing that a new pleasant memory of the place had been formed by the scientists
+the feat offers hope that the same technique could one day be used to change human memories , which could help people who replay traumatic events over and over in their minds
+during slow - wave periods of sleep however , when brain activity significantly decreases , they found a 10-fold acceleration of activity , so that the mice were â looking around â even more than when they were awake
+â we have long known that the brain is at work during sleep , â said senior gyorgy buzsaki , biggs professor of neural sciences at the university
+â but now we know how it is working in one of the seemingly simpler senses - head orientation - or our sense of where we look at in any given space
+â the direction sense is an essential part of our navigation system , since it can reset our internal compass and maps instantaneously , as , for example , when we emerge from the subway and try to orient ourselves
+â the finding could lead to new treatments for navigational problems , which are among the first major symptoms of alzheimer âs disease and other neurological disorders
+for the two year study , described in the journal nature neuroscience , researchers videotaped the head movements of mice and recorded the electrical activity in the head - direction regions of the sleeping animals
+they focused on the antero - dorsal thalmic nucleus and postsibiculum regions of the brain
+the recordings were then compared with similar readings made in the same mice while they were awake and navigating in various environments
+lead author of the study , dr adrien peyrache , said : â the coordinated activity during the majority of sleep likely represents a consolidation of places , events and times , a sort of navigational backup system in the brain , during which the brain stores a map to memory
+â the next step will be to monitor other parts of the mouse brain involved in more complex forms of behaviours to see if similar neural activity patterns are at work
+researchers are also planning experiments to test whether head direction and navigation can be electrically controlled and predicted in advance
+the finding could lead to new treatments for navigational problems , which are among the first major symptoms of alzheimer âs disease and other neurological disorders

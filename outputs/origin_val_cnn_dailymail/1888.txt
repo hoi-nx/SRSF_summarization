@@ -1,0 +1,44 @@
+a terror attack in uk is a â price we should be willing to pay â if it means spy agencies do not have access to masses of personal data , a human rights group has claimed
+isabella sankey , liberty âs director of policy , said it was better to let â some things happen â than to give security services â privacy - infringing measures â designed to catch extremists plotting atrocities in the uk and overseas
+the claim that privacy should be put before national security was condemned as â unacceptable â as a report revealed the extent of snooping by gchq
+parliament 's isc found that agents at gchq , the government listening post , monitor ' large numbers of items ' using ' bulk interception ' powers to uncover terror threats
+but the committee dismissed the claims that gchq had â blanket coverage â of web communications and was rooting indiscriminately through private messages
+it said gchq can access only a small part of the web and operatives see only a â tiny fraction â of the messages collected after a sophisticated filtering process
+isabella sankey , liberty âs director of policy , said some terror attacks succeeding was a â price we should be willing to pay â rather than have gchq use â bulk collection â techniques but this probably still means that thousands of texts , emails and facebook messages are read every day by government spies
+privacy campaigners argue the security services already have too much power to gather and read personal communications
+giving evidence on behalf of liberty , miss isabella sankey was asked by the committee in october if she opposed bulk collection even if it was used in a â targeted â way to â prevent plots and contribute to national security â
+such techniques were , she said , wrong â in principle â and could not be justified even if they were lawful and authorised
+she added : â some things might happen that could have been prevented if you took all of the most oppressive , restrictive and privacy - infringing measures
+that is the price you pay to live in a free society
+â her claims were backed by privacy campaign group big brother watch
+but the isc said : ' we do not subscribe to the point of view that it is acceptable to let some terrorist attacks happen to uphold the individual right to privacy â nor do we believe that the vast majority of the uk public would
+' labour mp hazel blears , a member of the isc branded liberty 's views â unacceptable â
+pointing to the comments , ms hazel blears said : â their view was even if terrorist plots happened they were not prepared to allow this capability to collect information whereas that âs not a view we take
+â â the public will want to see they have that capability but absolutely constrained by a proper legal framework
+â to not have the capability you âre going to accept that some plots will happen and innocent people will lose their lives because you do not want agencies to have this capability
+i think it âs unacceptable
+â labour mp hazel blears said it was â unacceptable â to suggest capability should not be used to prevent a terror attack the isc report was ordered in the wake of when the claims from whistle - blower edward snowden broke in june 2013 the long - awaited report into uk 's spy agencies blanks out almost every detail which would reveal the true extent of the government 's state snooping programme
+the report reveals there are around 100,000 ' bearers ' â or underwater cables â which transmit information over the internet
+all of these cables - carrying people 's emails , facebook messages and other communications - can potentially be hacked by gchq , the committee reveals
+but only a small percentage are actually accessed by uk 's spies , the report says
+the committee also blanks out the exact percentage of information accessed off these chosen cables every day
+it says only a ' tiny fraction ' of the billions of items that are sent over the internet on a daily basis are snooped on
+the report says : ' only the communications of suspected criminals or national security targets are deliberately selected for examination
+' it says : ' fewer than * * * of * * * per cent of the items that transit the internet in one day are ever selected to be read by a gchq analyst
+' the report says ' around * * * thousand items a day ' are read by the spooks
+these are ' only the ones considered to be of the highest intelligence value ' , the report adds
+amnesty said the report could ' absolutely no way be considered adequate '
+yesterday miss isabella sankey accused the committee of attempting to put words in her mouth
+she said : â instead of attempting to put words into the mouths of privacy campaigners , the isc should have put its efforts into scrutinising the agencies
+â there is absolutely no excuse for terrorism and society must take all proportional steps to deal with it â but the real story here is that , despite their best efforts , the committee has been unable to present any evidence that mass surveillance of innocents â calls and emails is saving any lives
+â graham foulkes , whose son david , 22 , was killed in the 2005 london bombings , told the times : â the question that should be asked is , what 's the minimum interference in our freedom that gives us maximum protection ? â liberty is isolated from the real world
+because it is so lauded and courted by politicians , it has lost sense of what it 's all about
+" the committee 's 18 - month inquiry said uk 's spy agencies were not breaking the law â but called for a complete overhaul of the rules governing what they were allowed to do in the interests of national security
+the report says a single law is needed to keep in check the powers of the intelligence agencies to snoop on private communications , because the current legal framework governing the likes of gchq , mi5 and mi6 is ' unnecessarily complicated ' and ' lacks transparency '
+human rights and civil liberties groups dismissed today 's report as a whitewash and accused the committee of being ' a mouthpiece for the spooks '
+shami chakrabarti , director of rights campaign group liberty , said : ' the isc has repeatedly shown itself as - so clueless and ineffective that it 's only thanks to edward snowden that it had the slightest clue of the agencies ' antics
+' the committee calls this report a landmark for ' openness and transparency ' - but how do we trust agencies who have acted unlawfully , hacked the world 's largest sim card manufacturer and developed technologies capable of collecting our login details and passwords , manipulating our mobile devices and hacking our computers and webcams ? ' rachel logan , amnesty uk 's legal programme director , said : ' the oversight of the security services should be the responsibility of a properly independent body
+' the prime minister holds a veto over who sits on the isc , what it can examine , and what it can report so there is absolutely no way it can be considered an adequate independent regulator of the activities of our spies
+' open rights group executive director jim killock added : ' the isc should have apologised to the nation for their failure to inform parliament about how far gchq 's powers have grown
+' this report fails to address any of the key questions apart from the need to reform our out - of - date surveillance laws
+this just confirms that the isc lacks the sufficient independence and expertise to hold the agencies to account

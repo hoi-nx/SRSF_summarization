@@ -1,0 +1,4 @@
+facebook 's rival deepface uses technology from israeli firm face.com
+deepface finds a matching face with 97.25 % accuracy
+google researchers call their system the most - accurate technology
+system could be used to automatically recognise photos on google+

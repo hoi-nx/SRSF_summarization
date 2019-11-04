@@ -1,0 +1,6 @@
+vauxhall / opel hope to introduce the technology to vehicles in future years
+the system uses in - car camera and infrared sensors to track driver 's gaze
+headlights automatically adjust to follow the focus of the motorists sight
+the technology will compensate when drivers are distracted or look away
+system will detect oncoming vehicles and reduce intensity to avoid dazzle
+leds closest to oncoming traffic deactivate but rest of road is illuminated
