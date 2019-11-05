@@ -12,6 +12,7 @@ from utils.sentence_feature import SentenceFeature
 warnings.simplefilter("ignore", UserWarning)
 import nltk
 import ssl
+
 try:
     _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
@@ -52,7 +53,7 @@ class Vocab():
     def make_senten_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
         sents_list, targets, doc_lens = [], [], []
         # trunc document
-        sentents_features=[]
+        sentents_features = []
         for doc, label in zip(batch['doc'], batch['labels']):
             sents = doc.split(split_token)
             labels = label.split(split_token)
@@ -181,16 +182,79 @@ class Vocab():
 
         return features, targets, summaries, doc_lens, sents_lenssssss, content_featuressss
 
-    def make_origin(self, batch, id, split_token='\n'):
+    def make_st_features(self, batch, sent_trunc=50, doc_trunc=100, split_token='\n'):
+        sents_list, targets, doc_lens = [], [], []
+        senten_lengths = []
+        numbericals = []
+        tf_idfs = []
+        stop_word_ratios = []
+        num_noun_adjs = []
         # trunc document
-        for doc, label,gold_summary in zip(batch['doc'], batch['labels'],batch['summaries']):
+        for doc, label in zip(batch['doc'], batch['labels']):
             sents = doc.split(split_token)
             labels = label.split(split_token)
             labels = [int(l) for l in labels]
-            gold_sum=gold_summary.split(split_token)
-            sents_lables=[]
+            max_sent_num = min(doc_trunc, len(sents))
+            sents = sents[:max_sent_num]
+            labels = labels[:max_sent_num]
+            sents_list += sents
+            targets += labels
+            doc_lens.append(len(sents))
+
+            parser = PlaintextParser(sents)
+            feature = SentenceFeature(parser)
+            number_sent = []
+            sentent_leng = []
+            tf_idf = []
+            stop_word = []
+            num_noun_adj = []
+            for idx, sentent in enumerate(sents):
+                number_sent.append(feature.numerical_data(idx))
+                words = feature.unprocessed_words[idx]
+                if len(words) > sent_trunc:
+                    words = words[:sent_trunc]
+                sentent_leng.append(len(words) / feature.max_leng_sent())
+                tf_idf.append(feature._get_tf_idf(idx))
+                stop_word.append(feature._get_stopwords_ratio(idx))
+                num_noun_adj.append(feature.get_noun_adj(idx))
+            numbericals.append(number_sent)
+            senten_lengths.append(sentent_leng)
+            tf_idfs.append(tf_idf)
+            stop_word_ratios.append(stop_word)
+            num_noun_adjs.append(num_noun_adj)
+
+        # trunc or pad sent
+        max_sent_len = 0
+        batch_sents = []
+        for sent in sents_list:
+            words = sent.split()
+            if len(words) > sent_trunc:
+                words = words[:sent_trunc]
+            max_sent_len = len(words) if len(words) > max_sent_len else max_sent_len
+            batch_sents.append(words)
+
+        features = []
+        for sent in batch_sents:
+            feature = [self.w2i(w) for w in sent] + [self.PAD_IDX for _ in range(max_sent_len - len(sent))]
+            features.append(feature)
+
+        features = torch.LongTensor(features)
+        targets = torch.LongTensor(targets)
+        summaries = batch['summaries']
+        # targets is lables
+        # sumaries is goal summary
+        return features, targets, summaries, doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs
+
+    def make_origin(self, batch, id, split_token='\n'):
+        # trunc document
+        for doc, label, gold_summary in zip(batch['doc'], batch['labels'], batch['summaries']):
+            sents = doc.split(split_token)
+            labels = label.split(split_token)
+            labels = [int(l) for l in labels]
+            gold_sum = gold_summary.split(split_token)
+            sents_lables = []
             for index, values in enumerate(labels):
-                if(values == 1):
+                if (values == 1):
                     sents_lables.append(sents[index])
 
             with open(os.path.join("outputs/ref_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
@@ -199,7 +263,6 @@ class Vocab():
                 f.write('\n'.join(gold_sum))
             with open(os.path.join("outputs/origin_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
                 f.write('\n'.join(sents))
-
 
     def _get_avg_doc_freq(self, X, unprocessed_words):
         """

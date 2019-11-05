@@ -35,24 +35,7 @@ class SRSF_RNN_RNN_V3(BasicModule):
             batch_first=True,
             bidirectional=True
         )
-        self.fc = nn.Linear(2 * H, 2 * H)
-
-        # Parameters of Classification Layer
-        self.stop_word = nn.Linear(1, 1, bias=False)
-        self.term_freq = nn.Linear(1, 1, bias=False)
-        self.doc_freq = nn.Linear(1, 1, bias=False)
-
-        self.doc_first = nn.Linear(1, 1, bias=False)
-        self.sent_len = nn.Linear(1, 1, bias=False)
-
-        self.cosine_similarity = nn.Linear(1, 1, bias=False)
-        self.score_page_rank = nn.Linear(1, 1, bias=False)
-
-        self.content = nn.Linear(2 * H, 1, bias=False)
-        self.salience = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
-        self.novelty = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
-        self.abs_pos = nn.Linear(P_D, 1, bias=False)
-        self.rel_pos = nn.Linear(P_D, 1, bias=False)
+        self.sentent_features = nn.Linear(10, 1, bias=False)
         self.bias = nn.Parameter(torch.FloatTensor(1).uniform_(-0.1, 0.1))
 
     @staticmethod
@@ -102,7 +85,7 @@ class SRSF_RNN_RNN_V3(BasicModule):
         out = torch.cat(out).squeeze(2)
         return out
 
-    def forward(self, x, doc_lens, senten_lens, content_features):
+    def forward(self, x, doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs):
         sent_lens = torch.sum(torch.sign(x), dim=1).data
         cosine = nn.CosineSimilarity(dim=0)
         x = self.embed(x)  # (N,L,D)
@@ -124,67 +107,55 @@ class SRSF_RNN_RNN_V3(BasicModule):
             valid_hidden = sent_out[index, :doc_len, :]  # (doc_len,2*H)
             pr = self.page_rank_rel(valid_hidden)
             doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
-            senten_lens_doc = senten_lens[index]
-            content_features_doc = content_features[index]
+            senten_lens_doc = senten_lengths[index]
+            numberical = numbericals[index]
+            tf_idf = tf_idfs[index]
+            stop_word_ratio = stop_word_ratios[index]
+            num_noun_adj = num_noun_adjs[index]
+            centroidIndex = tf_idf.index(max(tf_idf))
 
+            centroid_sentent = valid_hidden[centroidIndex]
+            first_sentent = valid_hidden[0]
+            length_sent = len(valid_hidden)
             s = Variable(torch.zeros(1, 2 * H))
             if self.args.device is not None:
                 s = s.cuda()
-            first_sentent = valid_hidden[0]
             for position, h in enumerate(valid_hidden):
                 cosine_similarity = cosine(h, first_sentent)
+                centroid_similarity = cosine(h, centroid_sentent)
                 h = h.view(1, -1)  # (1,2*H)
                 # get position embeddings
-                abs_index = Variable(torch.LongTensor([[position]]))
-                if self.args.device is not None:
-                    abs_index = abs_index.cuda()
-                abs_features = self.abs_pos_embed(abs_index).squeeze(0)
+                # abs_index = Variable(torch.LongTensor([[position]]))
+                # if self.args.device is not None:
+                #   abs_index = abs_index.cuda()
+                # abs_features = self.abs_pos_embed(abs_index).squeeze(0)
 
-                rel_index = int(round((position + 1) * 9.0 / doc_len))
-                rel_index = Variable(torch.LongTensor([[rel_index]]))
-                if self.args.device is not None:
-                    rel_index = rel_index.cuda()
-                rel_features = self.rel_pos_embed(rel_index).squeeze(0)
+                # rel_index = int(round((position + 1) * 9.0 / doc_len))
+                # rel_index = Variable(torch.LongTensor([[rel_index]]))
+                # if self.args.device is not None:
+                #   rel_index = rel_index.cuda()
+                # rel_features = self.rel_pos_embed(rel_index).squeeze(0)
                 # h la bieu dien cua cau
                 # doc là biểu diễn của document
                 # surface_features
                 # Get length of sentence
                 sent_len = senten_lens_doc[position]
+                sent_numberical = numberical[position]
+                sent_tf_idf = tf_idf[position]
+                sent_stop = stop_word_ratio[position]
+                sent_num_noun_adj = num_noun_adj[position]
+                sent_position = (length_sent - position) / length_sent
+                sent_score_page_rank = pr.get(position, 0)
                 # Get doc_first
                 doc_first = int(position == 0)
                 if doc_first == 0:
                     doc_first = 0
-                doc_first = torch.FloatTensor([doc_first]).cuda()
-                sent_len = torch.FloatTensor([sent_len]).cuda()
-                # ====================================================
 
-                # content_features
-                stop_word = torch.FloatTensor([content_features_doc[position][0]]).cuda()
-                term_freq = torch.FloatTensor([content_features_doc[position][1]]).cuda()
-                doc_freq = torch.FloatTensor([content_features_doc[position][2]]).cuda()
+                all_feature = [sent_position, sent_numberical, sent_len, doc_first, centroid_similarity, sent_tf_idf,
+                               cosine_similarity, sent_score_page_rank, sent_stop, sent_num_noun_adj]
+                feature = torch.FloatTensor(all_feature).cuda()
 
-                # relevance_features
-                cosine_sentent = torch.FloatTensor([cosine_similarity]).cuda()
-                score_pager = torch.FloatTensor([pr.get(position, 0)]).cuda()
-                # ====================================================
-
-                stop_words = self.stop_word(stop_word.view(1, -1))
-                term_freqs = self.term_freq(term_freq.view(1, -1))
-                doc_freqs = self.doc_freq(doc_freq.view(1, -1))
-
-                doc_firsts = self.doc_first(doc_first.view(1, -1))
-                sent_len = self.sent_len(sent_len.view(1, -1))
-
-                cosine_sentents = self.cosine_similarity(cosine_sentent.view(1, -1))
-                score_pages = self.score_page_rank(score_pager.view(1, -1))
-                content = self.content(h)
-                salience = self.salience(h, doc)
-                novelty = -1 * self.novelty(h, F.tanh(s))
-                abs_p = self.abs_pos(abs_features)
-                rel_p = self.rel_pos(rel_features)
-                prob = F.sigmoid(
-                    score_pages + cosine_sentents + sent_len + doc_firsts + stop_words + term_freqs + content +
-                    doc_freqs + salience + novelty + abs_p + rel_p + self.bias)
+                prob = F.softmax(self.sentent_features(feature.view(1, -1)) + self.bias)
                 s = s + torch.mm(prob, h)
                 probs.append(prob)
         return torch.cat(probs).squeeze()

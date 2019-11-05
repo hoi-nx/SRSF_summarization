@@ -40,6 +40,10 @@ class SentenceFeature():
         """
         return len(self.sents) - sent_i / len(self.sents)
 
+    def get_noun_adj(self,sent_i):
+
+        return len(self.processed_words[sent_i])/ len(self.unprocessed_words[sent_i])
+
     def numerical_data(self, sent_i):
         """
         :param sent_i: int
@@ -50,6 +54,9 @@ class SentenceFeature():
 
     def sentence_length(self, sent_i):
         return len(self.unprocessed_words[sent_i]) / np.max(len(self.unprocessed_words))
+
+    def max_leng_sent(self):
+        return np.max(len(self.unprocessed_words))
 
     def _get_doc_first(self, sent_i):
         """
