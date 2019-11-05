@@ -1,4 +1,0 @@
-s.f. express has a fleet of aircraft flying 500 parcels a day to remote areas
-firm looking to double number of drones delivering items between couriers
-goods loaded on drone , address is scanned and aircraft flies to destination
-courier scans parcel on arrival and aircraft returns to base automatically

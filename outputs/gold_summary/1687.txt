@@ -1,5 +1,0 @@
-advicydrive monitors heart rate while driving to tell how awake you are
-if it detects a drop in heart rate , which suggests you 're dozing off , it sounds an alarm on a connected smartphone
-it uses digital photoplethysmography ( ppg ) to track changes in blood flow
-sensor can be fitted to a wrist but will also clip to a person 's underwear
-clip is under development and is available to pre-order from kickstarter

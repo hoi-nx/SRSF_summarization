@@ -1,6 +1,0 @@
-feature was first spotted by fan site android police on a nexus 4
-option appeared in the smart lock security menu on android lollipop
-once a phone is unlocked , the screen remains ' open ' while it 's being held
-it also uses the phone 's accelerometer to remain unlocked even in a pocket
-google has n't confirmed feature but it 's been spotted on multiple devices
-it is unclear if screen could be accidentally used to call people , for example

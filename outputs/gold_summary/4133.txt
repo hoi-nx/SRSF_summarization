@@ -1,5 +1,0 @@
-a melbourne building will light up to reflect the current weather
-it will also deliver a half hourly weather forecast using the lights
-the lights can move directionally to represent rain or wind
-designer bruce ramus wants the building to reflect nature and humanity
-' it 's not necessarily about what the light does but how it makes you feel '

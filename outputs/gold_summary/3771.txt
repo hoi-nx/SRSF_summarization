@@ -1,3 +1,0 @@
-randy olsen has come up with route using an algorithm that calculates shortest distance for a special road trip
-journey takes in 45 stop - offs in total , taking in countries such as the uk , portugal , bulgaria , estonia and finland
-scientist had earlier devised the ultimate u.s. road trip , and famous for the ' where 's waldo ' algorithm

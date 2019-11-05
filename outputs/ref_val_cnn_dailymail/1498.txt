@@ -1,9 +1,0 @@
-the system tracks a user âs hands movements using ultrasound to skip through images , play and pause videos and music , take selfies and control characters in online games
-ultrasound signals sent through the air from speakers in smartphones and tablets bounce against a user âs hand and are recorded by standard microphones
-elliptic labs â technology uses these signals to recognises hand gestures and uses them to move objects on a screen
-the company compared it to the way bats use echolocation to navigate
-ultrasound signals sent through the air from speakers in smartphones and tablets bounce against a user âs hand and are recorded by standard microphones
-elliptic labs â technology uses these signals to recognises hand gestures and uses them to move objects on a screen
-the company compared it to the way bats use echolocation to navigate
-this demo introduced multi layer interaction ( mli ) which lets mobiles and tablets display different content depending on the location and distance a user âs hand is from the device
-science fiction to reality : the technology that involves swiping through the air to control items on a screen conjures up images of the futuristic world seen in minority report ( scene pictured ) elliptic labs â technology uses these signals to recognises hand gestures and uses them to move objects on a screen

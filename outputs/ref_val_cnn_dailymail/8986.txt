@@ -1,7 +1,0 @@
-customers of internet service provider iinet say unlimited access to netflix has slowed their internet connection since its launched in australia last week
-iinet says on - demand streaming service netflix now accounts for 15 per cent of its consumer traffic , thanks to a partnership that allows customers to watch as much netflix content as they like without it counting towards their monthly data quota
-but iinet said any problems with internet connections were not being caused by the rise in netflix users , instead blaming slow speeds on disruptions to the telstra network , the herald reported
-another posted : ' so # netflix is 1/7 of iinet 's traffic
-' but iinet chief buckingham said any slow speeds customers were experiencing were due to issues with telstra 's copper network
-telsyte senior tech analyst gedda said it was possible that the netflix launch had hit iinet 's internet speeds
-' iinet is responsible for the end - to - end management of their network and iinet customers need to contact them if they are experiencing problems , ' mr carey told daily mail australia

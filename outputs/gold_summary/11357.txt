@@ -1,4 +1,0 @@
-scientists scanned faces of 332 chinese people aged between 17 and 77
-they were able to find patterns of ageing based on various facial features
-nose width and distance between mouth and nose increased with age
-method used to identify people who were physiologically ageing faster

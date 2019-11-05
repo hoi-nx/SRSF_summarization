@@ -1,8 +1,0 @@
-google wallet says it has changed its policy when storing users ' funds as they will now be federally - insured for those who use google wallet , their money just became safer with federal - level insurance
-google confirmed to yahoo finance in a statement that its current policy changed - meaning the company will store the balances for users of the mobile transfer service ( similar to paypal and venmo ) in multiple federally - insured banking institutions
-this is good news for people who place large amounts of money in their wallet balance because the federal deposit insurance corporation insures funds for banking institutions up to $ 250,000
-currently , google 's user agreement says funds are not protected by the federal deposit insurance corporation
-however , a google spokesperson told yahoo finance that the current policy has changed
-as a non-banking institution , google wallet , along with paypal and venmo , is not legally required to be federally insured
-but with the new change to its policy , funds in wallet balance are protected if anything were to happen to the company like bankruptcy
-for example , for those who use mobile payment services where funds are not federal deposit insurance corporation insured , if a company files for bankruptcy , the user would become their creditor and would be required to go through bankruptcy court to get their money back

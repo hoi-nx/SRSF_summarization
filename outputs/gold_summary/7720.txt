@@ -1,7 +1,0 @@
-pebble has launched a scheme hoping to encourage designers to build their own ' smartstraps ' for its new pebble time watch
-it will pay up to Â£ 637,000 ( $ 1 million ) to help develop the best designs
-to help with this development , the firm has published 3d printing files
-it has also revealed how the watch 's connectors and circuitry works
-an example strap presented by pebble is spark.io 's ' cellular kit '
-this strap connects the watch directly to a mobile network
-pebble time has raised more than Â£ 12.8m ( $ 19.1m ) on kickstarter

@@ -1,4 +1,0 @@
-the humanoid , called icub has been under development for a decade
-it 's latest iteration is shown playing a game and reacting to its progress
-robot is motivated by goals and can express six emotions on its face
-video shows it responding to touch as well as spoken instructions

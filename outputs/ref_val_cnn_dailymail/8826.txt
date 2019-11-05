@@ -1,8 +1,0 @@
-mapbox , a popular custom online map tool used by companies including pinterest and uber , has created a new set of maps that are out of this world
-the amazing maps of mars were made using data from nasa and esa spacecraft
-they are in high - resolution , and allow users to zoom in to the surface and see key features across the red planet
-scroll down to use both maps washington dc - based mapbox have created interactive maps of the surface of mars
-they use data from nasa and esa spacecraft to create the high - resolution detailed maps
-the whole surface of mars is then rendered in high - resolution , with landing sites and geological features on the surface highlighted
-it was a global mapping mission that examined the entire planet , including its atmosphere and surface one of the most interesting is olympus mons , an enormous dormant volcano that is one of the largest mountains in the solar system , measuring 16 miles ( 25 kilometres ) tall
-one of the most interesting features that can be seen is olympus mons , a huge dormant volcano that is one of the largest mountains in the solar system , measuring 16 miles ( 25 kilometres ) tall a second map called mars terrain , shown , uses vectorised hillshades and contours from digital elevation models of mars to visualise the surface

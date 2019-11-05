@@ -1,8 +1,0 @@
-microsoft âs ufk does what it says on the tin
-the wireless board connects via bluetooth to any ios , android and windows device to make typing easier than on a touchscreen
-to use the keyboard , unfold it and it will search for bluetooth - enabled devices
-select the keyboard from the bluetooth list on a phone or tablet and pair the devices
-the wireless board ( pictured ) connects via bluetooth to any ios , android and windows device to make typing easier than on a touchscreen
-because the board is designed to work with multiple devices , microsoft has ditched the windows key as well as function keys from its original universal keyboard
-the board will last for up to three months on a single charge before needing to be recharged via microusb
-microsoft said the board will go on sale in july and costs $ 99.95 ( Â£ 62 ) .

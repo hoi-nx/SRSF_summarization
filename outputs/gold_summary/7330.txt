@@ -1,6 +1,0 @@
-ieee mind - controlled game is powered by an emotiv headset
-headset uses electroencephalography ( eeg ) to monitor brain waves
-training session teaches the headset what â commands â to respond to
-then the â driver â simply has to think about moving the car to race
-product is a concept and there are no immediate plans to sell the game
-technology is on display at mobile world congress in barcelona

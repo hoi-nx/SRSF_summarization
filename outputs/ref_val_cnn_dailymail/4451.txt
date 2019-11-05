@@ -1,6 +1,0 @@
-the nation 's system for guiding planes and other aircraft is at ' increased and unnecessary risk ' of being hacked , according to a report by government watchdog released monday
-the faa has taken steps to protect the air traffic control system from cyber-based threats , but ' significant security control weaknesses remain , threatening the agency 's ability to ensure the safe and uninterrupted operation , ' said the report by the government accountability office
-one area of weakness is the ability to prevent and detect unauthorized access to the vast network of computer and communications systems the faa uses to process and track flights around the world , the report said
-a government watchdog group 's new report warned that the nation 's system for guiding planes and other aircraft is at ' increased and unnecessary risk ' of being hacked the faa relies on more than 100 of these air traffic systems to direct planes
-there also are inadequate protections to prevent entry into air traffic computer systems from other , less - secure computer systems not directly involved in traffic operations , the report said
-' these weaknesses put the air traffic system ' at increased and unnecessary risk of unauthorized access , use or modification that could disrupt air traffic control operations , ' the report said

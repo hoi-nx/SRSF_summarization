@@ -1,7 +1,0 @@
-this is according to intercept which claims to have seen top secret files
-it says spies had created a version of xcode - an app development tool
-this would have allowed them access to programs on apple 's app store
-intercept does not know if they succeeded breaking apple 's encryption
-in september , apple improved encryption methods for data on iphones
-this was partly a response to u.s. government spying on internet users
-it is unknown whether this is ongoing and cia has not provided comment

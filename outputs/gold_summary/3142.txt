@@ -1,3 +1,0 @@
-interactive tool analyses recent tweets to create a user 's profile
-' analyse words ' reveals a person 's emotional , social and thinking styles
-says barack obama is upbeat , while katy perry is depressed in tweets

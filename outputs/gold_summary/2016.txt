@@ -1,5 +1,0 @@
-twitter is currently trialling the feature on accounts of verified users only
-it scans for abusive and offensive language , threats and harassment
-it will then remove all these tweets from a user 's notification timeline
-feature is the latest tool being used to rid twitter of trolls and abuse
-it recently revealed new ways to block and report abuse to the police

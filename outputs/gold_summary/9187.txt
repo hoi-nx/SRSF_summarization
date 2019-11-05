@@ -1,4 +1,0 @@
-test was developed by experts at facebook to test machines with ai
-it 's comprised of 20 questions testing reasoning and language skills
-humans are expected to get a full score , with careful consideration
-none of the ai algorithms managed this showing more research is needed

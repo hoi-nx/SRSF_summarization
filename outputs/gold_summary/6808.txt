@@ -1,5 +1,0 @@
-multiscale entropy analysis is normally used to diagnose heart disease
-scientists at the university of leicester scientists applied it to climate data
-they examined temperature records across europe for the past 165 years
-they found patterns of temperature changes that occur every 12 - 70 months
-however , they found temperatures have become less predictable recently

@@ -1,6 +1,0 @@
-chip maker qualcomm unveiled its sense id 3d fingerprint scanner
-it is the first biometric sensor using ultrasonic technology
-sensor uses ultrasonic sound waves to capture the print 's ridges
-this also captures sweat pores and more on the tip of a finger
-because it uses waves , can be used behind glass or even metal
-this makes it more accurate and powerful than apple âs touch id sensor

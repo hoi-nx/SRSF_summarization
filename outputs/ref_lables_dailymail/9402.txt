@@ -1,9 +1,0 @@
-tiny robots , the size of an a4 sheet , are being programmed to lift cars that are up to two tons in weight the robots , collectively called avert , are the creation of a european consortium led by the democritus university of thrace in greece
-a â autonomous multi-robot system for vehicle extraction and transportation â ( avert ) computer first selects a vehicle to be moved after cameras have mapping the area in detail
-the avert system then works by sending a deployment unit to scan the area again and identify new potential obstacles
-once this has been done , bogies deploy from the depolyment unit and are tracked to a target vehicle , where they dock onto the wheels and lift the car
-the robots , collectively called avert , are the creation of a european consortium led by the democritus university of thrace in greece these bogies are fitted with on - board sensors , including two lasers and a digital camera
-the sensors help the avert tool move the vehicle without human intervention , while avoiding obstacles
-while the system may seem creepy , it could have important applications for bomb disposal teams
-researchers envisage the system being used by the police to remove suspicious vehicles , potentially rigged with explosives , from within buildings
-â avert can provide an autonomous capability to remove blocking vehicles which is not currently available

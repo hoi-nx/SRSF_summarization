@@ -1,3 +1,0 @@
-some apps for android are tracking movements every three minute
-this means they collect location data roughly 6,200 times over two weeks
-most smartphone users have no idea how closely they are being tracked

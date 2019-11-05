@@ -1,9 +1,0 @@
-as our cities get busier parking spaces become harder to come by and it can be difficult to squeeze into a tight spot in rush hour
-but german engineers have come up with an innovative solution - a small electric car that can turn on the spot , shrink in size and even move sideways , like a crab , so it can park itself
-the concept car can turn on the spot , shrink in size and even move sideways , like a crab , so it can park itself crabs have a wide flat body to make it easier squeeze into narrow spaces and the eossc2 works in a similar way
-currently , the two - seater vehicle can be driven in the traditional way , diagonally and sideways
-it pivots using wheels powered by separate motors and shrinks from 8ft ( 2.5metres ) to 5ft ft ( 1.5metres ) crabs ( stock image ) have a wide flat body to make it easier squeeze into narrow spaces and the eossc2 works in a similar way
-in the case of the car , the wheels pivot sideways created at the dfki robotics centre in bremen , german , the concept vehicle is intended to be semi-autonomous
-size : 8 feet ( 2.5metres ) to 5 feet ( 1.5metres ) weight : 1,653 lbs ( 750kg ) power : 54v - lifepo4 battery speed : 40mph ( 65 km / h ) motors : four 4kw wheelhub motors sensors : 360 lidar sensor on the roof testing : bremen , german and dalian , china ' later , an autopilot will be able to drive the car without a single passenger intervention creating the driverless car , ' it added
-the car has a top speed of 40mph ( 65 km / h ) and its semi-autonomous features are possible because of inbuilt cameras and a lidar sensor on its roof , which lets the vehicle scan its environment and locate itself in it , 10 times a second
-the car has a top speed of 40mph ( 65 km / h ) and its semi-autonomous features are possible because of inbuilt cameras and a lidar sensor on its roof , which lets the vehicle scan its environment and locate itself in it , 10 times a second

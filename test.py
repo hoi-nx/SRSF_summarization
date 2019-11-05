@@ -165,16 +165,28 @@ def origin():
 
 def tokenize():
     sentens = sent_tokenize(
-        "he pledged that those injured and the families of those killed would receive compensation. cnn 's aliza kassim in atlanta , georgia , contributed to this report .")
-    test10 = tokenize_words(sentens, word_tokenize)
-
-   # print(test10)
+        "he pledged that those injured and the families of those killed would receive compensation. cnn 's aliza kassim in atlanta , georgia , contributed to this report. Narenda Modi is the pm of India. Narenda Modi is the pm of India")
     # test11 = sentens[0].split()
     # print(len(test10[0]))
     # print(len(test11))
     parser = PlaintextParser(sentens)
     feature = SentenceFeature(parser)
-    test = feature._get_position(1)
+    sentence_position = feature.sentence_position(1)
+    numerical_data = feature.numerical_data(1)
+    sentence_length = feature.sentence_length(1)
+    get_doc_first = feature._get_doc_first(1)
+    get_stopwords_ratio = feature._get_stopwords_ratio(1)
+    get_centroid_similarity = feature._get_centroid_similarity(1)
+    get_name_entity = feature._get_name_entity(1)
+    get_tf_idf = feature._get_tf_idf(1)
+    get_first_rel_doc = feature._get_first_rel_doc(1)
+    page_rank = feature.page_rank_rel()
+
+    print("Feature==========")
+    print(sentence_position)
+    print(numerical_data)
+    print(sentence_length)
+    print(get_doc_first)
     # print(test)
     # tes2 = feature._get_length(1)
     # test3 = feature.get_content_features(0)

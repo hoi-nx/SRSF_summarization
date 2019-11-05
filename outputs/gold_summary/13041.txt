@@ -1,3 +1,0 @@
-rosetta is to begin listening for signs that the lander has survived the cold and dark
-from lander pictures , mission controllers think philae is tucked up underneath a cliff face
-philae has already detected organic chemicals on the comet surface

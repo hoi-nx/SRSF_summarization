@@ -1,2 +1,0 @@
-only users with a . edu email address can sign up to new service
-created by princeton seniors michael pinsky and vaidhy murti

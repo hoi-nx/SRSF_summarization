@@ -1,4 +1,0 @@
-project is called research for a cruiser enabled air transport environment
-refuelling planes would carry enough fuel for up to five aircraft
-simulations have proved that the concept is technically possible and could allow for non-stop flights between zurich and sydney , for example
-figures suggest it could cut the amount of fuel needed by a quarter

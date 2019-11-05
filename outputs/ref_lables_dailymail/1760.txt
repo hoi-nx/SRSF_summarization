@@ -1,8 +1,0 @@
-instead they have developed an alarm that will only turn off if you physically get out of bed and scan a bar code in another part of your house
-' i âm up is a mobile app alarm clock that is linked to a qr code that may be anywhere in your home , not in arms reach form bed , and the alarm does not go off until your scan the code , hence getting out of bed
-each device is paired with a specific qr code that can be printed out and stuck somewhere else in the house
-the alarm is set to go off at a certain time the night before and will make a noise until the qr code is scanned
-the app uses a quick response code , or qr code , which is a form of barcode that the cameras of mobile phones are able to detect
-when the alarm goes off at the designated time , the only way to then get it to stop making a noise is to get out of bed and scan the code
-i 'm up will be available on apple and android phones and a version for windows phones is being developed
-' the qr code can be printed onto coffee cups so users can turn off the alarm while making their morning drink

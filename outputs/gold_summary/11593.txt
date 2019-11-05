@@ -1,5 +1,0 @@
-google researchers have developed new algorithms for searching out facts
-web pages are given a knowledge trust score based on how accurate it is
-the more incorrect facts on a page the lower it is ranked in search results
-current searches use links from other websites to determine page quality
-the research suggests google is to change the way it scours the internet

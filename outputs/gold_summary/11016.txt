@@ -1,6 +1,0 @@
-the dead men âs eyes prototype was developed by dr stuart eve
-it uses augmented reality to lay virtual images onto the real world
-setup uses the camera on an ipad to see the virtual world on the screen
-this can include anything from a reconstruction of a wall to entire villages
-dr eve has also created a prototype â dead men âs nose â device
-this emits odours designed to make the environment smell like it would have done in the past

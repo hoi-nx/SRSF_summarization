@@ -1,6 +1,0 @@
-meerkat is a free ios app developed by student ben rubin
-it connects to a user 's twitter account and uses a phone camera to record
-once a user presses stream , a link to the live footage is tweeted
-followers can then tune into the stream on the app or on a web browser
-they can additionally reply or retweet streams to get more people involved
-streams range from behind - the - scenes footage of celebrities to people watching football matches and even users picking their nose

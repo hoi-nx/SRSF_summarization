@@ -1,6 +1,0 @@
-' we 're confident we can bring together all of these pieces in a package that 's small enough to be carried on light tactical vehicles and powerful enough to counter these threats , ' said brig
-the gbad system is being designed for use on light tactical vehicles such as the humvee and joint light tactical vehicle
-the navy hopes the system will provide an affordable alternative to traditional firepower to keep enemy unmanned aerial vehicles ( uavs ) from tracking and targeting marine corps on the ground
-some of the system 's components already have been used in tests to detect and track uavs of all sizes
-the 30kw system is expected to be ready for field testing in 2016 , when the program will begin more complex trials to ensure a seamless process from detection and tracking to firing , all from mobile tactical vehicles
-spotter vehicles and a control car will allow the system to operate anywhere .

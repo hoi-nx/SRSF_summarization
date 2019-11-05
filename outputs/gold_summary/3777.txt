@@ -1,4 +1,0 @@
-messenger.com is a standalone site that lets you chat to facebook friends
-you can chat and send files in the same way you can on messenger app
-users can still send , receive and view messages on facebook
-and it is not known yet whether this feature will be removed in due course
