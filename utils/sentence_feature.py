@@ -5,7 +5,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sumy.utils import get_stop_words
 import re
 import math
-import nltk
 import warnings
 
 warnings.simplefilter("ignore", UserWarning)
@@ -15,8 +14,8 @@ class SentenceFeature():
     def __init__(self, parser) -> None:
         self.sents = parser.sents
         self.sents_i = list(range(len(self.sents)))  # list contains index of each sentence
-        self.chunked_sentences = parser.chunked_sentences()
-        self.entities_name = self.ner(self.chunked_sentences)
+        # self.chunked_sentences = parser.chunked_sentences()
+        # self.entities_name = self.ner(self.chunked_sentences)
         self.vectorizer = CountVectorizer(stop_words=get_stop_words("english"))
         self.X = self.vectorizer.fit_transform(self.sents)
         self.processed_words = parser.processed_words
@@ -40,9 +39,11 @@ class SentenceFeature():
         """
         return len(self.sents) - sent_i / len(self.sents)
 
-    def get_noun_adj(self,sent_i):
-
-        return len(self.processed_words[sent_i])/ len(self.unprocessed_words[sent_i])
+    def get_noun_adj(self, sent_i):
+        words_num = len(self.unprocessed_words[sent_i])
+        if words_num != 0:
+            return len(self.processed_words[sent_i]) / words_num
+        return len(self.processed_words[sent_i])
 
     def numerical_data(self, sent_i):
         """
@@ -50,7 +51,10 @@ class SentenceFeature():
             Index of a sentence
         :return: float
         """
-        return len(re.findall(r'\d+(.\d+)?', self.sents[sent_i])) / len(self.unprocessed_words[sent_i])
+        word_len = len(self.unprocessed_words[sent_i])
+        if word_len != 0:
+            return len(re.findall(r'\d+(.\d+)?', self.sents[sent_i])) / word_len
+        return len(re.findall(r'\d+(.\d+)?', self.sents[sent_i]))
 
     def sentence_length(self, sent_i):
         return len(self.unprocessed_words[sent_i]) / np.max(len(self.unprocessed_words))
@@ -133,7 +137,10 @@ class SentenceFeature():
         return stopwords_ratio
 
     def _get_tf_idf(self, sent_i):
-        return math.log((self._get_avg_term_freq(sent_i) * self._get_avg_doc_freq(sent_i)))
+        a = self._get_avg_term_freq(sent_i) * self._get_avg_doc_freq(sent_i)
+        if a <= 0:
+            return 0
+        return math.log(a)
 
     def _get_all_tf_idf(self):
         score = []
@@ -145,7 +152,7 @@ class SentenceFeature():
         tfidfScore = self._get_all_tf_idf()
         centroidIndex = tfidfScore.index(max(tfidfScore))
 
-        return self._cal_cosine_similarity(self.sents[sent_i], self.sents[centroidIndex])
+        return self._cal_cosine_similarity([self.sents[sent_i], self.sents[centroidIndex]])
 
     def _get_avg_term_freq(self, sent_i):
         """
@@ -402,6 +409,6 @@ class SentenceFeature():
     def ner(self, chunked_sentences):
         entity_names = []
         for tree in chunked_sentences:
-            print(self.extract_entity_names(tree))
+            # print(self.extract_entity_names(tree))
             entity_names.append(self.extract_entity_names(tree))
         return entity_names

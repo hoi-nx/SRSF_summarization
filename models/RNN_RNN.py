@@ -112,6 +112,4 @@ class RNN_RNN(BasicModule):
                 prob = F.sigmoid(content + salience + novelty + abs_p + rel_p + self.bias)
                 s = s + torch.mm(prob, h)
                 probs.append(prob)
-                print("Outputs ==============")
-                print(torch.cat(probs).squeeze())
         return torch.cat(probs).squeeze()

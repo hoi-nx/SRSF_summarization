@@ -21,6 +21,7 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
 import os
 import torch
 import numpy as np
@@ -257,12 +258,12 @@ class Vocab():
                 if (values == 1):
                     sents_lables.append(sents[index])
 
-            with open(os.path.join("outputs/ref_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
+            with open(os.path.join("outputs/ref/cnn_dailymail/ref_lables_cnn_dailymail", str(id) + '.txt'), 'w') as f:
                 f.write('\n'.join(sents_lables))
-            with open(os.path.join("outputs/gold_summary", str(id) + '.txt'), 'w') as f:
-                f.write('\n'.join(gold_sum))
-            with open(os.path.join("outputs/origin_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
-                f.write('\n'.join(sents))
+            #with open(os.path.join("outputs/gold_summary", str(id) + '.txt'), 'w') as f:
+             #   f.write('\n'.join(gold_sum))
+            #with open(os.path.join("outputs/origin_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
+                #f.write('\n'.join(sents))
 
     def _get_avg_doc_freq(self, X, unprocessed_words):
         """

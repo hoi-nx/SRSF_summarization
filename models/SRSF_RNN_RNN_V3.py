@@ -106,7 +106,7 @@ class SRSF_RNN_RNN_V3(BasicModule):
         for index, doc_len in enumerate(doc_lens):
             valid_hidden = sent_out[index, :doc_len, :]  # (doc_len,2*H)
             pr = self.page_rank_rel(valid_hidden)
-            doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
+            #doc = F.tanh(self.fc(docs[index])).unsqueeze(0)
             senten_lens_doc = senten_lengths[index]
             numberical = numbericals[index]
             tf_idf = tf_idfs[index]

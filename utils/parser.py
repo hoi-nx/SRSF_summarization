@@ -36,9 +36,9 @@ class BaseParser():
     def post_tag(self):
         return [nltk.pos_tag(sentence) for sentence in self.unprocessed_words]
 
-    def chunked_sentences(self):
-        tagged_sentences = [nltk.pos_tag(sentence) for sentence in self.unprocessed_words]
-        return nltk.ne_chunk_sents(tagged_sentences, binary=True)
+    #def chunked_sentences(self):
+       # tagged_sentences = [nltk.pos_tag(sentence) for sentence in self.unprocessed_words]
+       # return nltk.ne_chunk_sents(tagged_sentences, binary=True)
 
     def keep_only_n_and_adj(self, words, pos_tagger):
         processed_words_with_pos = []

@@ -7,7 +7,7 @@ import numpy as np
 import string
 from nltk.tokenize import sent_tokenize, word_tokenize
 from time import localtime
-
+import torch.nn as nn
 import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
@@ -38,7 +38,7 @@ parser.add_argument('-lr', type=float, default=1e-3)
 parser.add_argument('-batch_size', type=int, default=1)
 parser.add_argument('-epochs', type=int, default=3)
 parser.add_argument('-seed', type=int, default=1)
-parser.add_argument('-train_dir', type=str, default='data/val/val_cnn_dailymail.json')
+parser.add_argument('-train_dir', type=str, default='data/test/test_cnn.json')
 parser.add_argument('-val_dir', type=str, default='data/val/val_cnn_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
@@ -100,24 +100,23 @@ def train():
                           batch_size=args.batch_size,
                           shuffle=False)
     for epoch in range(1, args.epochs + 1):
-        print("Epoch====================")
-        print(str(epoch))
+       # print("Epoch====================")
+        #print(str(epoch))
         for i, batch in enumerate(tqdm(train_iter)):
             # print("batch=========")
             # print(batch)
-            print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
-            features, targets, summaries, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
-            print('sents_lenss============')
-            print(sents_lenss[0])
-            print('content_featuress============')
-            print(content_featuress[0][0])
-            # print("summaries===========")
-            # print(summaries)
+           # print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
+            features, targets, summaries, doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs = vocab.make_st_features(batch)
+
+            print("tf_idfs===========")
+            print(tf_idfs[0])
+            centroidIndex = tf_idfs[0].index(max(tf_idfs[0]))
+            print(centroidIndex)
             # print("sents_lenss=======")
             # print(sents_lenss)
             # print("content_featuress=======")
             # print(content_featuress)
-            print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
+           # print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
             # print(i)
             # if(i % 100 == 0):
             #   print(strftime("%Y_%m_%d_%H:%M:%S", localtime()));
@@ -187,6 +186,7 @@ def tokenize():
     print(numerical_data)
     print(sentence_length)
     print(get_doc_first)
+    print(get_tf_idf)
     # print(test)
     # tes2 = feature._get_length(1)
     # test3 = feature.get_content_features(0)
@@ -212,6 +212,10 @@ def tokenize_words(sents, tokenizer):
     sents = list(map(lambda x: x.translate(str.maketrans('', '', string.punctuation)), sents))  # remove punctuation
     return [[t.lower() for t in tokenizer(sent)] for sent in sents]
 
+import torch.nn.functional as F
 
 if __name__ == '__main__':
-    tokenize()
+    origin()
+
+
+
