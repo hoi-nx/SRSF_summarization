@@ -20,7 +20,7 @@ outputs/refer/*
 !outputs/refer/.placeholder
 
 images/*
-
+outputs/*
 outputs/ref/*
 Logging/*
 !outputs/ref/.placeholder

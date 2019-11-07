@@ -258,7 +258,7 @@ class Vocab():
                 if (values == 1):
                     sents_lables.append(sents[index])
 
-            with open(os.path.join("outputs/ref/cnn_dailymail/ref_lables_cnn_dailymail", str(id) + '.txt'), 'w') as f:
+            with open(os.path.join("outputs/ref_lables_dailymail", str(id) + '.txt'), 'w') as f:
                 f.write('\n'.join(sents_lables))
             #with open(os.path.join("outputs/gold_summary", str(id) + '.txt'), 'w') as f:
              #   f.write('\n'.join(gold_sum))
