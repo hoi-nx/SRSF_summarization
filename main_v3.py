@@ -83,12 +83,12 @@ def eval(net, vocab, val_iter, criterion):
     total_loss = 0
     batch_num = 0
     for batch in val_iter:
-        features, targets, _, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
+        features, targets, summaries, doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs = vocab.make_st_features(batch)
         features, targets = Variable(features), Variable(targets.float())
         if use_gpu:
             features = features.cuda()
             targets = targets.cuda()
-        probs = net(features, doc_lens, sents_lenss, content_featuress)
+        probs = net(features, doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs)
         loss = criterion(probs, targets)
         total_loss += loss.data.item()
         batch_num += 1
@@ -204,12 +204,12 @@ def m_test():
     time_cost = 0
     file_id = 1
     for batch in tqdm(test_iter):
-        features, targets, summaries, doc_lens, sents_lenss, content_featuress = vocab.make_features_v2(batch)
+        features, targets, summaries, doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs = vocab.make_st_features(batch)
         t1 = time()
         if use_gpu:
-            probs = net(Variable(features).cuda(), doc_lens, sents_lenss, content_featuress)
+            probs = net(Variable(features).cuda(), doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs)
         else:
-            probs = net(Variable(features), doc_lens, sents_lenss, content_featuress)
+            probs = net(Variable(features), doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs)
         t2 = time()
         time_cost += t2 - t1
         start = 0
@@ -234,94 +234,6 @@ def m_test():
             start = stop
             file_id = file_id + 1
     print('Speed: %.2f docs / s' % (doc_num / time_cost))
-
-
-def test():
-    embed = torch.Tensor(np.load(args.embedding)['embedding'])
-    with open(args.word2id) as f:
-        word2id = json.load(f)
-    vocab = utils.Vocab(embed, word2id)
-
-    with open(args.test_dir) as f:
-        examples = [json.loads(line) for line in f]
-    test_dataset = utils.Dataset(examples)
-
-    test_iter = DataLoader(dataset=test_dataset,
-                           batch_size=args.batch_size,
-                           shuffle=False)
-
-    if use_gpu:
-        checkpoint = torch.load(args.load_dir, map_location='cuda:0')
-    else:
-        checkpoint = torch.load(args.load_dir, map_location='cpu')
-
-    # checkpoint['args']['device'] saves the device used as train time
-    # if at test time, we are using a CPU, we must override device to None
-    if not use_gpu:
-        checkpoint['args'].device = None
-    net = getattr(models, checkpoint['args'].model)(checkpoint['args'])
-    net.load_state_dict(checkpoint['model'])
-    if use_gpu:
-        net.cuda()
-    net.eval()
-
-    doc_num = len(test_dataset)
-    time_cost = 0
-    file_id = 1
-    for batch in tqdm(test_iter):
-        features, _, summaries, doc_lens = vocab.make_features(batch)
-        t1 = time()
-        if use_gpu:
-            probs = net(Variable(features).cuda(), doc_lens)
-        else:
-            probs = net(Variable(features), doc_lens)
-        t2 = time()
-        time_cost += t2 - t1
-        start = 0
-        for doc_id, doc_len in enumerate(doc_lens):
-            stop = start + doc_len
-            prob = probs[start:stop]
-            topk = min(args.topk, doc_len)
-            topk_indices = prob.topk(topk)[1].cpu().data.numpy()
-            topk_indices.sort()
-            doc = batch['doc'][doc_id].split('\n')[:doc_len]
-            hyp = [doc[index] for index in topk_indices]
-            ref = summaries[doc_id]
-            with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
-                f.write(ref)
-            with open(os.path.join(args.hyp, str(file_id) + '.txt'), 'w') as f:
-                f.write('\n'.join(hyp))
-            start = stop
-            file_id = file_id + 1
-    print('Speed: %.2f docs / s' % (doc_num / time_cost))
-
-
-def initDataset():
-    embed = torch.Tensor(np.load(args.embedding)['embedding'])
-    with open(args.word2id) as f:
-        word2id = json.load(f)
-    vocab = utils.Vocab(embed, word2id)
-
-    with open(args.test_dir) as f:
-        examples = [json.loads(line) for line in f]
-
-    test_dataset = utils.Dataset(examples)
-
-    test_iter = DataLoader(dataset=test_dataset,
-                           batch_size=args.batch_size,
-                           shuffle=False)
-    file_id = 1
-    for batch in tqdm(test_iter):
-        targets, summaries, doc_lens = vocab.make_summaries(batch)
-        for doc_id, doc_len in enumerate(doc_lens):
-            doc = batch['doc'][doc_id].split('\n')[:doc_len]
-            print(doc)
-            labels = targets[doc_id]
-            print(labels)
-            # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
-            #   f.write(ref)
-            file_id = file_id + 1
-
 
 def predict2():
     embed = torch.Tensor(np.load(args.embedding)['embedding'])

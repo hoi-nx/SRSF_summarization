@@ -6,7 +6,7 @@ import networkx as nx
 from torch.autograd import Variable
 
 
-# run with main.py
+# run with main_v2.py
 class SRSF_RNN_RNN_V2(BasicModule):
     def __init__(self, args, embed=None):
         super(SRSF_RNN_RNN_V2, self).__init__(args)

@@ -21,47 +21,13 @@ import re
 logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
                     datefmt='%H:%M:%S')
 parser = argparse.ArgumentParser(description='extractive summary')
-# model
-parser.add_argument('-save_dir', type=str, default='checkpoints/')
-parser.add_argument('-embed_dim', type=int, default=100)
-parser.add_argument('-embed_num', type=int, default=100)
-parser.add_argument('-pos_dim', type=int, default=50)
-parser.add_argument('-pos_num', type=int, default=100)
-parser.add_argument('-seg_num', type=int, default=10)
-parser.add_argument('-kernel_num', type=int, default=100)
-parser.add_argument('-kernel_sizes', type=str, default='3,4,5')
-parser.add_argument('-model', type=str, default='RNN_RNN')
-parser.add_argument('-hidden_size', type=int, default=200)
-# train
 
-parser.add_argument('-lr', type=float, default=1e-3)
 parser.add_argument('-batch_size', type=int, default=1)
-parser.add_argument('-epochs', type=int, default=3)
-parser.add_argument('-seed', type=int, default=1)
 parser.add_argument('-train_dir', type=str, default='data/test/test_dailymail.json')
 parser.add_argument('-val_dir', type=str, default='data/val/val_cnn_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
-parser.add_argument('-report_every', type=int, default=1500)
-parser.add_argument('-seq_trunc', type=int, default=50)
-parser.add_argument('-max_norm', type=float, default=1.0)
-# test
-parser.add_argument('-load_dir', type=str, default='checkpoints/RNN_RNN_seed_1.pt')
-parser.add_argument('-test_dir', type=str, default='data/test_cnn.json')
-parser.add_argument('-ref', type=str, default='outputs/ref')
-parser.add_argument('-origin', type=str, default='outputs/origin')
-parser.add_argument('-hyp', type=str, default='outputs/hyp')
-parser.add_argument('-pre', type=str, default='outputs/predict')
-parser.add_argument('-filename', type=str, default='x.txt')  # TextFile to be summarized
-parser.add_argument('-topk', type=int, default=4)
-# device
-parser.add_argument('-device', type=int)
-# option
-parser.add_argument('-test', action='store_true')
-parser.add_argument('-train', action='store_true')
-parser.add_argument('-debug', action='store_true')
-parser.add_argument('-predict', action='store_true')
-parser.add_argument('-predict_all', action='store_true')  # predict all
+
 args = parser.parse_args()
 use_gpu = args.device is not None
 
@@ -211,8 +177,6 @@ def tokenize():
 def tokenize_words(sents, tokenizer):
     sents = list(map(lambda x: x.translate(str.maketrans('', '', string.punctuation)), sents))  # remove punctuation
     return [[t.lower() for t in tokenizer(sent)] for sent in sents]
-
-import torch.nn.functional as F
 
 if __name__ == '__main__':
     origin()
