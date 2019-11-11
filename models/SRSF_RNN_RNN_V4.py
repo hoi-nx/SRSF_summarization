@@ -35,6 +35,7 @@ class SRSF_RNN_RNN_V3(BasicModule):
             batch_first=True,
             bidirectional=True
         )
+        self.fc = nn.Linear(2 * H, 2 * H)
         self.content = nn.Linear(2 * H, 1, bias=False)
         self.salience = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
         self.novelty = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
