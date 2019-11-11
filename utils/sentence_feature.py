@@ -54,8 +54,7 @@ class SentenceFeature():
         word_len = len(self.unprocessed_words[sent_i])
         if word_len != 0:
             return len(re.findall(r'\d+(.\d+)?', self.sents[sent_i])) / word_len
-        return len(re.findall(r'\d+(.\d+)?', self.sents[sent_i]))
-
+        return 0
     def sentence_length(self, sent_i):
         return len(self.unprocessed_words[sent_i]) / np.max(len(self.unprocessed_words))
 
@@ -137,15 +136,15 @@ class SentenceFeature():
         return stopwords_ratio
 
     def _get_tf_idf(self, sent_i):
-        a = self._get_avg_term_freq(sent_i) * self._get_avg_doc_freq(sent_i)
-        if a <= 0:
-            return 0
-        return math.log(a)
+        a = self._get_avg_term_freq(sent_i) * math.log(self._get_avg_doc_freq(sent_i))
+        #if a <= 0:
+         #   return 0
+        return a
 
     def _get_all_tf_idf(self):
         score = []
         for idx, val in enumerate(self.sents):
-            score.append(math.log((self._get_avg_term_freq(idx) * self._get_avg_doc_freq(idx))))
+            score.append((self._get_avg_term_freq(idx) * math.log(self._get_avg_doc_freq(idx))))
         return score
 
     def _get_centroid_similarity(self, sent_i):

@@ -12,9 +12,9 @@ def readFile(filePath):
 
 
 if __name__ == '__main__':
-    listFileSummary = glob.glob("outputs/hyp/cnn_dailymail/RNN_RNN_2F/SRS2F_RNN_RNN_2019_10_15_17_29_02_2_seed_1/*")
+    listFileSummary = glob.glob("outputs/hyp/dailymail/RNN_RNN_SF/SRSF_RNN_RNN_V3_2019_11_09_06_08_57_5_seed_1_4st/*")
     listFileSummary.sort()
-    listFilereferences = glob.glob("outputs/ref_lables_cnn_dailymail/*")
+    listFilereferences = glob.glob("outputs/ref_lables_dailymail/*")
     listFilereferences.sort()
     print(len(listFileSummary))
     print(len(listFilereferences))

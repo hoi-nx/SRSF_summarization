@@ -129,7 +129,7 @@ def train():
                           batch_size=args.batch_size,
                           shuffle=False)
     # loss function
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.BCELoss()
     print("Start training===========================")
     # model info
     print(net)

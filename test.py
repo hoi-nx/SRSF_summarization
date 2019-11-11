@@ -23,13 +23,13 @@ logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, fo
 parser = argparse.ArgumentParser(description='extractive summary')
 
 parser.add_argument('-batch_size', type=int, default=1)
-parser.add_argument('-train_dir', type=str, default='data/test/test_dailymail.json')
+parser.add_argument('-train_dir', type=str, default='data/test/test_cnn.json')
 parser.add_argument('-val_dir', type=str, default='data/val/val_cnn_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
 
 args = parser.parse_args()
-use_gpu = args.device is not None
+#use_gpu = args.device is not None
 
 from time import strftime
 
@@ -56,8 +56,8 @@ def train():
     args.kernel_sizes = [int(ks) for ks in args.kernel_sizes.split(',')]
     # build model
     net = getattr(models, args.model)(args, embed)
-    if use_gpu:
-        net.cuda()
+    #if use_gpu:
+     #   net.cuda()
     # load dataset
     train_iter = DataLoader(dataset=train_dataset,
                             batch_size=args.batch_size,
@@ -110,20 +110,10 @@ def origin():
     val_dataset = utils.Dataset(examples)
 
     # update args
-    args.embed_num = embed.size(0)
-    args.embed_dim = embed.size(1)
-    args.kernel_sizes = [int(ks) for ks in args.kernel_sizes.split(',')]
-    # build model
-    net = getattr(models, args.model)(args, embed)
-    if use_gpu:
-        net.cuda()
     # load dataset
     train_iter = DataLoader(dataset=train_dataset,
                             batch_size=args.batch_size,
                             shuffle=False)
-    val_iter = DataLoader(dataset=val_dataset,
-                          batch_size=args.batch_size,
-                          shuffle=False)
     for i, batch in enumerate(tqdm(train_iter)):
         vocab.make_origin(batch, i+1)
 

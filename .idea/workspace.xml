@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2013ef43-06df-4696-b233-584b78c0c520" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evalu.py" beforeDir="false" afterPath="$PROJECT_DIR$/evalu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/SRSF_RNN_RNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/SRSF_RNN_RNN_GA.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/SRSF_RNN_RNN_V2.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/SRSF_RNN_RNN_V2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/SRSF_RNN_RNN_V3.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/SRSF_RNN_RNN_V3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Vocab.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Vocab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/sentence_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sentence_feature.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +17,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SRSF_summarization$Attention.coverage" NAME="Attention Coverage Results" MODIFIED="1572967397090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
-    <SUITE FILE_PATH="coverage/SRSF_summarization$test.coverage" NAME="test Coverage Results" MODIFIED="1573062764969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SRSF_summarization$test.coverage" NAME="test Coverage Results" MODIFIED="1573482362216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SRSF_summarization$entity3.coverage" NAME="entity3 Coverage Results" MODIFIED="1572879870850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/SRSF_summarization$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1572542980315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SRSF_summarization$evalu.coverage" NAME="evalu Coverage Results" MODIFIED="1573092520627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SRSF_summarization$evalu.coverage" NAME="evalu Coverage Results" MODIFIED="1573482616104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -42,33 +39,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_v2.py">
+        <entry file="file://$PROJECT_DIR$/utils/Vocab.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="236" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="308">
+              <caret line="217" column="44" selection-start-line="217" selection-start-column="38" selection-end-line="217" selection-end-column="49" />
               <folding>
-                <element signature="e#24#35#0" expanded="true" />
-                <element signature="e#3895#6778#0" />
-                <element signature="e#6799#9231#0" />
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eval.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evalu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/sentence_feature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-732">
+              <caret line="157" column="11" lean-forward="true" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#7309#8351#0" />
+                <element signature="e#8410#8897#0" />
+                <element signature="e#8949#9281#0" />
+                <element signature="e#9331#10127#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main_v3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4718">
-              <caret line="347" column="16" selection-start-line="347" selection-start-column="12" selection-end-line="347" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_V3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1862">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="352">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -77,35 +96,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_V2.py">
+        <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_V4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1326">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="67">
+              <caret line="131" column="41" selection-start-line="131" selection-end-line="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="115" column="42" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#24#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/SRS2F_RNN_RNN.py">
+        <entry file="file://$PROJECT_DIR$/main_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2115">
-              <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1890">
+              <caret line="140" column="15" selection-start-line="140" selection-start-column="15" selection-end-line="140" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/SRSF_CNN_RNN.py">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="2055">
+              <caret line="151" column="21" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="21" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#24#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,35 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="151" column="21" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="21" />
-              <folding>
-                <element signature="e#24#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pipfile">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/Vocab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -211,20 +208,21 @@
         <option value="$PROJECT_DIR$/utils/entity3.py" />
         <option value="$PROJECT_DIR$/utils/parser.py" />
         <option value="$PROJECT_DIR$/models/Attention.py" />
-        <option value="$PROJECT_DIR$/utils/sentence_feature.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/models/RNN_RNN.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/utils/Vocab.py" />
-        <option value="$PROJECT_DIR$/evalu.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/main_v3.py" />
         <option value="$PROJECT_DIR$/main_v2.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/models/SRSF_RNN_RNN_V3.py" />
         <option value="$PROJECT_DIR$/models/SRSF_RNN_RNN_V2.py" />
         <option value="$PROJECT_DIR$/models/SRSF_RNN_RNN.py" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
+        <option value="$PROJECT_DIR$/models/SRSF_RNN_RNN_V4.py" />
+        <option value="$PROJECT_DIR$/main_v3.py" />
+        <option value="$PROJECT_DIR$/utils/Vocab.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/evalu.py" />
+        <option value="$PROJECT_DIR$/utils/sentence_feature.py" />
+        <option value="$PROJECT_DIR$/models/SRSF_RNN_RNN_V3.py" />
       </list>
     </option>
   </component>
@@ -277,6 +275,27 @@
             <path>
               <item name="SRSF_summarization" type="b2602c69:ProjectViewProjectNode" />
               <item name="SRSF_summarization" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="hyp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SRSF_summarization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SRSF_summarization" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="hyp" type="462c0819:PsiDirectoryNode" />
+              <item name="cnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SRSF_summarization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SRSF_summarization" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="hyp" type="462c0819:PsiDirectoryNode" />
+              <item name="cnn" type="462c0819:PsiDirectoryNode" />
+              <item name="RNN_RNN_SF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SRSF_summarization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SRSF_summarization" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -293,15 +312,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/outputs/hyp/cnn/RNN_RNN_7F" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/outputs/hyp/cnn_dailymail/RNN_RNN_2F" />
       <recent name="$PROJECT_DIR$/outputs/hyp/dailymail/RNN_RNN_7F" />
       <recent name="$PROJECT_DIR$/outputs/hyp/cnn/RNN_RNN" />
       <recent name="$PROJECT_DIR$/outputs/hyp/dailymail/RNN_RNN_2F" />
-      <recent name="$PROJECT_DIR$/outputs/hyp/cnn/RNN_RNN_2F" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/outputs/hyp/cnn/RNN_RNN_7F" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -542,12 +561,15 @@
       <workItem from="1573060100251" duration="2947000" />
       <workItem from="1573066070699" duration="730000" />
       <workItem from="1573091158607" duration="1246000" />
-      <workItem from="1573145779488" duration="1009000" />
+      <workItem from="1573145779488" duration="1147000" />
+      <workItem from="1573224168552" duration="438000" />
+      <workItem from="1573224880966" duration="839000" />
+      <workItem from="1573482233219" duration="1409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91465000" />
+    <option name="totallyTimeSpent" value="94289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,12 +584,12 @@
     <frame x="23" y="23" width="1083" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28914505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2516811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286219" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34040046" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286219" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34040046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -614,9 +636,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/outputs/ref_lables_dailymail/13.txt" />
-    <entry file="file://$PROJECT_DIR$/outputs/ref_lables_dailymail/1010.txt" />
-    <entry file="file://$PROJECT_DIR$/outputs/ref_lables_dailymail/14.txt" />
     <entry file="file://$PROJECT_DIR$/data/val/val_cnn_dailymail.json">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="225">
@@ -626,16 +645,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/outputs/eval.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#22#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/CNN_RNN.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,34 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/sentence_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/outputs/hyp/dailymail/RNN_RNN/RNN_RNN_2019_10_12_22_48_48_3_seed_1/1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -757,16 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="1330" column="4" selection-start-line="1330" selection-start-column="4" selection-end-line="1330" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/RNN_RNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,16 +759,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/outputs/hyp/cnn_dailymail/RNN_RNN_2F/SRS2F_RNN_RNN_2019_10_15_17_29_02_2_seed_1/1.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evalu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/outputs/hyp/cnn/RNN_RNN_7F/SRSF_RNN_RNN_V2_2019_10_18_19_16_49_2_seed_1_10st/1.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -824,9 +785,7 @@
     <entry file="file://$PROJECT_DIR$/outputs/hyp/dailymail/RNN_RNN/RNN_RNN_2019_10_12_22_48_48_3_seed_1_10st/1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/ref_lables_cnn/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/ref_lables_cnn/1.txt" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -834,40 +793,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/Vocab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="151" column="21" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="21" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pipfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_GA.py">
+    <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_GA.py" />
+    <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/main_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="162" column="47" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="47" />
+        <state relative-caret-position="1545">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#3895#6778#0" />
+            <element signature="e#6799#9231#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN.py">
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/RNN_RNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="107" column="41" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="41" />
+        <state relative-caret-position="600">
+          <caret line="44" column="52" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_V2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -876,7 +836,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/SRS2F_RNN_RNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
+        <state relative-caret-position="2040">
           <caret line="141" column="16" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="45" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -893,6 +853,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#22#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="140" column="15" selection-start-line="140" selection-start-column="15" selection-end-line="140" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="151" column="21" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -900,45 +893,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_V2.py">
+    <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_V4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="67">
+          <caret line="131" column="41" selection-start-line="131" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="115" column="42" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evalu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Vocab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="217" column="44" selection-start-line="217" selection-start-column="38" selection-end-line="217" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sentence_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-732">
+          <caret line="157" column="11" lean-forward="true" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#7309#8351#0" />
+            <element signature="e#8410#8897#0" />
+            <element signature="e#8949#9281#0" />
+            <element signature="e#9331#10127#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/SRSF_RNN_RNN_V3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1862">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="352">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-            <element signature="e#3895#6778#0" />
-            <element signature="e#6799#9231#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4718">
-          <caret line="347" column="16" selection-start-line="347" selection-start-column="12" selection-end-line="347" selection-end-column="16" />
         </state>
       </provider>
     </entry>
