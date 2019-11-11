@@ -136,15 +136,20 @@ class SentenceFeature():
         return stopwords_ratio
 
     def _get_tf_idf(self, sent_i):
-        a = self._get_avg_term_freq(sent_i) * math.log(self._get_avg_doc_freq(sent_i))
-        #if a <= 0:
-         #   return 0
-        return a
+        a = self._get_avg_doc_freq(sent_i)
+        if a <= 0:
+            return 0
+        return self._get_avg_term_freq(sent_i) * math.log(a)
 
     def _get_all_tf_idf(self):
         score = []
         for idx, val in enumerate(self.sents):
-            score.append((self._get_avg_term_freq(idx) * math.log(self._get_avg_doc_freq(idx))))
+            a = self._get_avg_doc_freq(idx)
+            if a <= 0:
+                b = 0
+            else:
+                b = (self._get_avg_term_freq(idx) * math.log(a))
+            score.append(b)
         return score
 
     def _get_centroid_similarity(self, sent_i):

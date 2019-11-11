@@ -7,10 +7,10 @@ from torch.autograd import Variable
 
 
 # run with main_v3.py
-class SRSF_RNN_RNN_V3(BasicModule):
+class SRSF_RNN_RNN_V4(BasicModule):
     def __init__(self, args, embed=None):
-        super(SRSF_RNN_RNN_V3, self).__init__(args)
-        self.model_name = 'SRSF_RNN_RNN_V3'
+        super(SRSF_RNN_RNN_V4, self).__init__(args)
+        self.model_name = 'SRSF_RNN_RNN_V4'
         self.args = args
         V = args.embed_num
         D = args.embed_dim
@@ -41,7 +41,7 @@ class SRSF_RNN_RNN_V3(BasicModule):
         self.novelty = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
         self.abs_pos = nn.Linear(P_D, 1, bias=False)
         self.rel_pos = nn.Linear(P_D, 1, bias=False)
-        self.sentent_features = nn.Linear(10, 1, bias=False)
+        self.sentent_features = nn.Linear(9, 1, bias=False)
         self.bias = nn.Parameter(torch.FloatTensor(1).uniform_(-0.1, 0.1))
 
     @staticmethod

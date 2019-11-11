@@ -18,6 +18,8 @@ from utils.plaintext import PlaintextParser
 from utils.sentence_feature import SentenceFeature
 import re
 
+import math
+
 logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
                     datefmt='%H:%M:%S')
 parser = argparse.ArgumentParser(description='extractive summary')
@@ -169,7 +171,8 @@ def tokenize_words(sents, tokenizer):
     return [[t.lower() for t in tokenizer(sent)] for sent in sents]
 
 if __name__ == '__main__':
-    origin()
+    #origin()
+    math.log(-1)
 
 
 
