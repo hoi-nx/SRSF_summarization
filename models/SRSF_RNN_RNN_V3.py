@@ -153,9 +153,11 @@ class SRSF_RNN_RNN_V3(BasicModule):
 
                 all_feature = [sent_position, sent_numberical, sent_len, doc_first, centroid_similarity, sent_tf_idf,
                                cosine_similarity, sent_score_page_rank, sent_stop, sent_num_noun_adj]
-                feature = torch.FloatTensor(all_feature).cuda()
-
-                prob = F.softmax(self.sentent_features(feature.view(1, -1)) + self.bias)
+                if self.args.device is not None:
+                   feature = torch.FloatTensor(all_feature).cuda()
+                else:
+                   feature = torch.FloatTensor(all_feature)
+                prob = F.sigmoid(self.sentent_features(feature.view(1, -1)) + self.bias)
                 s = s + torch.mm(prob, h)
                 probs.append(prob)
         return torch.cat(probs).squeeze()

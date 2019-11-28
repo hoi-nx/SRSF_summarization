@@ -140,7 +140,11 @@ class SRS2F_RNN_RNN(BasicModule):
                 # h la bieu dien cua cau
                 # doc là biểu diễn của document
                 ranks = [pr.get(position, 0)]
-                tensor_ranks = torch.FloatTensor(ranks).cuda()
+                if self.args.device is not None:
+                    tensor_ranks = torch.FloatTensor(ranks).cuda()
+                else:
+                    tensor_ranks = torch.FloatTensor(ranks)
+
                 content = self.content(h)
                 ranks_sentent = self.ranks(tensor_ranks.view(1, -1))
                 cosine_first = self.cosine_first_sent(cosine_similarity.view(1, -1))

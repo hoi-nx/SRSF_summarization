@@ -16,8 +16,8 @@ from tqdm import tqdm
 import os
 import errno
 
-
-logging.basicConfig(filename='logging/Log_s2f', filemode='a', level=logging.INFO, format='%(asctime)s [INFO] %(message)s',
+logging.basicConfig(filename='logging/Log_s2f', filemode='a', level=logging.INFO,
+                    format='%(asctime)s [INFO] %(message)s',
                     datefmt='%H:%M:%S')
 parser = argparse.ArgumentParser(description='extractive summary')
 # model
@@ -45,13 +45,13 @@ parser.add_argument('-seq_trunc', type=int, default=50)
 parser.add_argument('-max_norm', type=float, default=1.0)
 # test
 parser.add_argument('-load_dir', type=str, default='checkpoints/RNN_RNN_seed_1.pt')
-parser.add_argument('-test_dir', type=str, default='data/test.json')
+parser.add_argument('-test_dir', type=str, default='data/test/test_cnn.json')
 parser.add_argument('-ref', type=str, default='outputs/ref')
 parser.add_argument('-hyp', type=str, default='outputs/hyp/cnn/RNN_RNN/RNN_RNN_2019_10_12_13:35:12_1_seed_1')
 parser.add_argument('-filename', type=str, default='x.txt')  # TextFile to be summarized
 parser.add_argument('-topk', type=int, default=4)
 # device
-parser.add_argument('-device', type=int,default=0)
+parser.add_argument('-device', type=int, default=None)
 # option
 parser.add_argument('-test', action='store_true')
 parser.add_argument('-debug', action='store_true')
@@ -213,9 +213,78 @@ def test():
             topk_indices.sort()
             doc = batch['doc'][doc_id].split('\n')[:doc_len]
             hyp = [doc[index] for index in topk_indices]
-            #ref = summaries[doc_id]
-            #with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
-                #f.write(ref)
+            # ref = summaries[doc_id]
+            # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
+            # f.write(ref)
+            try:
+                os.makedirs(args.hyp)
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
+            with open(os.path.join(args.hyp, str(file_id) + '.txt'), 'w') as f:
+                f.write('\n'.join(hyp))
+            start = stop
+            file_id = file_id + 1
+    print('Speed: %.2f docs / s' % (doc_num / time_cost))
+
+
+def m_test():
+    embed = torch.Tensor(np.load(args.embedding)['embedding'])
+    with open(args.word2id) as f:
+        word2id = json.load(f)
+    vocab = utils.Vocab(embed, word2id)
+
+    with open(args.test_dir) as f:
+        examples = [json.loads(line) for line in f]
+    test_dataset = utils.Dataset(examples)
+
+    test_iter = DataLoader(dataset=test_dataset,
+                           batch_size=args.batch_size,
+                           shuffle=False)
+    if use_gpu:
+        checkpoint = torch.load(args.load_dir, map_location='cuda:0')
+    else:
+        checkpoint = torch.load(args.load_dir, map_location='cpu')
+    #print(checkpoint)
+    # checkpoint['args']['device'] saves the device used as train time
+    # if at test time, we are using a CPU, we must override device to None
+    if not use_gpu:
+        checkpoint['args'].device = None
+    print(checkpoint['args'].model)
+    net = getattr(models, checkpoint['args'].model)(checkpoint['args'])
+    net.load_state_dict(checkpoint['model'])
+    print(net)
+    if use_gpu:
+        net.cuda()
+    net.eval()
+
+    doc_num = len(test_dataset)
+    time_cost = 0
+    file_id = 1
+    for batch in tqdm(test_iter):
+        features, _, summaries, doc_lens = vocab.make_features(batch)
+        t1 = time()
+        if use_gpu:
+            probs = net(Variable(features).cuda(), doc_lens)
+        else:
+            probs = net(Variable(features), doc_lens)
+        t2 = time()
+        time_cost += t2 - t1
+        start = 0
+        for doc_id, doc_len in enumerate(doc_lens):
+            stop = start + doc_len
+            prob = probs[start:stop]
+            topk = min(args.topk, doc_len)
+            topk_indices = prob.topk(topk)[1].cpu().data.numpy()
+            #prob_n = prob.cpu().data.numpy()
+            #topk_indices = np.where(prob_n > 0.5)
+            topk_indices.sort()
+            #topk_indice = sorted(topk_indices)
+            doc = batch['doc'][doc_id].split('\n')[:doc_len]
+            hyp = [doc[index] for index in topk_indices]
+            # ref = summaries[doc_id]
+            # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
+            #     f.write(ref)
             try:
                 os.makedirs(args.hyp)
             except OSError as e:
@@ -282,11 +351,22 @@ def predict(examples):
 
 
 if __name__ == '__main__':
+    arr = np.array([11, 12, 13, 14, 15, 16, 17, 15, 11, 12, 14, 15, 16, 17])
+
+    # Get the index of elements with value less than 16 and greater than 12
+    #result = np.where((arr > 12) & (arr < 16))
+    #print(result[0])
+    #print(result)
+    #result[0];
     if args.test:
-        test()
+        m_test()
     elif args.predict:
         with open(args.filename) as file:
             bod = [file.read()]
         predict(bod)
     else:
         train()
+
+# python3 run.py -batch_size 64 -load_dir checkpoints/RNN_RNN_seed_1_YOUR.pt
+# python3 main_v3.py -batch_size 64 -hyp outputs/hyp/cnn_dailymail/RNN_RNN_9F/SRSF_RNN_RNN_V4_2019_11_13_11_20_45_2_seed_1_0_5 -test -test_dir data/test/test_cnn_dailymail.json -load_dir checkpoints/SRSF_RNN_RNN_V4_2019_11_13_11_20_45_2_seed_1.pt
+# python3 run.py -batch_size 32 -hyp outputs/hyp/cnn_dailymail/RNN_RNN_2F/RNN_RNN_seed_1_394.pt -test -test_dir data/test/test_cnn_dailymail.json -load_dir checkpoints/checkpoints_2f/RNN_RNN_seed_1_394.pt

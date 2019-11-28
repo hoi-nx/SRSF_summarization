@@ -216,12 +216,22 @@ def m_test():
         for doc_id, doc_len in enumerate(doc_lens):
             stop = start + doc_len
             prob = probs[start:stop]
-            topk = min(args.topk, doc_len)
-            topk_indices = prob.topk(topk)[1].cpu().data.numpy()
-            topk_indices.sort()
+            ref = summaries[doc_id].split('\n')
+            #Change for topk
+            #topk = min(len(ref), doc_len)
+            # topk = min(args.topk, doc_len)
+            # topk_indices = prob.topk(topk)[1].cpu().data.numpy()
+            # topk_indices.sort()
+            # doc = batch['doc'][doc_id].split('\n')[:doc_len]
+            # hyp = [doc[index] for index in topk_indices]
+
+            # =============
+            prob_n = prob.cpu().data.numpy()
+            topk_indices = np.where(prob_n > 0.5)
+            topk_indice = sorted(topk_indices)
             doc = batch['doc'][doc_id].split('\n')[:doc_len]
-            hyp = [doc[index] for index in topk_indices]
-           # ref = summaries[doc_id]
+            hyp = [doc[index] for index in topk_indice[0]]
+
            # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
                # f.write(ref)
             try:

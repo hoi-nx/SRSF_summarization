@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
+import torch.nn.functional as F
+import networkx as nx
 
 
 # Run with run.py
@@ -48,6 +50,9 @@ class CNN_RNN(BasicModule):
             nn.Tanh()
         )
         # Parameters of Classification Layer
+        # Parameters of Classification Layer
+        self.sentent_features = nn.Linear(9, 1, bias=False)
+
         self.content = nn.Linear(2 * H, 1, bias=False)
         self.salience = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
         self.novelty = nn.Bilinear(2 * H, 2 * H, 1, bias=False)
@@ -77,8 +82,35 @@ class CNN_RNN(BasicModule):
         out = torch.cat(out).squeeze(2)
         return out
 
-    def forward(self, x, doc_lens):
+    @staticmethod
+    def page_rank_rel(valid_hidden, thres=0.1):
+        """
+               PageRank value of the sentence based on the sentence map
+
+               :param thres: int
+                   Every two sentences are regarded relevant if their similarity is above a threshold.
+               :return: dict
+                   Dictionary of index nodes with PageRank as value.
+               """
+        G = nx.Graph()
+        cosine = nn.CosineSimilarity(dim=0)
+
+        # Build a sentence map.
+        # Every two sentences are regarded relevant if their similarity is above a threshold.
+        # Every two relevant sentences are connected with a unidirectional link.
+        for i in range(len(valid_hidden[:-2])):
+            for j in range(len(valid_hidden[i + 1:])):
+                cosine_similarity_sentence_doc = cosine(valid_hidden[i], valid_hidden[j])
+                if cosine_similarity_sentence_doc > thres:
+                    G.add_edge(i, j)
+
+        pr = nx.pagerank(G)
+
+        return pr
+
+    def forward(self, x, doc_lens, senten_lengths, numbericals, tf_idfs, stop_word_ratios, num_noun_adjs):
         sent_lens = torch.sum(torch.sign(x), dim=1).data
+        cosine = nn.CosineSimilarity(dim=0)
         H = self.args.hidden_size
         x = self.embed(x)  # (N,L,D)
         # word level GRU
@@ -97,9 +129,22 @@ class CNN_RNN(BasicModule):
             valid_hidden = sent_out[index, :doc_len, :]  # (doc_len,2*H)
             doc = docs[index].unsqueeze(0)
             s = Variable(torch.zeros(1, 2 * H))
+            senten_lens_doc = senten_lengths[index]
+            numberical = numbericals[index]
+            tf_idf = tf_idfs[index]
+            stop_word_ratio = stop_word_ratios[index]
+            num_noun_adj = num_noun_adjs[index]
+            centroidIndex = tf_idf.index(max(tf_idf))
+
+            centroid_sentent = valid_hidden[centroidIndex]
+            first_sentent = valid_hidden[0]
             if self.args.device is not None:
                 s = s.cuda()
             for position, h in enumerate(valid_hidden):
+                cosine_similarity = cosine(h, first_sentent)
+                centroid_similarity = cosine(h, centroid_sentent)
+                pr = self.page_rank_rel(valid_hidden)
+
                 h = h.view(1, -1)  # (1,2*H)
                 # get position embeddings
                 abs_index = Variable(torch.LongTensor([[position]]))
@@ -113,13 +158,34 @@ class CNN_RNN(BasicModule):
                     rel_index = rel_index.cuda()
                 rel_features = self.rel_pos_embed(rel_index).squeeze(0)
 
+                # h la bieu dien cua cau
+                # doc là biểu diễn của document
+                # surface_features
+                # Get length of sentence
+
+                sent_len = senten_lens_doc[position]
+                sent_numberical = numberical[position]
+                sent_tf_idf = tf_idf[position]
+                sent_stop = stop_word_ratio[position]
+                sent_num_noun_adj = num_noun_adj[position]
+                sent_score_page_rank = pr.get(position, 0)
+                # Get doc_first
+                doc_first = int(position == 0)
+                if doc_first == 0:
+                    doc_first = 0
+
+                all_feature = [sent_numberical, sent_len, doc_first, centroid_similarity, sent_tf_idf,
+                               cosine_similarity, sent_score_page_rank, sent_stop, sent_num_noun_adj]
+                feature = torch.FloatTensor(all_feature).cuda()
+
                 # classification layer
                 content = self.content(h)
                 salience = self.salience(h, doc)
                 novelty = -1 * self.novelty(h, F.tanh(s))
                 abs_p = self.abs_pos(abs_features)
                 rel_p = self.rel_pos(rel_features)
-                prob = F.sigmoid(content + salience + novelty + abs_p + rel_p + self.bias)
+                prob = F.sigmoid(
+                    self.sentent_features(feature.view(1, -1)) + content + salience + novelty + abs_p + rel_p + self.bias)
                 s = s + torch.mm(prob, h)
                 probs.append(prob)
         return torch.cat(probs).squeeze()

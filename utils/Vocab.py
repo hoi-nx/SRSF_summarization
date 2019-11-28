@@ -258,12 +258,12 @@ class Vocab():
                 if (values == 1):
                     sents_lables.append(sents[index])
 
-            with open(os.path.join("outputs/ref_lables_cnn", str(id) + '.txt'), 'w') as f:
+            with open(os.path.join("outputs/ref_lables_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
                 f.write('\n'.join(sents_lables))
-            #with open(os.path.join("outputs/gold_summary", str(id) + '.txt'), 'w') as f:
-             #   f.write('\n'.join(gold_sum))
-            #with open(os.path.join("outputs/origin_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
-                #f.write('\n'.join(sents))
+            with open(os.path.join("outputs/gold_summary_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
+                f.write('\n'.join(gold_sum))
+            with open(os.path.join("outputs/origin_val_cnn_dailymail", str(id) + '.txt'), 'w') as f:
+                f.write('\n'.join(sents))
 
     def _get_avg_doc_freq(self, X, unprocessed_words):
         """

@@ -148,17 +148,23 @@ class SRSF_RNN_RNN_V2(BasicModule):
                 if doc_first == 0:
                     doc_first = 0
                 surface_feature = [sent_len, doc_first]
-                surface_f = torch.FloatTensor(surface_feature).cuda()
                 # ====================================================
 
                 # content_features
                 content_feature = content_features_doc[position]
-                content_f = torch.FloatTensor(content_feature).cuda()
 
                 # relevance_features
                 relevance_features = [cosine_similarity, pr.get(position, 0)]
-                relevance_f = torch.FloatTensor(relevance_features).cuda()
+
                 # ====================================================
+                if self.args.device is not None:
+                    surface_f = torch.FloatTensor(surface_feature).cuda()
+                    content_f = torch.FloatTensor(content_feature).cuda()
+                    relevance_f = torch.FloatTensor(relevance_features).cuda()
+                else:
+                    surface_f = torch.FloatTensor(surface_feature)
+                    content_f = torch.FloatTensor(content_feature)
+                    relevance_f = torch.FloatTensor(relevance_features)
 
                 surface = self.surface_features(surface_f.view(1, -1))
                 content_feature_sentent = self.content_features(content_f.view(1, -1))

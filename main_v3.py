@@ -54,9 +54,9 @@ parser.add_argument('-origin', type=str, default='outputs/origin')
 parser.add_argument('-hyp', type=str, default='outputs/hyp')
 parser.add_argument('-pre', type=str, default='outputs/predict')
 parser.add_argument('-filename', type=str, default='x.txt')  # TextFile to be summarized
-parser.add_argument('-topk', type=int, default=4)
+parser.add_argument('-topk', type=int, default=10)
 # device
-parser.add_argument('-device', type=int)
+parser.add_argument('-device', type=int,default=None)
 # option
 parser.add_argument('-test', action='store_true')
 parser.add_argument('-train', action='store_true')
@@ -216,11 +216,19 @@ def m_test():
         for doc_id, doc_len in enumerate(doc_lens):
             stop = start + doc_len
             prob = probs[start:stop]
+            ref = summaries[doc_id].split('\n')
             topk = min(args.topk, doc_len)
             topk_indices = prob.topk(topk)[1].cpu().data.numpy()
             topk_indices.sort()
             doc = batch['doc'][doc_id].split('\n')[:doc_len]
             hyp = [doc[index] for index in topk_indices]
+
+            #=============
+            # prob_n = prob.cpu().data.numpy()
+            # topk_indices = np.where(prob_n > 0.5)
+            # topk_indice = sorted(topk_indices)
+            # doc = batch['doc'][doc_id].split('\n')[:doc_len]
+            # hyp = [doc[index] for index in topk_indice[0]]
            # ref = summaries[doc_id]
            # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
                # f.write(ref)

@@ -25,7 +25,7 @@ logging.basicConfig(filename='logging/Log', filemode='a', level=logging.INFO, fo
 parser = argparse.ArgumentParser(description='extractive summary')
 
 parser.add_argument('-batch_size', type=int, default=1)
-parser.add_argument('-train_dir', type=str, default='data/test/test_cnn.json')
+parser.add_argument('-train_dir', type=str, default='data/val/val_cnn_dailymail.json')
 parser.add_argument('-val_dir', type=str, default='data/val/val_cnn_dailymail.json')
 parser.add_argument('-embedding', type=str, default='data/embedding.npz')
 parser.add_argument('-word2id', type=str, default='data/word2id.json')
@@ -171,8 +171,8 @@ def tokenize_words(sents, tokenizer):
     return [[t.lower() for t in tokenizer(sent)] for sent in sents]
 
 if __name__ == '__main__':
-    #origin()
-    math.log(-1)
+    origin()
+    #math.log(-1)
 
 
 

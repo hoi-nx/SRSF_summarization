@@ -24,7 +24,7 @@ def readFile(filePath):
 
 
 if __name__ == '__main__':
-    listFileSentences_Original = glob.glob("outputs/ref_lables_dailymail/*")
+    listFileSentences_Original = glob.glob("outputs/gold_summary_val_cnn_dailymail/*")
     listFileSentences_Original.sort()
     senten_original = readFile(listFileSentences_Original)
     sentences_original = []
