@@ -245,7 +245,7 @@ def m_test():
         checkpoint = torch.load(args.load_dir, map_location='cuda:0')
     else:
         checkpoint = torch.load(args.load_dir, map_location='cpu')
-    #print(checkpoint)
+    # print(checkpoint)
     # checkpoint['args']['device'] saves the device used as train time
     # if at test time, we are using a CPU, we must override device to None
     if not use_gpu:
@@ -274,14 +274,24 @@ def m_test():
         for doc_id, doc_len in enumerate(doc_lens):
             stop = start + doc_len
             prob = probs[start:stop]
-            topk = min(args.topk, doc_len)
-            topk_indices = prob.topk(topk)[1].cpu().data.numpy()
-            #prob_n = prob.cpu().data.numpy()
-            #topk_indices = np.where(prob_n > 0.5)
-            topk_indices.sort()
-            #topk_indice = sorted(topk_indices)
+            # topk = min(args.topk, doc_len)
+            # topk_indices = prob.topk(topk)[1].cpu().data.numpy()
+            # topk_indices.sort()
+            # doc = batch['doc'][doc_id].split('\n')[:doc_len]
+            # hyp = [doc[index] for index in topk_indices]
+
+            # =====================
+            prob_n = prob.cpu().data.numpy()
+            topk_indices = np.where(prob_n > 0.6)
+            # print(topk_indices)
+            if len(topk_indices[0]) > 4:
+                topk_index = topk_indices[0][:4]
+                topk_index = sorted(topk_index)
+            else:
+                topk_index = topk_indices[0]
+                topk_index = sorted(topk_index)
             doc = batch['doc'][doc_id].split('\n')[:doc_len]
-            hyp = [doc[index] for index in topk_indices]
+            hyp = [doc[index] for index in topk_index]
             # ref = summaries[doc_id]
             # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
             #     f.write(ref)
@@ -291,7 +301,9 @@ def m_test():
                 if e.errno != errno.EEXIST:
                     raise
             with open(os.path.join(args.hyp, str(file_id) + '.txt'), 'w') as f:
-                f.write('\n'.join(hyp))
+                f.write('. '.join(hyp))
+                #f.write('. \n'.join(hyp))
+                #f.write('.')
             start = stop
             file_id = file_id + 1
     print('Speed: %.2f docs / s' % (doc_num / time_cost))
@@ -354,10 +366,10 @@ if __name__ == '__main__':
     arr = np.array([11, 12, 13, 14, 15, 16, 17, 15, 11, 12, 14, 15, 16, 17])
 
     # Get the index of elements with value less than 16 and greater than 12
-    #result = np.where((arr > 12) & (arr < 16))
-    #print(result[0])
-    #print(result)
-    #result[0];
+    # result = np.where((arr > 12) & (arr < 16))
+    # print(result[0])
+    # print(result)
+    # result[0];
     if args.test:
         m_test()
     elif args.predict:
@@ -368,5 +380,6 @@ if __name__ == '__main__':
         train()
 
 # python3 run.py -batch_size 64 -load_dir checkpoints/RNN_RNN_seed_1_YOUR.pt
-# python3 main_v3.py -batch_size 64 -hyp outputs/hyp/cnn_dailymail/RNN_RNN_9F/SRSF_RNN_RNN_V4_2019_11_13_11_20_45_2_seed_1_0_5 -test -test_dir data/test/test_cnn_dailymail.json -load_dir checkpoints/SRSF_RNN_RNN_V4_2019_11_13_11_20_45_2_seed_1.pt
-# python3 run.py -batch_size 32 -hyp outputs/hyp/cnn_dailymail/RNN_RNN_2F/RNN_RNN_seed_1_394.pt -test -test_dir data/test/test_cnn_dailymail.json -load_dir checkpoints/checkpoints_2f/RNN_RNN_seed_1_394.pt
+# python3 main_v2.py -batch_size 64 -hyp outputs/hyp/cnn_dailymail/RNN_RNN_7F/SRSF_RNN_RNN_V2_2019_10_18_19_16_49_2_seed_1_0_6_topk_m -test -test_dir data/test/test_cnn_dailymail.json -load_dir checkpoints/checkpoints_RNN_RNN_8F/SRSF_RNN_RNN_V2_2019_10_18_19_16_49_2_seed_1.pt
+# python3 main_v3.py -batch_size 64 -hyp outputs/hyp/cnn_dailymail/RNN_RNN_9F/SRSF_RNN_RNN_V4_2019_11_13_11_20_45_2_seed_1.pt_0_6_topk_m -test -test_dir data/test/test_cnn_dailymail.json -load_dir checkpoints/SRSF_RNN_RNN_V4_2019_11_13_11_20_45_2_seed_1.pt
+# python3 run.py -batch_size 32 -hyp outputs/hyp/cnn_dailymail/RNN_RNN_2F/SRS2F_RNN_RNN_2019_10_15_17_29_02_2_seed_1_0_60_top_ktt -test -test_dir data/test/test_cnn_dailymail.json -load_dir checkpoints/checkpoints_2f/SRS2F_RNN_RNN_2019_10_15_17_29_02_2_seed_1.pt

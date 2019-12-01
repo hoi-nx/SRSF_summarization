@@ -226,11 +226,25 @@ def m_test():
             # hyp = [doc[index] for index in topk_indices]
 
             # =============
+            # prob_n = prob.cpu().data.numpy()
+            # topk_indices = np.where(prob_n > 0.5)
+            # topk_indice = sorted(topk_indices)
+            # doc = batch['doc'][doc_id].split('\n')[:doc_len]
+            # hyp = [doc[index] for index in topk_indice[0]]
+
+            # ====
+            # =====================
             prob_n = prob.cpu().data.numpy()
-            topk_indices = np.where(prob_n > 0.5)
-            topk_indice = sorted(topk_indices)
+            topk_indices = np.where(prob_n > 0.6)
+            # print(topk_indices)
+            if len(topk_indices[0]) > 4:
+                topk_index = topk_indices[0][:4]
+                topk_index = sorted(topk_index)
+            else:
+                topk_index = topk_indices[0]
+                topk_index = sorted(topk_index)
             doc = batch['doc'][doc_id].split('\n')[:doc_len]
-            hyp = [doc[index] for index in topk_indice[0]]
+            hyp = [doc[index] for index in topk_index]
 
            # with open(os.path.join(args.ref, str(file_id) + '.txt'), 'w') as f:
                # f.write(ref)
@@ -240,7 +254,8 @@ def m_test():
                 if e.errno != errno.EEXIST:
                     raise
             with open(os.path.join(args.hyp, str(file_id) + '.txt'), 'w') as f:
-                f.write('\n'.join(hyp))
+                #f.write('\n'.join(hyp))
+                f.write('. '.join(hyp))
             start = stop
             file_id = file_id + 1
     print('Speed: %.2f docs / s' % (doc_num / time_cost))

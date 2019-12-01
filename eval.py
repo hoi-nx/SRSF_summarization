@@ -29,7 +29,7 @@ def rouge():
     r.system_filename_pattern = '(\d+).txt'
     r.model_filename_pattern = '#ID#.txt'
     
-    command = '-e /Users/nguyenxuanhoi/Desktop/DATN/outputs/rouge/ROUGE-1.5.5/data -a -c 95 -m -n 2 -b 75'
+    command = '-e rouge/ROUGE-1.5.5/data -a -c 95 -m -n 2 -b 75'
     output = r.convert_and_evaluate(rouge_args=command)
     #output = r.convert_and_evaluate()
     print(output)
